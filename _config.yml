@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 李广鹤的博客
+subtitle: 
 description:
-author: John Doe
-language:
+author: 李广鹤 LiGuanghe
+language: zh-Hans
 timezone:
 
 # URL
@@ -71,3 +71,21 @@ deploy:
   type: git
   repo: https://github.com/liguanghe/liguanghe.github.io
   branch: master
+
+# comments
+disqus_shortname: ligdhe-com
+
+# rss
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 0
+  hub:
+  content:
+  
+# search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
