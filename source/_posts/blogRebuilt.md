@@ -70,6 +70,11 @@ master 即可 | 两个分支, 一个设置文件, 一个页面文件
 因为没有建立分支. 
 
 ## 绕坑指南( hexo 博客建立过程)
+### 推荐方案: 
+下载 next 主题时 , 使用: 
+git submodule add  https://github.com/iissnan/hexo-theme-next themes/next
+(见浚宇的博客), 这里上次, 从他那里过坑, 但没有意识, 还是要自己也经历了一遍. 
+### 备选方案:
 **务必严格按照以下顺序**
 - 安装 hexo : [文档 | Hexo][1]
 -  建站: [建站 | Hexo][2]
@@ -125,19 +130,24 @@ permalinkdefaults:
 ## 参考
 [文档 | Hexo][4]
 [从零开始新建Hexo博客 | 浚宇的博客][5]
-[Hexo常见问题解决方案][6]
-[重建Hexo的教训 | 浚宇的博客][7]
-[Configuring a publishing source for GitHub Pages - User Documentation][8]
+[挑选和初步配置 Hexo 主题 | 浚宇的博客][6]
+[Hexo常见问题解决方案][7]
+[重建Hexo的教训 | 浚宇的博客][8]
+[Configuring a publishing source for GitHub Pages - User Documentation][9]
 
 ## 关联
 建立博客是像黑客一样创作的第一步, 如果你不想走这些坑, 以及省略独自摸索的过程, 可以搜索**开智学堂的像黑客一样创作** 教你搭建 [理想的写作环境：Git+Github+Markdown+Jekyll - 阳志平的网志]
 (http://www.yangzhiping.com/tech/writing-space.html)
+
+##  Changelog
+不断测试 17 h 
 
 [1]:	https://hexo.io/zh-cn/docs/index.html
 [2]:	https://hexo.io/zh-cn/docs/setup.html
 [3]:	https://hexo.io/zh-cn/docs/deployment.html
 [4]:	https://hexo.io/zh-cn/docs/index.html
 [5]:	http://blog.junyu.io/posts/0002-start-blog-with-hexo.html
-[6]:	http://xuanwo.org/2014/08/14/hexo-usual-problem/#Deploy%E4%B9%8B%E5%90%8E%EF%BC%8C%E9%A1%B5%E9%9D%A2%E9%95%BF%E6%97%B6%E9%97%B4404
-[7]:	http://blog.junyu.io/posts/0007-a-mistake-rebuilt-hexo-blog.html
-[8]:	https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+[6]:	http://blog.junyu.io/posts/0003-choose-a-theme-you-like.html
+[7]:	http://xuanwo.org/2014/08/14/hexo-usual-problem/#Deploy%E4%B9%8B%E5%90%8E%EF%BC%8C%E9%A1%B5%E9%9D%A2%E9%95%BF%E6%97%B6%E9%97%B4404
+[8]:	http://blog.junyu.io/posts/0007-a-mistake-rebuilt-hexo-blog.html
+[9]:	https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/

@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "生活/新知/创作"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -166,9 +166,9 @@ social_icons:
   Lizhi: headphones
 
 # Sidebar Avatar
-# in theme directory(source/images): /images/avatar.jpg
+in theme directory(source/images): /images/avatar.png
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /images/avatar.png
+# avatar: /images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -457,7 +457,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
