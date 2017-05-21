@@ -77,12 +77,12 @@ deploy:
 disqus_shortname: ligdhe-com
 
 # rss
-feed:
-  type: rss2
-  path: rss2.xml
-  limit: 0
-  hub:
-  content:
+# feed:
+  # type: rss2
+  # path: rss2.xml
+  # limit: 0
+  # hub:
+  # content:
   
 # search
 search:
