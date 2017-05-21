@@ -66,6 +66,16 @@
 					<integer>4</integer>
 				</dict>
 			</dict>
+			<key>blogRebuilt2.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>517063268.49576002</real>
+				<key>version</key>
+				<dict>
+					<key>a6cafa6b6dbe84907e0275253afa8235a2ecfbaed5c938e2b400188366a6ec95</key>
+					<integer>41</integer>
+				</dict>
+			</dict>
 			<key>blogbetter.md</key>
 			<dict>
 				<key>lastModification</key>
@@ -480,6 +490,9 @@
 		<array>
 			<string>blogRebuilt.md</string>
 		</array>
+		<array>
+			<string>blogRebuilt2.md</string>
+		</array>
 	</array>
 	<key>sheetOrder</key>
 	<string>modificationDate</string>
@@ -490,7 +503,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>a6cafa6b6dbe84907e0275253afa8235a2ecfbaed5c938e2b400188366a6ec95</key>
-			<integer>38</integer>
+			<integer>42</integer>
 		</dict>
 		<key>sheetOrder</key>
 		<dict>
