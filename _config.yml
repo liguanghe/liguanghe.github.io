@@ -78,8 +78,8 @@ disqus_shortname: ligdhe-com
 
 # rss
 feed:
-  type: 
-  path: 
+  type: rss2
+  path: rss2.xml
   limit: 0
   hub:
   content:
