@@ -57,6 +57,15 @@ RSS 就相当于一个列表，你关注的人列表，有新消息也会发送�
 	- [https://help.github.com/articles/setting-up-an-apex-domain/]()(https://help.github.com/articles/setting-up-an-apex-domain/)
 - 等待大概一天, 部署成功
 
+## 嵌入视频
+- 方法1： 
+``` <iframe 
+    height=438 width=680 
+    src="https://v.qq.com/x/page/m05035g7hf3.html" 
+    frameborder=0 allowfullscreen>
+</iframe>
+```
+
 [1]:	https://disqus.com/profile/signup/intent/
 [2]:	https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E5%A4%9A%E8%AF%B4-DISQUS
 [3]:	http://theme-next.iissnan.com/getting-started.html
