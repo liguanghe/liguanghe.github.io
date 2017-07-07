@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "生活/新知/创作"
+keywords: "Life/Know/creation"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -345,6 +345,8 @@ jiathis: true
 
 # Share
 duoshuo_share: true
+# Share
+add_this_id: ra-595c30f400c0525b
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/

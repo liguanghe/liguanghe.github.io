@@ -3,15 +3,17 @@ title:
 date: 2017-03-28 12:38:59
 comments: false
 ---
-29岁12个月10天，生日悄无声息的过了，接下来会如何呢？不仅仅是记录，写下来，才发生过。 
+It’s happens until you write down.
+写下来, 才发生过.
 
-[游 ][1] 
-[间隔年 ][2] 
-[lifestyle ][3]
+[Travelliing ][1] 
+[Gap Year][2] 
+[Lifestyle ][3]
 
+Starting this blog at Jul. 2016, the life before can push click next:
 2016年7月参加写作课后，开始文字记录。之前的生活碎片在朋友圈流水集合而成的  [微信书][4]
 
-[如何订阅李广鹤的博客][5]
+[how to book liguanghe’s blog? 如何订阅李广鹤的博客?][5]
 
 [1]:	https://13416136446.github.io/categories/%E6%B8%B8/
 [2]:	https://13416136446.github.io/categories/%E9%97%B4%E9%9A%94%E5%B9%B4/
