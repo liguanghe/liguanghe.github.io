@@ -78,7 +78,8 @@ $ brew install cask/firefox
 	- Q: 还有哪些设置？
 	- A: 都在首选项里，可以设置 hot key（快捷键），无需鼠标点击 edit。
 	- Q: it's all text 的文件夹可否 git? 随时修改后，原本的对话框内容也变更。目前的方式是：点开 issue，找到文本，点击修改，点击 edit 跳转到 st, 回到浏览器，保存提交对话框。
-
+	- Q: 和博客结合起来怎么样? 
+	- A: 非常好的主意, 我直接将保存本地文本的目录改成blog 本地文件夹中的 \_drafts , 这样很多长 issue 内容可以直接变成博客内容输出. 他们储存在同一个地方, 而且还可以跟着博客一起备份到 github 里, 
 
 
 ## 快速调用 APP
@@ -89,6 +90,6 @@ $ brew install cask/firefox
 - set shortcut
 
 ## 行为习惯
-- 每天早上看 issue: 开 Chrome（option + c）-\> 开 firefox（opthin + x）
+- 每天早上看 issue: 开 firefox（opthin + x）
 - 先看 issue 中的: 表明 assignee 的
 
