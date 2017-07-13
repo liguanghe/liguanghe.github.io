@@ -17,7 +17,7 @@ In NZ, you really need a car, place to place are far away by each other. at No.0
 
 No.1 week, the hostel manager I worked with has been in NZ for 3 months, still doesn’t have a car and doesn’t know how to drive. Supermarket is the only place she know how to get.  
 
-No.2 week is car week for me. I Tried three times to buy a car. When I moved to Chalet Backpackers Hostel, there is a German girl put her things out to stairs and told me if there anything I need, I can take them off. I asked her wether she was selling her car, she said yes. Then we have coffee to talk about this car. By some reasons, we can make deal with it.
+No.2 week is car week for me. I Tried three times to buy a car. When I moved to Chalet Backpackers Hostel, there is a German girl put her things out to stairs and told me if there anything I need, I can take them off. I asked her wether she was selling her car, she said yes. Then we have coffee to talk about this car. By some reasons, we cannot make deal with it.
 
 The second try is a red golf car, I really like the color, I walked for 40 minutes, from a valley to another valley to watch it, and I pay for it, unlikely, it’s from German, in New Zealand, it’s more expensive to fix it. What’s more, Motor company can’t promise it will be ok the whole year, so we canceled the deal. 
 

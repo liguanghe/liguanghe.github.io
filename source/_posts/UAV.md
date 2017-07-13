@@ -2,22 +2,16 @@
 title:  UAV 无人机随手拍
 date: 2017/06/24 15:35:32
 categories: 
-- GapYear
+- Video
 ---
 (此处有视频， 如未载入请稍后）
 
- \<iframe 
-height=438 width=680 
-src="http://v.qq.com/x/page/m05172d018a.html" 
-frameborder=0 allowfullscreen\>
-\</iframe\>
 
-
- \<iframe 
+ <iframe 
 height=438 width=680 
 src="https://youtu.be/-G6620WM6n8" 
-frameborder=0 allowfullscreen\>
-\</iframe\>
+frameborder=0 allowfullscreen>
+<iframe>
 
 新西兰有无人机的人不多，有私人飞机的人多。
 大疆无人机在奥克兰开了一家分店，售价是国内的130%，好在从国内带了来。 

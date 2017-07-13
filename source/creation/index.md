@@ -8,9 +8,14 @@ comments: false
 > 输出大于输入，创造体现个人的价值。
 
 
-[分类：writer][1]
+I'm a [writer][1]
+Looking forward your comment to know more about you.
 期待你的评论，互相不是过客。
-video: 
+
+[Introduce Dunedin to you](https://liguanghe.github.io/categories/GapYear/)
+
+Gods sight: [Video](https://liguanghe.github.io/categories/Video/)
+
 
 [ how to book liguanghe’s blog? 如何订阅李广鹤的博客?如何订阅李广鹤的博客][2]
 
