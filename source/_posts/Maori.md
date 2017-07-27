@@ -1,6 +1,7 @@
 
 ---
 title: Maori 
+sticky: 1 
 date: 2017/7/13 14:35:32
 categories: 
 - GapYear

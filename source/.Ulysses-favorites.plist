@@ -3,11 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>order</key>
-	<array/>
+	<array>
+		<string>_drafts/你总要写个故事.md</string>
+	</array>
 	<key>resolutionData</key>
 	<dict>
 		<key>order</key>
-		<dict/>
+		<dict>
+			<key>_drafts/你总要写个故事.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>522332776.61085701</real>
+				<key>lastModification</key>
+				<real>522332776.61085701</real>
+				<key>version</key>
+				<dict>
+					<key>a6cafa6b6dbe84907e0275253afa8235a2ecfbaed5c938e2b400188366a6ec95</key>
+					<integer>323</integer>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>storeFormatVersion</key>
 	<integer>1</integer>
@@ -16,7 +33,7 @@
 		<key>order</key>
 		<dict>
 			<key>a6cafa6b6dbe84907e0275253afa8235a2ecfbaed5c938e2b400188366a6ec95</key>
-			<integer>281</integer>
+			<integer>362</integer>
 		</dict>
 	</dict>
 </dict>
