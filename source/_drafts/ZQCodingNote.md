@@ -68,14 +68,315 @@ $ xargs -I{} cat{}
 不知道什么时候提问,要在 slack 上么?|认真提问, 
 80%陈述猜想, 而不是事实|事实, 环境/现象/问题/分析/方案, 描述过程中会产生方案. 尝试方案, 走通, 走不通,都记下来.一个方案15分钟走不下去, 就停止. 走不下去的方案是因为问题没有描述清楚. 不知道自己要干什么, 别人也无法回答. 
 
+```$ cat raw.... | python stdin0handlog.py
+```
+- 把空格去掉了, 去掉所有格式.是怎么做到的呢?
+
+重写stdin0handlog.py
+
+- 每个.py 都会有默认的头和格式.直接复制下来
+```
+#!/usr/bin/python
+# -*- encoding = utf-8 -*-
+'''
+专门处理非期待空格
+'''
+on__ = 'v17.8.1.0019'
+__author__ = 'ZoomQuiet'
+__license__ = 'MIT@2017-05'
+```
+
+- 
+```
+import sys
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               pass
+```
+
+测试
+```
+$ python stdin0handlog.py
+```
+
+调试结果:
+- 没有错误.
+- 非期待, 因为要有输入, 把上面的 if 1! 改成 if 2!
+- 如果不是2 就会报错, 是2 , 会 print ()里的内容
+
+把可以用的固定下来
+```
+$ git st
+$ git add
+$ git ci 
+$ git log
+```
+
+```
+$ python stdin0handlog.py ../raw/zoomquiet/0812-1303.data/
+```
+
+输出所有列表,不出错,但也没有任何处理. 
+
+```
+import sys
+def main():
+    for line in sys.stdin: 
+        print (line)
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+调试:
+以上的作用是为了打印行的内容出来看一下, 出现了一个问题: 比原始的数据多空行. 因为把换行符也当做一行来打印了. 
+
+解决方法: 
+
+```
+import sys
+def main():
+    for line in sys.stdin: 
+        print (line[:-1])
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+小白|高手
+---|---
+with open|line[:1]
+?|目前只写了四行代码, 调试五次(在命令行下面运行), 知道现在干嘛.
+
+- 处理表头
+    - 先看表头的特点: date 只在表头出现
+
+```
+import sys
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            print ('is head:\n\t{}'.format(l))
+        else:
+            pass
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+- 不同时期的表头都可以识别出来
+- 识别表头之后, 要把现象记录下来
+- 现在用行处理. 行之外是文件处理, 每个文件都会有新的表头或新的什么
+调试
+
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            pass
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+
+以上鉴别出表头.下面是对其他数据进行处理.
+
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+            pass
+
+        if isDATE:
+            pass
+        else:
+            pass
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+新加的两行的功能是: 可以对不同数据的门类进行处理, 区别出表头和不是表头. 不是表头的用其他方式处理.
+
+先处理头. 
+
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+            pass
+
+        if isDATE:
+            print (l)
+        else:
+            pass
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+
+- print 一下, 确保代码变化,之前的功能有没有变化, 还是不是一样处理.
+- 数据是有番茄钟的和没番茄钟的.
+- 需要把时间账单和番茄钟连起来, 需要先区分
+
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+            pass
+
+        if isDATE:
+            print (l.split())
+        else:
+            pass
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+调试, 可以区分表头中的时间账单和番茄钟标识
+
+- 连起来. 
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+            pass
+
+        if isDATE:
+            print (','.join(l.split()))
+        else:
+            pass
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+- join 是字符串的功能, 简单好懂
+
+小白|高手
+---|---
+_s = l.split()|print (','.join(l.split()))
+print('{},{}'.format(_s[0],_s[1]))|
+两行|一行,简洁
+
+_s 短杠变量是指临时变量
+
+
+
+
 
 
 ## question
 - 怎么看默认库
 - 如何形成 .csv 的良构
     + 用 Excel 打开. csv 是, 会跳出文本框, 问你隔断是引号还是什么.
-## 下一步行动
-- 对比 README 的不同版本
+-  if 1! = len(sys.argv) 是什么
+- stdin 是什么?
+    + 标准串流
+- README 的不同版本有什么不同? 
 
 
 

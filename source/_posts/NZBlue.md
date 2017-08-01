@@ -1,0 +1,35 @@
+---
+title:  新西 蓝
+date: 2017/8/1 19:09:46
+categories: 
+- lifestyle
+tags:
+- traveling
+- nature view
+- NZ
+- Dunedin 
+---
+## 新西 蓝
+
+行车，天上的浅灰云彩覆盖整个大陆，只在海边露出了一线亮蓝色的天，无论怎么开，都只看到这线缝隙，好像我们在大鱼嘴中驰骋, 舌头上或下颚上，它微微张开嘴，让我们看到外面的天，这鱼是这样的大, 无论怎么都开不出去，于是我们反转方向, 向那完全没有亮蓝的地方开去, 要进入大鱼的胃里面。
+![][image-1]
+
+然而我们并没有看到胃里的样子, 我们在一瓶水中, 上面倒了些许墨水进来, 漫天是慢慢化开在水中的各种层次的蓝。这边的云很大，一整块云覆盖整个大陆. 海与陆被蓝云覆盖，阳光在云彩后面，天云微微带点亮色,像蓝色棉纸做成的灯。
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fi4cbwgdvfj31kw0y5b2a.jpg)
+
+ 一只金色的小羊跃出山城, 向海中跳下. 上面是乌压压的一片云，这里的云是有份量的, 并不会让你觉得压抑, 它们太大了，小的时候大大的棉被拢成被窝,你蜷在里面, 拿着手电筒看童话故事。白色的棉被被光渲染成了金色.
+![][image-3]
+
+没到过新西兰, 不要说你见过蓝. 各种各样的色彩，蓝色在白色中是怎样的，在透明里面又是怎样的, 与黄色相伴, 与绿色映衬, 与粉色交织，和红色辉映. 
+![][image-4]
+
+想从瓶中跳出，又愿回到瓶中，想从鱼腹中驶出，又不愿离开这云彩覆盖下的海与山的美丽。
+![][image-5]
+
+华灯初上, 点点黄光印在蓝蓝的天上, 永远看不腻新西 蓝。
+
+[image-1]:	https://ws2.sinaimg.cn/large/006tNc79gy1fi49aogmxbj31dc0tmq7q.jpg
+[image-2]:	https://ws2.sinaimg.cn/large/006tNc79gy1fi49b03442j31kw16o4qp.jpg
+[image-3]:	https://ws3.sinaimg.cn/large/006tNc79gy1fi49bd5nlqj31kw16ob29.jpg
+[image-4]:	https://ws4.sinaimg.cn/large/006tNc79gy1fi49cm99ssj31dc0tmgr4.jpg
+[image-5]:	https://ws4.sinaimg.cn/large/006tNc79gy1fi49cwnoy0j31dc0tmgrz.jpg
