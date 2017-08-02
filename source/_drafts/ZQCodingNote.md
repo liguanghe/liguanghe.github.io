@@ -364,6 +364,448 @@ print('{},{}'.format(_s[0],_s[1]))|
 
 _s 短杠变量是指临时变量
 
+- 处理数据
+(所有的处理方式是一样的, 无论做什么, 都随时 print , 确定知道自己在做什么)
+
+isDATE 是全局变量, 是状态值, 随着每行的内容不同,如果某行有date 就是0, 没有是1, 为0的时候处理上面的, 为1 的时候处理下面的. 
+
+现在处理下面的. 
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+        # print(isDATE)
+
+        if isDATE:
+            print (','.join(l.split()))
+        else:
+            # print (l)
+            print (','.join(l.split()))
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+把单纯的数据连起来了. 有不对劲的地方, 要调. 
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+        # print(isDATE)
+
+        if isDATE:
+            print (','.join(l.split()))
+        else:
+            # print (l)
+            print (','.join(l.split()))
+            print (l.split())
+
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+- 用 print(l.split())看split之后是什么 
+- 发现的问题是, 前面的还是一整条, 后面的会变成用用都好和分号把每个都分出来. 
+- 后面的需要删掉逗号.
+
+如何去逗号?
+
+小白|高手
+---|---
+多了逗号|逗号位置错了
+strit?|
+空格问题|
+
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+        # print(isDATE)
+
+        if isDATE:
+            print (','.join(l.split()))
+        else:
+            # print (l)
+            print (','.join(l.split()))
+            print (l.split(','))
+
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+小白|高手
+---|---
+多了逗号|逗号位置错了
+strit?|
+空格问题|
+?|先试着用逗号分, 调试,会出现前面的数据多了逗号, 后面的数据没有逗号, 但是多了空格. 
+?|有两种思路处理, 都可以. 一种是去多余逗号, 一种是去多余空格. 
+
+(进行下一步之前, 先把print 调试的部分, 前面加#)
+
+第一种, 去多余逗号. 
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+        # print(isDATE)
+
+        if isDATE:
+            print (','.join(l.split()))
+        else:
+            #print (l)
+            print (','.join(l.split()))
+            print (l.split())
+            _s = l.split()
+            _exp = []
+            for i in _s:
+                print (i)
+                
+
+            #print (l.split(','))
+
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+
+上面添加的这段, 是把按逗号分隔的字符串变成不同行. 
+
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+        # print(isDATE)
+
+        if isDATE:
+            print (','.join(l.split()))
+        else:
+            #print (l)
+            print (','.join(l.split()))
+            print (l.split())
+            _s = l.split()
+            _exp = []
+            for i in _s:
+                print (i)
+                if len(i) = 2:
+                    print (i)
+                else:
+                    pass
+
+            #print (l.split(','))
+
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+后面数据打了两行
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+        # print(isDATE)
+
+        if isDATE:
+            print (','.join(l.split()))
+        else:
+            #print (l)
+            print (','.join(l.split()))
+            print (l.split())
+            _s = l.split()
+            _exp = []
+            for i in _s:
+                print (i)
+                if len(i) = 2:
+                    print (i[0])
+                    _exp.append(i[0])
+                else:
+                    _exp.append(i)#pass
+            #print (l.split(','))
+            print (','.join(_exp))
+
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+
+这样可以去掉逗号, 但是很复杂, 可以集合到一行当中. 列表推导式.
+
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        if 'date' in l:
+            isDATE = 1
+            # print ('is head:\n\t{}'.format(l))
+        else:
+            isDATE = 0
+        # print(isDATE)
+
+        if isDATE:
+            print (','.join(l.split()))
+        else:
+            #print (l)
+            #print (','.join(l.split()))
+            #print (l.split())
+            _s = l.split()
+            _exp = []
+            for i in _s:
+                #print (i)
+                if len(i) = 2:
+                    #print (i[0])
+                    _exp.append(i[0])
+                else:
+                    _exp.append(i)#pass
+            #print (l.split(','))
+            print (','.join(_exp))
+
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+调试结果: 同一行前后数据都由逗号隔开. 
+接下来确保兼容性:试试打开别的文件.
+把所有的文件都一起处理. 
+```
+$ ls ../raw/zoomquiet/0812-1303data/zq-tilog-* | | python stdin0handlog.py
+```
+
+-* 是指全部文件. 
+处理后的文档又有问题: 多出来的空行, 多出来的表头(表头另行处理).
+
+
+```
+import sys
+
+isDATE = 0
+def main():
+    for line in sys.stdin: 
+        # print (line[:-1])
+        l = line[:-1]
+        # print (len(l))
+        if len(l) < 2:
+            pass
+        else:
+            if 'date' in l:
+                isDATE = 1
+                # print ('is head:\n\t{}'.format(l))
+            else:
+                isDATE = 0
+            # print(isDATE)
+
+            if isDATE:
+                print (','.join(l.split()))
+            else:
+                #print (l)
+                #print (','.join(l.split()))
+                #print (l.split())
+                _s = l.split()
+                _exp = []
+                for i in _s:
+                    #print (i)
+                    if len(i) = 2:
+                        #print (i[0])
+                        _exp.append(i[0])
+                    else:
+                        _exp.append(i)#pass
+                #print (l.split(','))
+                print (','.join(_exp))
+
+
+if __name__ = '__main__':
+    if 1! = len(sys.argv)
+        print ('''usage:
+$ cat path/2/XXX.csv |python stdin0handlog.py
+$ python stdin0handlog.py < path/2/XXX.csv
+               ''')
+           else:
+               main()
+```
+
+ print (len(l)) 把每行的长度打出来, 有额外空行的, 长度是0. 把长度小于2的都 pass, 其他的继续处理. 
+ 调试.
+
+ - 去掉多余表头: python stdin1head.py
+ - 转换年月日到秒: python stdin2year2sec.py
+     + 两步, 第一步是把对象变成 datetime 对象, 第二步是把 datetime对象变成 time对象. 
+     + 
+```
+#!/usr/bin/python
+# -*- encoding = utf-8 -*-
+'''
+transform year as src
+'''
+on__ = 'v17.8.1.0019'
+__author__ = 'ZoomQuiet'
+__license__ = 'MIT@2017-05'
+
+import sys
+#import pandas as pd
+import time
+import datetime
+
+def read4stdin():
+    #isDATA = 0
+    for line in sys.stdin():
+        dl = line[:1]split(',')
+        # print(dl[0])
+        _day = datetime.datetime.strptime(dl[0], '%y%m%d')
+        _ts = time.mktime(_day.timetuple())
+        _exp = "{},{}".format(int(_ts),",".join(dl[1:]))
+        print (_exp)
+    return None
+
+if __name__ = "__main__":
+    if 1 != len(sys.argv):
+        print ('''usage:
+        $ cat path/2/XXX.csv | python stdin2year2sec.py
+        or
+        $ python stdin2year2sec.py < path/2/XXX.csv
+               ''')
+    else:
+        read4stdin() 
+
+```
+
+- 目的: 人工可读130312, 变成机器可读的秒数1364227220
+- strptime 是把文本字符串, 人工告诉字符串是由什么组成的, 转换成内部的时间对象. 
+- 被大规模滥用
+
+小白|高手
+---|---
+先识别年, 月, 正则表达式等等|strptime
+
+
+整体方法如上, 只有注释不可以这么写, 应该是三节: 目的是什么,在调什么,用时, 要完成什么功能/探索
+可以在git log 里很快的知道你做了什么事情. 
+
+每一个 print 都会# , 都在反复验证当时是怎么想的. 
+代码写出来是读的形式, 但读的形式和运行的次序是不同的.骰子,给出所有的通道,但是每行从哪个通道走, 你要清楚. 
+
+怎么读代码: print都留下来了,就是给你读. 不懂哪一行, 就print你不懂的地方. 
+怎么运行, 我有三种运行方法, 
+
+数据有两类, 先调一类, 用经典文档处理, 再换一类再给, 都好了, 再把目标全部给.
+
+代码是完成态,  
+
+看代码,严格搞清楚写代码是为了解决什么问题. 目标是把问题搞定.目标有哪些子问题,如果观察不出来, 就看不懂代码. 
+
+代码每两三行解决一个问题. 
+
+除了纯化, 制造数据麻烦之外, 还可以把代码注释掉, 看不懂, 就注释掉不让他运行, 看差别, 就知道代码是在做什么. 
+查 bug, 冷冻调试法和二分法, 都是同样的. 找 bug 和制造可控 bug 以理解改行代码的意义. 
+定位到这一行是做什么. 缩小到可以理解代码. 
+
+if else, 是代码里的分支, 每个分支是做什么的, 你要清楚. 根据理解一个分支, 其他的不处理. 先处理 if, 再处理 else, 看哪个分支随你. 
+
+
 
 
 
@@ -377,8 +819,12 @@ _s 短杠变量是指临时变量
 - stdin 是什么?
     + 标准串流
 - README 的不同版本有什么不同? 
-
-
+- 诗颖说的去逗号的 strit怎么拼写? 
+- 以下有什么区别? 
+```print (i[:-1])```
+```print (i[-1])```
+```print (i[0])```
+- strptime 是什么?
 
 
 
