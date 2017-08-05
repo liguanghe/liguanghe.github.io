@@ -1,0 +1,52 @@
+---
+title: Learning 沉迷学习, 无法自拔
+date: 2017/8/5 17:35:32
+categories: 
+- GapYear
+tags:
+- NZ
+- Dunedin
+- English 
+- record
+- German
+- language
+- thinking
+- study
+---
+
+This is my sixth week in Dunedin. 
+
+Recently I'm very happy to learn new things. I should analyzed why I have changed to like learning, you know in the past I avoid to learn everything.
+
+Things changes when I joined in DebugUself club. It’s a online club with learning Python, a program language. I think it doesn’t just programing, it’s also teach you how to learn and how to have real life. There is mentor and several peers in it, they encouraged me a lot. They also teach me to keep record how and what I have learned. 
+
+I learn programing, driving, boxing, English and German, at the same time. They all use my time, but not too much. I have a regular daily schedule. And it’s easy to do one thing first, until it comes normal, and I get use to it, I will add something new. 
+
+Yesterday I add German on my study schedule,  you know I’m living in Backpackers, there are a lot of German and French people traveling here. One of them named Marline, a nice girl with genius of language, she speaks French, Japanese and a little bit Chinese. She lived with five Taiwanese for last two months, and she learned Chinese from them, That remind me I can do the same thing, I can learn German from her and teach her Chinese, so she can keep on learning, and I can get a new skill.
+
+We start from vowel, seems all languages are from here. I use card to remember that, it’s not hard at the beginning.
+
+Have you learned something new recently? Or do you speak other language? Or do you have some story of learning to share?
+
+—
+沉迷学习, 无法自拔
+我也不知道事情是怎么开始的, 但最近确实有这种感觉, 当我学习的时候, 我觉得特别开心, 如果不开心, 就找人学习. 上周末心情很差, 但我找到同住的德国女孩, 她教了我一个小时的德语, 我觉得特别开心.而且很想持续下去. 
+
+这个女孩有语言天赋, 会几种语言, 最妙的是, 她会一点点中文, 并且很感兴趣. 因为她过去两个月都跟五个台湾人一起住, 学了拼音和普通话, 虽然不多, 但是已经足够继续自己学习下去了.  这启发了我, 来到这里以后, 我发现我的英语口语在大幅进步, 而且并不像想象中那样完全无法沟通. 语言最核心的是沟通, 那么从口语开始学习德语, 之后也可以继续自学下去, 很多来这边旅行的欧洲人. 
+
+德语是欧洲最多人说的语言, 德国又是欧洲经济最好的国家. 他们的工程思维或许会体现在语言中. 有这个契机学它是很棒的. 
+
+当然, 你可能会说我一次性学太多东西, 编程, 开车, 拳击, 英语, 再加德语会学不了那么多, 会弄混. 
+
+我觉得它们其实都是一类的, 以输出为主. 其实分下类就是两类, 一类是语言, 一类是运动. 都是需要时间熬出来的. 只需要每天坚持, 不需要一天太久的时间. 我有很固定的时间表. 每天学以上内容固定的时间. 但是不间断. 这样会有肌肉记忆, 熟能生巧. 
+
+关于固定的时间表, 刚开始觉得很多东西不能持续下去. 那句话是, 事物都是随机的, 什么时候你的一个行动可以不再随机? 也就是在你可以不动脑就完成它的时候. 这时再没有难度, 你想完成就可以完成了. 当你的时间表里有一个是这样的时候, 你就可以再加一点别的什么进去, 一步一步的, 就会越来越规律. 
+
+其实我知道改变在哪里开始, 一切开始于参加怼圈( DebugUSelf), py103后的自学组织. 在这里有很优秀的导师和同学, 他们给了我很多鼓励. 而且一切皆编程, 或许我的编程能力急需提高, 但工程思维也就是学习的思维慢慢建立起来了. 
+
+ 一个小白, 最终的目的是成为高手. 所以, 你要知道最终呈现(高手的样子), 也要知道目前环境(自己的样子). 以编程为例, 不断对比小白和高手的异同, 不断接近最终呈现. 这同时也是一个小白转变为高手的过程. 在这里统一.
+
+高手是我的需求, 我先把他转化成功能, 再把自己的现状转化成原始数据, 拆解功能, 逐个完成,不断趋近目标.  
+
+沉迷学习, 无法自拔. 发布文章时的快乐, 我想这叫正向反馈, 当然, 你也可以说是嘚瑟. 
+
