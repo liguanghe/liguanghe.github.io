@@ -1,5 +1,6 @@
+
 ---
-title: Learning 沉迷学习, 无法自拔
+title: Learning 沉迷学习 无法自拔
 date: 2017/8/5 17:35:32
 categories: 
 - GapYear
@@ -14,6 +15,7 @@ tags:
 - study
 ---
 
+[click here to hear what I was speaking(点此链接听英语语音)][1]
 This is my sixth week in Dunedin. 
 
 Recently I'm very happy to learn new things. I should analyzed why I have changed to like learning, you know in the past I avoid to learn everything.
@@ -29,7 +31,7 @@ We start from vowel, seems all languages are from here. I use card to remember t
 Have you learned something new recently? Or do you speak other language? Or do you have some story of learning to share?
 
 —
-沉迷学习, 无法自拔
+
 我也不知道事情是怎么开始的, 但最近确实有这种感觉, 当我学习的时候, 我觉得特别开心, 如果不开心, 就找人学习. 上周末心情很差, 但我找到同住的德国女孩, 她教了我一个小时的德语, 我觉得特别开心.而且很想持续下去. 
 
 这个女孩有语言天赋, 会几种语言, 最妙的是, 她会一点点中文, 并且很感兴趣. 因为她过去两个月都跟五个台湾人一起住, 学了拼音和普通话, 虽然不多, 但是已经足够继续自己学习下去了.  这启发了我, 来到这里以后, 我发现我的英语口语在大幅进步, 而且并不像想象中那样完全无法沟通. 语言最核心的是沟通, 那么从口语开始学习德语, 之后也可以继续自学下去, 很多来这边旅行的欧洲人. 
@@ -50,3 +52,5 @@ Have you learned something new recently? Or do you speak other language? Or do y
 
 沉迷学习, 无法自拔. 发布文章时的快乐, 我想这叫正向反馈, 当然, 你也可以说是嘚瑟. 
 
+
+[1]:	https://www.lizhi.fm/2040956/2617090166966539782
