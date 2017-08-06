@@ -146,3 +146,9 @@ eg. 脚本里的数字和符号
     - (诗颖)小问题, 查阅, 不知道函数意义, 就写个变量打印出来即可. 
     - (明星)Python的字符串处理部分，《Python编程快速上手—让繁琐工作自动化》里有详细解答.
 - (大妈)每次怼周会的内容应出现在怼周刊,吸引大家参加怼周会.  
+
+## 其他资源
+http://openmindclub.qiniucdn.com/res/tr/tr_MDP2py4w_1_w1cli_rebuild.html
+http://openmindclub.qiniucdn.com/res/tr/tr_MDP2py4w_1_w1cli_rebuild.html
+http://openmindclub.qiniucdn.com/res/tr/tr_MDP2py4w_1_w1cli_rebuild.html
+相关的过程性习惯都包含在各种公开的代码规范文档中: [The Pocoo Style Guide — Pocoo](http://www.pocoo.org/internal/styleguide/)
