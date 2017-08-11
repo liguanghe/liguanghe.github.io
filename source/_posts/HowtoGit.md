@@ -40,7 +40,7 @@ The basic function of Github is a cloud backup space based by Git. It's quiet ea
 	+ after you build a remote repository in Github, it will give you command, like: git remote add http://github .........git
 	+ copy that command and paste it to your terminal
 		* notice: you are still in this folder (cd folder\_name)
-		* `$ git remote add http://github......git`
+		* `$ git remote add origin http://github......git`
 	+ check weather you have connect the local to remote
 	`$ git remote -v`
 	+ push you local version to remote at first time

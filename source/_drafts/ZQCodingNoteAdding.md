@@ -88,13 +88,11 @@ eg.[线性记录](https://github.com/liguanghe/liguanghe.github.io/blame/gh-page
 
 ### 代码中 数字, 符号, 括号都是什么(待完成)
 
-一切皆数字. 脚本里只有三样: 数字, 符号, 字母.
+一切皆数字. 脚本中的基本元素: 数字, 符号, 字母.
 
-type|字母|符号|数字
----|---|---|---
-作用|替换/指代|运算|替换/指代/标绘位置
-例子|变量/def|+/[]|1/1/[-1]
+[Py101-004/basic element and grammer of python.ipynb at master · liguanghe/Py101-004](https://github.com/liguanghe/Py101-004/blob/master/Chap0/note/basic%20element%20and%20grammer%20of%20python.ipynb)
 
+由它们组成基本元素和语法
 
 know|what
 ---|---
@@ -114,6 +112,7 @@ eg. 脚本里的数字和符号
 
 - is head:\n\t{}'.format(l)
 - (','.join(l.split()))
+
 
 
 ## 心
