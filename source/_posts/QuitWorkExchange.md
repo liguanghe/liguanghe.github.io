@@ -9,7 +9,7 @@ tags:
 - Dunedin
 - English 
 - record
-- accommaditon
+- accommodation
 - lifestyle
 
 ---

@@ -1,0 +1,284 @@
+## w19 行动
+- [ ] 7d alt4dama项目接续 [6d[atl4dama]时间账单效能分析 · Issue #200 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/200)
+  - [x] d1 成员小会
+  - [ ] d2 现有代码理解
+  - [ ] d3 readme版本结合代码
+  - [x] d4-6 可视化
+  - [ ] d7 发布初版
+- [ ] python 标准库学习
+  - [ ] [13d[TASK]各位怼友是如何用 python 标准库的?](https://github.com/DebugUself/du4proto/issues/189)
+- [ ] 按大妈的缩写配置命令行
+[scm/.gitconfig at master · zoom-quiet/scm](https://github.com/zoom-quiet/scm/blob/master/git/.gitconfig) 
+- [ ] 德语
+  - [ ] [24d[TASK]持续直播卡片大法零基础学德语 · Issue #181 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/181)
+  - [x] 核心400词
+  - [ ] 找到找到机会说
+  - [ ] 继续录音在荔枝
+  - [ ] 跟王彭商量直播的事情 
+ - [ ] 博客输出
+    - [ ] www.ligdhe.com
+    - [ ] 笔记分享
+    - [ ] 但尼丁特色一天
+    - [ ] 如何愉快的吃
+    - [ ] 英语小技巧
+    - [ ] 持续写作小技巧
+- [x] writer
+    - 钱性灵2
+- [ ] reading
+  - [ ] 部落书籍
+  - [x] GEB [【哥德尔 爱舍尔 巴赫】在线收听_mp3下载_荔枝FM](https://www.lizhi.fm/2040956/album/2614866758795105307)
+- [ ] 便利店效率优化
+[14d[TASK]便利店效率优化 · Issue #186 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/186) 
+- [ ] 博客输出渠道优化 [6d[TASK]博客输出渠道优化 · Issue #199 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/199)
+  - [x] 手动发布到 slack
+  - [x] 手动发布到 DUW
+  - [ ] 其他渠道增补
+  - [ ] 自动发布 
+- [ ] 联通私有仓库[6d[TASK]私有仓库输出作品到其他私有仓库. · Issue #198 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/198)
+- [ ] daily life
+  - [x] 兼职工作尽量放周末
+- 主题分享
+[24h[TASK] 主题分享准备: 怼, 不只是编程, 是生活的方方面 · Issue #194 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/194)
+
+## w18 小结
+### 行动计划及完成情况
+- [x] 精学现场编程3
+  + [x] duw 输出
+  + [x] py104 做为基础编程练习
+  + [ ] 时间账单项目 实操理解
+[13d[TASK]精学大妈现场编程 · Issue #176 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/176)
+- [x] DUW 血案教程 [[BC](Blood Case) 血案之宏大 merge · Issue #191 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/191)
+  + [x] 按大妈的教程配置环境
+  + [x] 撰写心得
+  + [x] 把大妈的教程变成 wiki
+- 笔记分享
+    - [x] 落实文字
+    - [x] 投稿怼周刊
+    - [ ] 撰写成博客并发布
+[24h[TASK]笔记技能分享及反馈 · Issue #179 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/179)
+- [x] 入怼规则设计
+[1w[TASK]完善怼力-迎接新人 · Issue #135 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/135)
+- [x] 便利店效率优化
+[14d[TASK]便利店效率优化 · Issue #186 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/186)
+- [x] 21天 运动带动时间记录
+  - [24h[TASK]丑照何时曝, 当然变美时.  用21天运动20分钟带友开启时间记录.](https://github.com/DebugUself/du4proto/issues/185)
+  - 已投 DU19w
+- [ ] 直播德语
+[24d[TASK]持续直播卡片大法零基础学德语 · Issue #181 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/181)
+- [x] 持续双语博客
+www.ligdhe.com
+- [ ] 博客输出渠道优化
+  - [x] 手动发布到 slack
+  - [x] 手动发布到 DUW
+  - [ ] 其他渠道增补
+  - [ ] 自动发布 
+- [ ] 联通私有仓库
+- [x] writing
+    - 伴侣: 钱性灵1
+- [x] reading
+    - GEB
+
+### 未完成原因分析(心)
+- 精学编程之 时间账单项目理解
+  + 任务定义还是太广泛, 学的已经超出了视频范围, 应该另起项目, 仔细规划. 
+  + 突发 DUW 血案, 之前没有怼出来的内容, 让大妈和竹子实际演算了一遍才算是真正明白,在便利店打工时老板的苛责引导我的心态回到怕犯错那里, 所以没有积极的面对这次血案. 好在周日自我调整, 用发 issue, slack 私下问竹子的方法, 把这个问题解决了. 把"心"那部分怼出来, 同时还撰写了 wiki. 当然, 其他的行动就没足够的时间和心力做了. 
+- python 标准库
+  + 没有时间启动
+  + 上周工作三个整天, 是之前一个月中每周的三倍. 
+  + 编程不是只有一个项目, 就会让我不够专注. 
+- py104 第一周作业
+  + 已经完成过, 没什么兴趣研究, 而且有时间账单项目. 这个看上去简单, 但并不简单. 
+  + 内心已把py104仓库当做初级教程发布地, 是不是一定要完成天气查询的项目, 这个不重要.
+- 笔记分享
+  + 曾经想过在 py104 里直播分享, 但是自己不一定可以完成py104 的编码项目, 而且对这个项目的定位自己也不准, 所以没有继续. 
+  + 发布在自己博客的话, 又太简略, 还只是个大纲. 可是因为说过一遍, 又不想再打一遍字. 看看这件事情是不是剪切录像, 把这段剪出来, 连同文字大纲放进博客里. 
+  + 开源嘛, 项目里没涉及隐私. 
+- 新人入怼完成, 我该做的事情. 
+  + 引路人这个是我想出来的点子, 到目前为止还没人找我当引路人. 我预见到这种情况, 实际上肯定有应急预案, 及到时大不了引路人主动找人来结对.你被动我就主动嘛. 
+  + 我的情况比较特殊, 之前一直没开始怎么编程, 接下来这种和几个月的重点都是编程. 看看新人里有没对写作和学习正确姿势更感兴趣的, 跟我过往的内容可能更契合. 技术流只去寻怼圈内技术大牛吧. 
+- 直播德语
+  + 问题1: 德语语音比想象中容易, 不用21天, 要调整策略. 
+  + 问题2: 德国妹纸没有每天坚持的概念, 想教就教, 而且随时去见朋友吃喝玩乐了
+  + 问题3: 我也想吃喝玩乐, 毕竟是体验但尼丁呀. 闷头学习也不是我的风格.
+  + 问题4: 这种自己还没固化的内容就放言在开智开直播, 是愚勇的莽撞, 要调整策略. 看看要不要直播点别的什么. 
+  + 策略1: 其实我都有荔枝录音, 再结合博客文字, 已经形成了固定的输出方式, 不妨继续坚持. 把链接放到开智世界. 
+  + 策略2: 自己找本基本德语书, 找机会将读给这边的德国人听, 这样不仅只有她一个. 
+  + 策略3: 自己也先随时开始, 不是固定一个时间. 慢慢看什么时间段和节奏合适. 当然最终的理想状态是21天5期. 偶尔预留断档, 适当延长也是可以允许的.
+- 博客渠道优化
+  + 没时间做
+  + 最小行动是发布在slack 和 DUW, 已经做到
+  + 看本周有没时间做自动化.
+- 联通私有仓库
+  + 没时间做, 不急
+  + 其实是, 在怼圈渐渐有作品生成, 怎么对外的问题. 比如, 如果对接到开智世界或py104的私人仓库? 用blog方式, 还是大妈上周给出的各种方式? 
+- writing
+  + 完成了一部分的小说内容, 还不够完整, 希望下周可以发布.
+  + 其实, 我的 blog 是公开仓库, 草稿也是谁都可以看到. 不过反正主动来挖的人暂时不会有, 能挖到我敬你是条汉子, 自然有的聊. 
+  + 这种开源开放的思想反而不会有危险.
+- reading
+  +  没完成开智部落的, 主要是电子书问题. 
+  +  以后上班时不只可以读 GEB, 还应该读一下部落书, 能写几张卡片是几张. 
+
+## w17 小结
+- [x] py104
+    - [x] [7d[TASK]py104启程 · Issue #182 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/182)
+    - [x] [其它地区 ch0 任务提交处 · Issue #13 · AIHackers/Py101-004](https://github.com/AIHackers/Py101-004/issues/13)
+- [x] 精学大妈现场编程2
+[13d[TASK]精学大妈现场编程 · Issue #176 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/176)
+- [x] d7 笔记分享 [24h[TASK]笔记技能分享 · Issue #179 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/179)
+- [x] 在开智世界直播 卡片大法零基础学德语 (一期 21 天) [24h[TASK]项目启动: 持续直播卡片大法零基础学德语 · Issue #181 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/181)
+[liguanghe/GermanLearning: keep learn it everyday](https://github.com/liguanghe/GermanLearning)
+- [x] 持续双语博客
+www.ligdhe.com
+
+- [x] 在不影响收入的情况下, 成功减少外需时间:1.5 h × 7 = 10.5 h
+    - [x] 辞掉换宿
+    - [x] 做好兼职
+    - [x] 了解习惯
+    - [x] 增加心流
+- [x] 便利店工作
+    - [x] 失误危机管理
+    - [x] 反思工作态度
+    - [x] 撰写员工手册
+    - [x] 多沟通
+    - [x] 全局思考效率
+    - [ ] 畅想转化咨询
+        - [ ] 最小项目
+        - [ ] 市场调研
+        - [ ] 市场拓展 
+
+
+
+## w16 小结
+- 时间报告[du4proto/du_s01e01_liguanghe.md](https://github.com/DebugUself/du4proto/blob/master/S01E01.2/du_s01e01_liguanghe.md)
+    + 睡眠时间下降, 没有午睡
+    + fun: d 追踪  d多
+    + 工作时间长
+    + 每天编程/运动/洗漱
+- python
+    + [12d[TASK]精学大妈现场编程](https://github.com/DebugUself/du4proto/issues/176)
+    + 懂得出月计划( 怼圈布局/计划)[28d[ANN]S05E51 自怼小组任务追踪](https://github.com/DebugUself/du4proto/issues/173)
+    + git 教程一篇[Git 最好的版本管理工具](https://github.com/DebugUself/du4proto/wiki/How2Git)
+    + zoom 分享学习心得一次.  链接: https://pan.baidu.com/s/1hrUFOrU 密码: wyfk
+- 运动: boxing 持续一周
+- 英语: 英语博客两篇, 以给美国朋友写信的方式, 来写博客. 不知道为什么容易多了. 
+- 域外生活录2
+    + 新计划: [[S05E51]28d 域外生活录2 · Issue #174 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/174)
+    + 完成作品添加: [du_s04e51_liguanghe_plan.md](https://github.com/DebugUself/du4proto/blob/master/S04E51/du_s04e51_liguanghe_plan.md)
+- 试学德语课一次[Dunedin German](https://www.lizhi.fm/2040956/2617219286567183878)
+- 完成笔记一篇, 希望分享[24h[TASK]笔记技能分享 · Issue #179 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/179)
+
+
+
+## 月计划
+- German 直播
+- python
+    - [x] 大妈实操演示 学习
+    + 大猫简书文章
+    + py104
+    + 白噪音小功能[5d[TASK] github 真随机数 白噪音快速心流音乐自动生成 .py 2](https://github.com/DebugUself/du4proto/issues/175)
+- 英语听写
+    + 听还是有点问题, 目前泛听够了, 精听不够
+    + 听完以后务必要听写下来. 
+    + 写信给 jim, google+ 请其帮忙改写语法
+    + 然后发博客
+    + 认知英语课语音部分
+    + 有空的时候看看荔枝剪辑, 更好听
+- Daily life
+    + 日常生活稳定
+        * 6:30 起床, af
+        * 6:50 sport keep
+        * 7:20 coding
+        * 9:20 dinner
+        * 9:50 washing
+        * 10:00 coding
+        * 11:50 sport boxing
+        * 13:30 dinner  
+        * 14:00 
+        * 18:00 dinner
+        * 20:00 social(EN)
+        * 21:00 email/blog(EN)
+        * 22:30 German
+        * 23:20 washing
+        * 24:00 sleep
+    + **14:00 - 18:00 low efficiency, 5 hours, have 1 or 2 hours flow is enough** 
+        * working
+        * driving
+        * buying
+        * drone
+        * reading
+        * writing
+        * sleeping
+        * dd
+        * fun
+        * 法律碎片
+        * partime job
+        * coverletter
+        * road code
++ 周六日 上班
+    - 仍然早起坚持运动
+    - 心流时间挪到周一至周五
++ 周一到五全天归自己的新调整
+- writing
+    + 再次梳理写作课知识点
+    + 一点一点主题研究, 写笔记.
+    + 一周一篇中文文章(在母语里撒娇)
+- reading
+    + GEB
+    + 开智书单
+    + 普宁(小说)
+- 法律碎片
+    + 不给自己压力
+    + 想到什么就记录下来一点
+    + 先多做搜索
+## 怼友建议
+### w17大妈建议
+- 怼圈笔记格式的特点, 评笔记分享 
+    - issue 和 wiki 格式更趋向论文
+    - 越来越丰富的参考链接
+    - 广鹤的链接是从众多链接中挑出的最好链接
+    - 信息密度极大, 没训练不知道
+    - 宣传推广的问题
+- 提升效率的工程, 评便利店效率提升思路
+    - 管理技巧
+    - 高一个层级去想: 全局思考
+    - 低一个层级去做: 一线工作,具体事务(递归)
+    - 阳老师: 瘙痒的猴子
+    - 积累成就感
+    - 把简单的事情做成项目, 工程原则
+        - 替人省钱
+        - 替人省时间
+- 全新环境下全新工作模式, 评新环境下的工程
+    - 过程改进: 软件过程改进, 丰田通过 工业生产管理改进过程, 通过逐一改进工作信息流, 从而优化工作流,直到无法再优化. 那时再提高生产线本身的信息含量. 
+    - MVP: 快速实现, 发布, 第一时间目标用户获得反馈, 几次迭代, 可以使用. 文档/脚本/服务/次序规约.
+    - 把事情做到极致, 自己的极限在哪
+         - 把心流时间做多
+         - 把心流效率提高. 
++ 作品输出渠道提升
+    - 每周做事不少, 怼友收到信息不多. 
+        - 德语音频, 和双语 blog, 大家还不知道. 
+    - 需要跨信息平台和媒体的综合性发布的自动通知, 也是应该立刻配置和快速开发的. 
+        - 荔枝和博客文章,应自动向 slack 里面发一个消息, 再自动发到其他的社交账号.  
+        - 目前是一周才能让大家看到, 应该第一时间让朋友们都知道.
+        - 自动推送比订阅更多. 
+- 在两个私有仓库联通
+    - github 架构, 双方仓库使用信息, push 一次
+    - gitbook 和 github dabble 一次. 
+    - 子仓库, 嵌入, 递归. 
+    - 前提是, 两个不同的人群对持续 push 的内容都是感兴趣和有用的. 
+
+- it 公司进程
+    - 四周一个阶段, 分别达到什么目的, 也记入到每四周的纪要里面. 
+    - 控制自己的时间, 从每个小时, 每周, 到每月. 慢慢越来越长, 真正获得自由. 
+
+       
+## 背景
+- [du4proto/du_s04e51_liguanghe_plan.md at master · DebugUself/du4proto](https://github.com/DebugUself/du4proto/blob/master/S04E51/du_s04e51_liguanghe_plan.md)
+- [[S04E51]28d 域外生活录 · Issue #153 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/153)
+- [42h[TASK]20170805 怼周会会](https://github.com/DebugUself/du4proto/issues/180)
+- [42h[TASK]20170812 怼周会会 · Issue #184 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/184)
+- [42h[TASK]0819 怼周会之结队怼 · Issue #195 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/195)
+
+## timelog]
+- 20170806 40 min 
+- 20170731 60 min 
