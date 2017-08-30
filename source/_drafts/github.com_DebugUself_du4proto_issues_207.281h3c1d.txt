@@ -1,0 +1,95 @@
+ ## 背景
+<- [6d[atl4dama]时间账单效能分析 · Issue #200 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/200)
+<- [3w[atl4dama] 时间帐单效能分析 再续再试](https://github.com/DebugUself/du4proto/issues/131)
+<- [4w[atl4dama] 时间帐单效能分析++++ · Issue #211 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/211)
+## 月方案
+
+- [ ] 数据清洁-> 包含大家各自的新数据
+    + [ ] 合理收纳到对应原始数据目录
+    + [ ] 发布自己的记录格式说明
+    + [ ] 兼容开发可以合理完成清洗
+- [ ] 统计-> 完成以下指标的通用统计 
+    + [ ] TOTa
+    + [ ] LOTa 
+    + [ ] SET4 (Simple Efficiency Time for DU)指标 
+- [ ] 可视化
+    + [ ] 输出至少一种图表
+    + [ ] 输出为 HTML 
+    + [ ] 可以自动统计新数据发布 HTML 到内部网站
+    + [ ] ...
+## 周方案
+- [ ] @mxclover SET4指数生成折现图 直观反映52周中最高效和低效的一周
+    - mxclover 先完成大妈2014年的时间效能指标计算 
+    - 先以这一年的效能指标做数据可视化，看看实际的呈现效果
+    - 小组讨论没问题后再分工完成其他数据的效能指标计算
+- [ ] @liguanghe 翻回原始数据, 做出该周的散点图
+- [ ] @zhangshiyinrunwithcc 将现有文件夹内部文件编写目录索引放进 README.md [42h[TASK]提案:时间账单效能分析README修订](https://github.com/DebugUself/du4proto/issues/209)
+- [ ] 规约 ipynb 抬头写尝试, 链接要放到 README.md相关的目录里.
+## 执行
+- [ ] 8.26会议记录
+    - [x] 小鹤记录
+    - [ ] 小明增补
+    - [ ] 诗颖增补
+    - 链接:  https://pan.baidu.com/s/1kUFHTn5 密码: bthr
+- [ ] 处理小鹤的数据,以了解现有成果
+    - [ ] 导入数据
+        - [ ] d3 阅读新版分支内容
+            - [ ] 分支 README.md 旧了. [42h[TASK]提案:时间账单效能分析README修订](https://github.com/DebugUself/du4proto/issues/209)
+            - [ ] [du4proto/rules4pandas.mdown at atl4dama · DebugUself/du4proto](https://github.com/DebugUself/du4proto/blob/atl4dama/doc/rules4pandas.mdown)
+```
+- try 里的Ipynb 在开头要写功能/目标
+```
+            - [ ] [atl4dama_fdback_hdk.mdown](https://github.com/DebugUself/du4proto/blob/atl4dama/doc/atl4dama_fdback_hdk.mdown)
+```
+这个 issue 应该嵌入项目分支文档, 行动(处理) - 输入内容 - 处理(行动) - 输出内容
+try -> 脚本
+    \
+     ->文档
+```
+            - [ ] [DebugUself/du4proto at atl4dama](https://github.com/DebugUself/du4proto/tree/atl4dama)
+```
+- try 和 ipynb 分开
+- try 里是 .py
+- ipynb 里是 .ipynb
+```
+- [ ] d3 取时间源生成 MVP 表格
+- [ ] d3 用 pandas DataDrame 做一个 散点图 / boxplot?
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fivmpfkn29j30um0l8tbf.jpg)
+
+
+```
+初步想法: 
+df = pd.DataFrame(np.random.randn(24,8), index=DatetimeIndex.second, columns=DatetimeIndex.weekday)
+```
+- [ ] DataDrame基本语法
+    - [ ]  
+    - [ ] Numpy? 
+```
+基本语法: 
+- 可以从Numpy 里导出
+- 也可以从字典里导出
+- 可以从.csv 里导出么
+df = pd.DataDrame
+```
+- [ ] index 秒
+    - [ ] pandas 时间[pandas.DatetimeIndex — pandas 0.20.3 documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DatetimeIndex.html?highlight=datetimeindex#pandas-datetimeindex)
+    - [ ] [pandas.DatetimeIndex.second — pandas 0.20.3 documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DatetimeIndex.second.html?highlight=datetimeindex#pandas.DatetimeIndex.second)
+- [ ] column 周日期
+    - [ ] pandas 时间 [pandas.DatetimeIndex.weekday — pandas 0.20.3 documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DatetimeIndex.weekday.html?highlight=datetimeindex#pandas.DatetimeIndex.weekday)
+    - [ ] [pandas.DatetimeIndex.week — pandas 0.20.3 documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DatetimeIndex.week.html?highlight=datetimeindex#pandas.DatetimeIndex.week)
+- [ ] values: 清洗好的数据
+- [ ] group1: input, group2:output,group3:life,group4:chaos
+- [ ] 规格 86400行, 压缩在一个页面长短. 
+- [ ] 导入现有清洗好的数据
+    - [ ] 查看现有的数据,看是什么格式
+    - [ ] 凑在一起 
+[lgh_pandas_scatterplot.ipynb](https://github.com/DebugUself/du4proto/blob/atl4dama/try/lgh_pandas_scatterplot.ipynb)
+- [ ] 讨论最佳可视化方法
+    - [ ] [数据可视化 到 可视化信息 浅述 - 简书](http://www.jianshu.com/p/49132ffcac8b)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fiw2l4i0q5j30kj0f977t.jpg)
+    - [ ] 图片解释 
+
+
+## 关联
+- [可视化睱想](https://github.com/DebugUself/du4proto/blob/atl4dama/try/zq7visualization.ipynb) 选择最终合适的可视化形式

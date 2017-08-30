@@ -1,0 +1,222 @@
+@Wangjunyu 
+
+## 问题: 
+- 安装 pyenv 之前要先确定 python 环境是你想要的环境, 这个如何确定? 
+我的探索:  
+```
+$ python
+Python 2.7.10 (default, Feb  7 2017, 00:08:15)
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+    - [pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)
+```
+** 卡在这里了, 这好像是鸡生蛋还是蛋生鸡的问题, 我想要的环境是 python3.6.1 不过要转换python 版本 需要先下载pyenv? 但是下载 pyenv , 要先确认处于的 python 环境是否是 python3.6.1?
+
+
+## 读浚宇文章的线性记录(包括思维和行动)
+这个写下来, 也是为了把大脑思考视觉化, 给作者提供读者视角, 促进作者写的更好. 
+
+```
+$ env
+TERM_PROGRAM=iTerm.app
+TERM=xterm-256color
+SHELL=/bin/bash
+TMPDIR=/var/folders/mx/jr287k4x6x50nkb0t20x4lcc0000gn/T/
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.FJbN1qK3kW/Render
+TERM_PROGRAM_VERSION=3.0.15
+OLDPWD=/Users/liguanghe
+TERM_SESSION_ID=w0t0p0:E9F1CB72-7ECF-46BA-A5E7-17779D8A3BA5
+USER=liguanghe
+COMMAND_MODE=unix2003
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CRwtKYFv4i/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34
+PATH=/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/liguanghe/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+PWD=/Users/liguanghe/du4proto
+LANG=zh_CN.UTF-8
+ITERM_PROFILE=Default
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/liguanghe
+COLORFGBG=7;0
+ITERM_SESSION_ID=w0t0p0:E9F1CB72-7ECF-46BA-A5E7-17779D8A3BA5
+LOGNAME=liguanghe
+SECURITYSESSIONID=186a6
+_=/usr/bin/env
+```
+
+```
+$ set
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.3GG4Oa0Ali/Render
+BASH=/bin/bash
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="3" [1]="2" [2]="57" [3]="1" [4]="release" [5]="x86_64-apple-darwin16")
+BASH_VERSION='3.2.57(1)-release'
+COLORFGBG='7;0'
+COLUMNS=80
+COMMAND_MODE=unix2003
+DIRSTACK=()
+EUID=501
+GROUPS=()
+HISTFILE=/Users/liguanghe/.bash_history
+HISTFILESIZE=500
+HISTSIZE=500
+HOME=/Users/liguanghe
+HOSTNAME=liguanghedeMacBook-Pro.local
+HOSTTYPE=x86_64
+IFS=$' \t\n'
+ITERM_PROFILE=Default
+ITERM_SESSION_ID=w0t0p0:416D9CA2-FB8A-4CC5-A1A5-5B09F2A645EF
+LANG=zh_CN.UTF-8
+LINES=25
+LOGNAME=liguanghe
+MACHTYPE=x86_64-apple-darwin16
+MAILCHECK=60
+OPTERR=1
+OPTIND=1
+OSTYPE=darwin16
+PATH=/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/liguanghe/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+PIPESTATUS=([0]="0")
+PPID=420
+PS1='\h:\W \u\$ '
+PS2='> '
+PS4='+ '
+PWD=/Users/liguanghe/du4proto
+SECURITYSESSIONID=186a7
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor
+SHLVL=1
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.lYp7qnAFfE/Listeners
+TERM=xterm-256color
+TERM_PROGRAM=iTerm.app
+TERM_PROGRAM_VERSION=3.0.15
+TERM_SESSION_ID=w0t0p0:416D9CA2-FB8A-4CC5-A1A5-5B09F2A645EF
+TMPDIR=/var/folders/mx/jr287k4x6x50nkb0t20x4lcc0000gn/T/
+UID=501
+USER=liguanghe
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+_=PATH
+__CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34
+```
+
+```
+$ export
+declare -x Apple_PubSub_Socket_Render="/private/tmp/com.apple.launchd.3GG4Oa0Ali/Render"
+declare -x COLORFGBG="7;0"
+declare -x COMMAND_MODE="unix2003"
+declare -x HOME="/Users/liguanghe"
+declare -x ITERM_PROFILE="Default"
+declare -x ITERM_SESSION_ID="w0t0p0:416D9CA2-FB8A-4CC5-A1A5-5B09F2A645EF"
+declare -x LANG="zh_CN.UTF-8"
+declare -x LOGNAME="liguanghe"
+declare -x OLDPWD
+declare -x PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/liguanghe/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+declare -x PWD="/Users/liguanghe/du4proto"
+declare -x SECURITYSESSIONID="186a7"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="1"
+declare -x SSH_AUTH_SOCK="/private/tmp/com.apple.launchd.lYp7qnAFfE/Listeners"
+declare -x TERM="xterm-256color"
+declare -x TERM_PROGRAM="iTerm.app"
+declare -x TERM_PROGRAM_VERSION="3.0.15"
+declare -x TERM_SESSION_ID="w0t0p0:416D9CA2-FB8A-4CC5-A1A5-5B09F2A645EF"
+declare -x TMPDIR="/var/folders/mx/jr287k4x6x50nkb0t20x4lcc0000gn/T/"
+declare -x USER="liguanghe"
+declare -x XPC_FLAGS="0x0"
+declare -x XPC_SERVICE_NAME="0"
+declare -x __CF_USER_TEXT_ENCODING="0x1F5:0x19:0x34"
+```
+- 上面的这些都是什么意思啊?
+
+- [ ] 弄清楚上面各行的意思
+
+最佳实践的那两条不知道什么时候用. 
+关于实操,要有先后顺序, 和具体输入指令的地点. 
+```
+相关的环境变量配置文件
+
+涉及到的文件
+
+/etc/profile
+/etc/bashrc
+/etc/zshrc
+
+如果是/etc/目录下则是所有用户共享的配置文件
+
+~/.profile
+~/.bash_profile
+~/.bashrc
+~/.zshrc
+
+在自己的目录下则是仅有你这一个用户可用。
+```
+** 这个目录没有找到 **
+
+```
+环境变量示例
+
+    export PATH="/home/leon/.pyenv/bin:/usr/local/bin"
+    export表示将变量导出到接下来的程序环境中。冒号是连接符号，这里程序会顺序的逐个去找对应的执行文件。bin文件夹下一般存放的是可执行的二进制文件，当我们输入命令的时候，程序就会逐个文件去找，如果找到了就会执行，找不到，会反馈找不到
+
+    eval "$(pyenv init -)"这句命令稍微复杂，是理解pyenv和环境变量关系的关键，分为两部分，一部分是shell的命令，一部分是理解pyenv init命令。
+        eval：脚本语言中表示将后面的内容按照命令的方式直接执行
+        $()的语法表示将命令执行的结果输出后再执行外面的命令，也就是说这一行会先执行 pyenv init - 之后，eval再执行 pyenv init - 的结果。
+        关于pyenv init的命令，参考这两个文件，说的非常清楚：
+        Command Reference
+        Simple Python Version Management: pyenv
+        整体解释：首先执行pyenv init -的命令后的输出替换双引号中的内容，然后将双引号中给定的文本作为shell 命令执行。命令说明可以参考eval usage explan
+
+    常用变量：$HOME 和 $PATH
+
+最佳实践
+
+    在自己的程序里跑:which python会发现调用的目录后，再执行 echo PATH,可以应证前面的目录或者其父目录一定在
+
+PATH中。
+查看自己的~/.zshrc 文件
+了解anaconda python的路径，争取彻底处理,或者不会对自己现在的环境配置产生不良影响。
+```
+** 上面这段不懂 **
+- 在什么时候用? 
+- 在哪里用? 
+
+## pyenv + shell
+- 卸载 anaconda 
+    - [Finding your Anaconda Python interpreter path | Anaconda: Documentation](https://docs.continuum.io/anaconda/user-guide/tasks/integration/python-path)
+```
+$ source activate pythong3.6.2
+(pythong3.6.2) liguanghedeMacBook-Pro:~ liguanghe$ which python
+/Users/liguanghe/anaconda/envs/pythong3.6.2/bin/python
+
+- 可执行文件的格式是什么样的?  
+EXAMPLES:
+macOS– ~/anaconda/bin/python or /Users/jsmith/anaconda/bin/python.
+```
+    - [Uninstalling Anaconda | Anaconda: Documentation](https://docs.continuum.io/anaconda/install/uninstall)
+        - option B
+             - 照做
+             - 然后还是手动删除了文件夹里命名为 anaconda 的文件. 
+
+- 安装 pyenv
+    - 确认处于的 python 环境是否是你需要的环境
+```
+$ python
+Python 2.7.10 (default, Feb  7 2017, 00:08:15)
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+    - [pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)
+```
+** 卡在这里了, 这好像是鸡生蛋还是蛋生鸡的问题, 我想要的环境是 python3.6.1 不过要转换python 版本 需要先下载pyenv? 但是下载 pyenv , 要先确认处于的 python 环境是否是 python3.6.1?
+
+    - 注意环境变量的配置和启动后的环境检查? 这是什么?
+
+## 心
+- 在所有的程序安装或运行时, 我常常遇到的问题就是:
+    + 在什么时候用?
+    + 在哪里用?
+    + 格式是什么? 怎么知道我找对了? 
+    + 一个好的教程应该告诉你这些内容, 只是原理是不够的. 

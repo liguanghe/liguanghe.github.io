@@ -19,16 +19,16 @@ Last blog I said I didn’t want stay in Auckland with Chinese-speakers around, 
 ## Life style
 Living in a  development and peaceful city, that is what I need, since several years traveling, I found living in this kind of city makes me comfortable, like Kyoto and Barcelona. 
 
-Traveling the whole island around or doing season work is not my purpose. Maybe doing season work is a way saving more time, since it can get more salary per hours, and then I can use this money to live in city. 
+Traveling the whole island around or doing seasonal work is not my purpose. Maybe doing seasonal work is a way of saving more time, since it can get more salary per hours, and then I can use this money to live in a city. 
 
-But I want to do some work in city, then I could be living in city, talk to citizens, feeling it everyday. 
+But I want to do some work in a city, then I could be living in a city, talk to citizens, feeling it everyday. 
 
-Thinking above, I have two cities to choose, one is Wellington, another is Dunedin. The reason I choose Dunedin at last is funny, just because I take a DJI drone here, and Wellington is too windy to fly it. A lot of backpackers told me Wellington is wonderful place to live in, so if I have chance, I’ll go there. Also, Dunedin have a university, I’m preparing doing some interviews to teachers and students. 
+Thinking above, I have two cities to choose, one is Wellington, another is Dunedin. The reason I choose Dunedin at last is funny, just because I take a DJI drone here, and Wellington is too windy to fly it. A lot of backpackers told me Wellington is a wonderful place to live in, so if I have a chance, I’ll go there. Also, Dunedin have a university, I’m preparing doing some interviews to teachers and students. 
 
 ## First touch with English-speakers for me
-The first week living in Auckland, we can tell it as No. 0 week, not just like what programmer do, you know they start at 0, not 1, also because this week I din’t get touch in English-speakers. 
-In No.1 week, although I worked exchanged in a hostel running by Chinese, I have change to use English. I am receptions there, help guests to get a bed or a room, tell them notices. What’s more, They are friendly, and glad to talk with me. I tried to talk to them as much as possible after working. 
-One of them is a bus driver, his job is take guests from Auckland to another cities, Dunedin is one of them. He took me to look around, he was born here, his grandma and mother have been worked here. This is an old city, once crowded and busy about one or two hundred years ago. But when the factories move to Asia, North Island, the city become to empty. houses built then is still perfect.
+The first week living in Auckland, we can tell it as No. 0 week, not just like what programmer do, you know they start at 0, not 1, also because this week I didn’t get touch in English-speakers. 
+In No.1 week, although I worked exchanged in a hostel running by Chinese, I have chance to use English. I am receptions there. Help guests to get a bed or a room, tell them notices. What’s more, They are friendly, and glad to talk with me. I tried to talk to them as much as possible after working. 
+One of them is a bus driver, his job is taking guests from Auckland to another cities, Dunedin is one of them. He took me to look around, he was born here, his grandma and mother have been worked here. This is an old city, once crowded and busy about one or two hundred years ago. But when the factories move to Asia, North Island, the city become to empty. Houses built then are still perfect.
 
 ## What you can do for first touch
 Living in backpackers hostel in BBH, that’s a good choice. There are backpackers from the whole world, they are easy going, you can talk about traveling, part-time job, interesting, you can share food and so on. 

@@ -1,3 +1,5 @@
+
+This Monday I changed my room from 4 beds room to single room. About living environment 
 $175
 $120
 
@@ -17,5 +19,4 @@ boys body
 meeting  
 
 they are freedom
-
 

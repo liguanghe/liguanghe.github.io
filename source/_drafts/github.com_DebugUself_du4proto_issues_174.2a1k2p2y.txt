@@ -1,5 +1,7 @@
-## w19 行动
-- [ ] 7d alt4dama项目接续 [6d[atl4dama]时间账单效能分析 · Issue #200 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/200)
+
+
+## w19 小结
+- [x] 7d alt4dama项目接续 [6d[atl4dama]时间账单效能分析 · Issue #200 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/200)
   - [x] d1 成员小会
   - [ ] d2 现有代码理解
   - [ ] d3 readme版本结合代码
@@ -15,10 +17,10 @@
   - [ ] 找到找到机会说
   - [ ] 继续录音在荔枝
   - [ ] 跟王彭商量直播的事情 
- - [ ] 博客输出
+ - [x] 博客输出
     - [ ] www.ligdhe.com
     - [ ] 笔记分享
-    - [ ] 但尼丁特色一天
+    - [x] 但尼丁特色一天
     - [ ] 如何愉快的吃
     - [ ] 英语小技巧
     - [ ] 持续写作小技巧
@@ -170,14 +172,19 @@ www.ligdhe.com
 
 
 
-## 月计划
+## 月小结
 - German 直播
+  + 断续的一个月, 学会了基本语法
+  + 借到一本书
+  + 需要找到每天的20分钟时间
 - python
     - [x] 大妈实操演示 学习
-    + 大猫简书文章
-    + py104
-    + 白噪音小功能[5d[TASK] github 真随机数 白噪音快速心流音乐自动生成 .py 2](https://github.com/DebugUself/du4proto/issues/175)
-- 英语听写
+    + 大猫简书文章 没看
+    + py104 没跟
+    + 白噪音小功能[5d[TASK] github 真随机数 白噪音快速心流音乐自动生成 .py 2](https://github.com/DebugUself/du4proto/issues/175) 搁置
+    + 大妈效能分析投入两周
+    + 精学大妈现场编程项目投入一个月, 正式进入编程序列
+- 英语听写做到了.
     + 听还是有点问题, 目前泛听够了, 精听不够
     + 听完以后务必要听写下来. 
     + 写信给 jim, google+ 请其帮忙改写语法
@@ -219,12 +226,14 @@ www.ligdhe.com
     - 仍然早起坚持运动
     - 心流时间挪到周一至周五
 + 周一到五全天归自己的新调整
+    - 调整到可以周末有一天上班
+    - 争取到单间, 以后尽量保持住宿的统一
 - writing
-    + 再次梳理写作课知识点
+    + 再次梳理写作课知识点 没做到
     + 一点一点主题研究, 写笔记.
-    + 一周一篇中文文章(在母语里撒娇)
+    + [x] 一周一篇中文文章(在母语里撒娇) 钱性灵
 - reading
-    + GEB
+    + [x]GEB
     + 开智书单
     + 普宁(小说)
 - 法律碎片
