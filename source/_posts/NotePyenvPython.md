@@ -1,0 +1,224 @@
+
+## 背景
+<- [12h[BUG]试运行 pandas 失败,已安装 anaconda. · Issue #202 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/202)
+<- [关于 Python2 和 Python3 共存及 jupyter notebook 安装问题 · Issue #25 · AIHackers/Py101-004](https://github.com/AIHackers/Py101-004/issues/25)
+
+py103/104 里面均提到的anaconda, 大妈说是山寨发行. 并提点我们的基础环境配置有问题. 那么如何完善呢? 
+
+## 尝试
+- [x] 从大妈的痕迹里寻找相关内容 [72h?[TASK] 挖掘 `zoomquiet.io` ~ 自怼圈第0个任务 · Issue #64 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/64)
+- [x] d4 [Python环境出坑记](http://blog.junyu.io/posts/0707-python-env-config.html)
+```
+介绍系统运行程序的原理. 以及最简单的工具.
+```
+[note1](https://github.com/liguanghe/liguanghe.github.io/blob/gh-pages/source/_drafts/github.com_DebugUself_du4proto_issues_204.351g1d25.txt)
+- [x] d4 [pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)
+```
+- 提供了使用说明及功能: 转换版本和环境
+- 提供了几种安装方法
+    - MacOSx: brew
+    - automuatic? 
+    - basic github checkout
+        This will get you going with the latest version of pyenv and make it easy to fork and contribute any changes back upstream.
+
+```
+- [x] d5 [Aoi-planetDUer | DebugUself with DAMA ;-)](http://du.zoomquiet.io/2017-08/aoi-planet/#wow1)
+```
+- 提供了 pyenv 最简安装, 以及 shell/path的几个指令.
+- 大妈的最简安装指令
+```
+
+- [x] d5 对比以上 3 篇的安装指令异同,分析原因 并实操
+```
+开篇多了两行: 
+$ sudo apt install git
+$ cd /opt/repo
+git clone pyenv 后, 又多了一行:
+$ git clone https://github.com/pyenv/pyenv-virtualenv.git .pyenv/plugins/pyenv-virtualenv
+
+$ sudo apt install git
+Password:
+Unable to locate an executable at "/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/bin/apt" (-1)
+
+$ cd /opt/repo
+-bash: cd: /opt/repo: No such file or directory
+
+- 这里应该是选择安装pyenv 的文件夹. 但是我没有这个文件夹, 不知道是不是系统有的. 
+官方文档推荐可以安装在 home
+
+- 往后翻, 看看没有这两步有没有什么影响, 好像没有什么影响, 就是cd到哪里的问题. 
+- 我的软件一般都下载到根目录了, 就是 ~liguanghe 这样, 项目和工具的文件夹都混放在一起. 感觉不大对. 
+- 是不是应该给它们新建一个文件夹呢? 或者系统的文件夹是什么?
+- 应该不会有影响, 先装了再说
+
+$ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+fatal: destination path '/Users/liguanghe/.pyenv' already exists and is not an empty directory.
+
+- 我曾经安装过了?
+- 怎么看到自己之前装了什么呀?
+- 试试升级它
+$ cd .pyenv
+$ git st
+新增了好多文件? 
+$ git pl
+nothing added to commit but untracked files present (use "git add" to track)
+liguanghedeMacBook-Pro:.pyenv liguanghe$ git pl
+fatal: No remote repository specified.  Please, specify either a URL or a
+remote name from which new revisions should be fetched.
+
+- 试试卸载它
+$ rm -rf $.pyenv
+liguanghedeMacBook-Pro:.pyenv liguanghe$ cd
+liguanghedeMacBook-Pro:~ liguanghe$ rm -rf $.pyenv
+liguanghedeMacBook-Pro:~ liguanghe$ cd .pyenv
+liguanghedeMacBook-Pro:.pyenv liguanghe$ cd
+liguanghedeMacBook-Pro:~ liguanghe$  brew uninstall pyenv
+Uninstalling /usr/local/Cellar/pyenv/1.0.8... (548 files, 2.2MB)
+liguanghedeMacBook-Pro:~ liguanghe$ cd .pyenv
+
+- 文件夹还在, 手动删除文件夹后, 重新安装. 
+$ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+
+done
+
+- 大妈多加的一行
+$ git clone https://github.com/pyenv/pyenv-virtualenv.git .pyenv/plugins/pyenv-virtualenv
+
+done
+
+
+```
+
+- 接下来大妈的命令和官方的其实是一回事. 官方在用命令行往文件里写了根目录.
+- 又出现了同样的元问题. 这个文件到底应该放在哪里, 是跟 .pyenv 平行的文件, 还是在 .pyenv 的文件夹里? 查过了, 是平行的文件.在 ~liguanghe, 里找到了 .bash_profile 文件. 
+```
+$ echo 'export PYENV_ROOT="$/.pyenv"' >> ~/.bash_profile
+# 上面这条去掉了 HOME. 因为是直接按安装在 ~liguanghe/ 里的
+$ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+$ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+# 下面再加上大妈多出来的一条:
+$ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
+
+```
+
+- 运行以检验成果
+```
+- 用官方文档里的命令
+$ exec "$SHELL"
+bash-3.2$ pyenv install 3.6.1
+bash: pyenv: command not found
+bash-3.2$
+- 用大妈的命令
+$ source .bash_profile
+-bash: pyenv: command not found
+-bash: export: `': not a valid identifier
+-bash: pyenv: command not found
+```
+- 没安装成功, 问题出在哪里? 
+- 应该是配置文件 .bash_profile 的问题.
+    - 所在文件夹 [不是]
+    - 有多个同名文件 [不是]
+    - 路径找不到 [不是]
+    - 没有安装成功 [不是]
+```
+export PATH
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+```
+
+```
+export PATH
+export PYENV_ROOT="$/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+```
+
+都不行.是什么问题呀....
+- 我现在的 .bash_profile
+```
+# Setting PATH for Python 3.5
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH
+
+# added by Anaconda3 4.2.0 installer
+export PATH="/Users/liguanghe/anaconda/bin:$PATH"
+
+# Setting PATH for Python 3.5
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 3.5
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+
+export PATH
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+```
+
+
+```
+bash-3.2$ which python
+/usr/bin/python
+bash-3.2$ echo PATH
+PATH
+```
+
+- pyenv/issue [没找到]
+- google'bash pyenv not found' [没找到]
+
+
+## 问题
+- 为什么我不能运行 pyenv?
+- 大妈回复
+```
+以往的配置有冲突否?乍净化环境先?
+配置文化乍加载?乍证明?
+pyenv 依赖什么?私人用部属在哪儿合理?
+```
+
+- 去掉  .bash_profile 文件中的其他行, 只剩最后四行
+    - bash-3.2$ 不行
+    - source .bash_profile 不行
+- 去掉 .bash_profile 文件中的其他行, 只剩最后三行
+    + bash-3.2$ 不行
+    + source . bash_profile 
+```
+$ source .bash_profile
+$ pyenv install 3.6.1
+Downloading Python-3.6.1.tar.xz...
+-> https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tar.xz
+Installing Python-3.6.1...
+```
+
+- 可以运行
+```
+$ pyenv install 2.7
+$ pyenv versions
+* system (set by /Users/liguanghe/.pyenv/version)
+  2.7
+  3.6.1
+$ python --version
+Python 2.7.10
+$ pyenv 3.6.1
+pyenv: no such command `3.6.1'
+$ pyenv global 3.6.1
+$ python --version
+Python 3.6.1
+```
+
+- 用 pyenv 将 python 版本转为3.6.1 , 命令行显示是python 版本是3.6.1 但是 jupyter notebook 还是 python2? 
+- 重装 jupyter notebook 就好了. 
+```
+$ pip install jupyter notebook
+```
+- [ ] 教程
