@@ -1,4 +1,20 @@
+---
+title:  Pyenv 学习线性记录
+date: 2017/9/2 15:00:32
+categories: 
+- python
 
+
+tags: 
+- python
+- pyenv
+- wiki
+- thinking
+- environment
+- record
+
+
+---
 ## 背景
 <- [12h[BUG]试运行 pandas 失败,已安装 anaconda. · Issue #202 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/202)
 <- [关于 Python2 和 Python3 共存及 jupyter notebook 安装问题 · Issue #25 · AIHackers/Py101-004](https://github.com/AIHackers/Py101-004/issues/25)

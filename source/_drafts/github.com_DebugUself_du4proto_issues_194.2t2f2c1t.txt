@@ -2,38 +2,36 @@
 - [x] 20170826
 - 形式: zoom 主题分享
 
-## 背景
-<- [42h[ASK]如何在困难的情况下继续自怼？ · Issue #192 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/192)
-<- [10d[task]s05e01危机录 · Issue #193 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/193)
+
 
 ## 大纲
 - issue 作为wiki 或 README 或 行动清单 的入口
 - 里程碑: 又 寸 心 的含义
 - 月计划有每一分一秒的结合
 - 囊括生活方方面面的玻璃花园 
-    + 私董会
+	+ 私董会
 
 ## 案例
 - [[S05E51]28d 域外生活录2 · Issue #174 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/174)
 - [[S04E51]28d 域外生活录](https://github.com/DebugUself/du4proto/issues/153)
-- [27d[TASK]精学大妈现场编程 · Issue #176 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/176)
-- [19w 录音 + 纪要](https://github.com/DebugUself/du4proto/issues/195)
-- [18w 录音 + 纪要](https://github.com/DebugUself/du4proto/issues/184)
-- [17w 录音 + 纪要](https://github.com/DebugUself/du4proto/issues/180)
-- [16w](https://github.com/DebugUself/du4proto/issues/171#issuecomment-318957713)
+- [27d\[TASK]精学大妈现场编程 · Issue #176 · DebugUself/du4proto][1]
+- [19w 录音 + 纪要][2]
+- [18w 录音 + 纪要][3]
+- [17w 录音 + 纪要][4]
+- [16w][5]
 
 对比: 
 
-- [72h [ANN] 170722 怼周会及会议纪要 · Issue #161 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/161)
-- [42h[TASK]2017-07-01周六怼周会 · Issue #151 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/151)
-- [42h[TASK]5.20 怼周会会议纪要 · Issue #115 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/115) 
+- [72h \[ANN] 170722 怼周会及会议纪要 · Issue #161 · DebugUself/du4proto][6]
+- [42h\[TASK]2017-07-01周六怼周会 · Issue #151 · DebugUself/du4proto][7]
+- [42h\[TASK]5.20 怼周会会议纪要 · Issue #115 · DebugUself/du4proto][8] 
 
 ## 片段
 生: 云中小熊=世界人 空间/时间/人
 年: IT 公司工签
 月: 域外生活录1/2/3 
-月项目: 精学大妈现场编程 [26d[TASK]精学大妈现场编程 · Issue #176 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/176)
-周: 时间账单分析 [4w[atl4dama] 时间帐单效能分析++++ · Issue #211 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/211)
+月项目: 精学大妈现场编程 [26d\[TASK]精学大妈现场编程 · Issue #176 · DebugUself/du4proto][9]
+周: 时间账单分析 [4w\[atl4dama] 时间帐单效能分析++++ · Issue #211 · DebugUself/du4proto][10]
 日: 每天两小时 输出- 输入 - 处理
 时/分: 21分.
 
@@ -43,5 +41,20 @@ itimelog 报告与时/日/月/年结合.
 ## 改进
 - 善加利用 github 的 commit 功能
 - 自动化: itimelog 与 github 结合, 形成的效能报告. 
+## 成果
+\<- [42h\[ASK]如何在困难的情况下继续自怼？ · Issue #192 · DebugUself/du4proto][11]
+\<- [10d\[task]s05e01危机录 · Issue #193 · DebugUself/du4proto][12]
 
 
+[1]:	https://github.com/DebugUself/du4proto/issues/176
+[2]:	https://github.com/DebugUself/du4proto/issues/195
+[3]:	https://github.com/DebugUself/du4proto/issues/184
+[4]:	https://github.com/DebugUself/du4proto/issues/180
+[5]:	https://github.com/DebugUself/du4proto/issues/171#issuecomment-318957713
+[6]:	https://github.com/DebugUself/du4proto/issues/161
+[7]:	https://github.com/DebugUself/du4proto/issues/151
+[8]:	https://github.com/DebugUself/du4proto/issues/115
+[9]:	https://github.com/DebugUself/du4proto/issues/176
+[10]:	https://github.com/DebugUself/du4proto/issues/211
+[11]:	https://github.com/DebugUself/du4proto/issues/192
+[12]:	https://github.com/DebugUself/du4proto/issues/193

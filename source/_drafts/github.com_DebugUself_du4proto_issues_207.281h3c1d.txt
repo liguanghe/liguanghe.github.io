@@ -28,32 +28,35 @@
 ## 执行
 - [ ] 8.26会议记录
     - [x] 小鹤记录
-    - [ ] 小明增补
-    - [ ] 诗颖增补
+    - [x] 小明增补
+    - [x] 诗颖增补
     - 链接:  https://pan.baidu.com/s/1kUFHTn5 密码: bthr
-- [ ] 处理小鹤的数据,以了解现有成果
-    - [ ] 导入数据
-        - [ ] d3 阅读新版分支内容
-            - [ ] 分支 README.md 旧了. [42h[TASK]提案:时间账单效能分析README修订](https://github.com/DebugUself/du4proto/issues/209)
-            - [ ] [du4proto/rules4pandas.mdown at atl4dama · DebugUself/du4proto](https://github.com/DebugUself/du4proto/blob/atl4dama/doc/rules4pandas.mdown)
+
++ [x] d3 阅读新版分支内容
+    + [x] 分支 README.md 旧了. [42h[TASK]提案:时间账单效能分析README修订](https://github.com/DebugUself/du4proto/issues/209)
+    + [x] [du4proto/rules4pandas.mdown at atl4dama · DebugUself/du4proto](https://github.com/DebugUself/du4proto/blob/atl4dama/doc/rules4pandas.mdown)
 ```
 - try 里的Ipynb 在开头要写功能/目标
 ```
-            - [ ] [atl4dama_fdback_hdk.mdown](https://github.com/DebugUself/du4proto/blob/atl4dama/doc/atl4dama_fdback_hdk.mdown)
+    - [x] [atl4dama_fdback_hdk.mdown](https://github.com/DebugUself/du4proto/blob/atl4dama/doc/atl4dama_fdback_hdk.mdown)
 ```
 这个 issue 应该嵌入项目分支文档, 行动(处理) - 输入内容 - 处理(行动) - 输出内容
 try -> 脚本
     \
      ->文档
 ```
-            - [ ] [DebugUself/du4proto at atl4dama](https://github.com/DebugUself/du4proto/tree/atl4dama)
+    - [x] [DebugUself/du4proto at atl4dama](https://github.com/DebugUself/du4proto/tree/atl4dama)
 ```
 - try 和 ipynb 分开
 - try 里是 .py
 - ipynb 里是 .ipynb
 ```
-- [ ] d3 取时间源生成 MVP 表格
-- [ ] d3 用 pandas DataDrame 做一个 散点图 / boxplot?
+- [x]d4-5 配置python 环境/pandas
+    + [x] pyenv
+    + [x] pip install pandas
+
+- [ ] d6 取时间源生成 MVP 表格
+- [ ] d6 用 pandas DataDrame 做一个 散点图 / boxplot?
 
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fivmpfkn29j30um0l8tbf.jpg)
 
