@@ -8,26 +8,26 @@
 ### 小鹤准备
 - 签证
 - 订房 
-    - [ ] chalets: 2/7 king size 8... [Chalet Backpackers in Dunedin, New Zealand - Find Cheap Hostels and Rooms at Hostelworld.com](http://www.hostelworld.com/hosteldetails.php/Chalet-Backpackers/Dunedin/271539?gclid=EAIaIQobChMIv8_MvIGJ1gIVwQYqCh31iwcBEAAYASAAEgKUN_D_BwE&s_kwcid=AL!591!3!190334391036!b!!g!!&source=adwordsdynamic&network=g&creative=190334391036&adposition=1t1&uniqueclickID=8177150234244533855&sub_keyword=&sub_ad=b&sub_publisher=ADW&ef_id=WR6kpwAAAGRVenAT:20170903122544:s)
-    - [x] Mc farmers: 3-4 queen size [McFarmers](http://www.otago-peninsula.co.nz/accommodation/mcfarmers.html)
-    - [x] nomads 5-6 queenstown [Confirmation Page](http://nomadsworld.com/index.php?option=com_procharter&view=booknowmessage&result=success&Itemid=569)
+	- [x] chalets: 2/7 king size 8... [Chalet Backpackers in Dunedin, New Zealand - Find Cheap Hostels and Rooms at Hostelworld.com][1]
+	- [x] Mc farmers: 3-4 queen size [McFarmers][2]
+	- [x] nomads 5-6 queenstown [Confirmation Page][3]
 - 订餐(查最好的餐厅) 9.25 
-    + [ ] 10.2 晚餐 青口
-    + [ ] 10.5/6 皇后镇晚餐?
-    + [ ] 10.7 晚餐 牛排
+	+ [ ] 10.2 晚餐 青口
+	+ [ ] 10.5/6 皇后镇晚餐?
+	+ [ ] 10.7 晚餐 牛排
 - 订票
 - 代购手信 
- 
+	 
 ### 给小鹤携带的物品准备
 - 小鹤淘宝订购:
-    + 充电电池及电池盒
-    + 转换插头
-    + 内存卡
+	+ 充电电池及电池盒
+	+ 转换插头
+	+ 内存卡
 - 刘欣签收: 
 - 刘欣代买: 
-    + 到东方宝泰 给 13416136446 会员, 配一副带度数的遮光眼镜. 
-    + 月饼
-    + 两包最便宜的玉溪
+	+ 到东方宝泰 给 13416136446 会员, 配一副带度数的遮光眼镜. 
+	+ 月饼
+	+ 两包最便宜的玉溪
 ### 打包行李
 - 拳击套和带子
 - 微单
@@ -37,7 +37,7 @@
 - 充电电池及电池盒
 - 转换插头
 - 内存卡   
-### 申报
+	### 申报
 - 食物
 - 药品
 ## 8天行程
@@ -81,9 +81,9 @@
 ## 旅费(RMB)
 - 刘欣机票往返: 11000
 - 住宿(h预付): 1975
-    + 但尼丁: 58×5×2天 = 580
-    + Mc farmers: 67.5×5×2天 =675
-    + 皇后镇: 144 ×5 = 720
+	+ 但尼丁: 62×5×2天 = 620
+	+ Mc farmers: 65×5×2天 =650
+	+ 皇后镇: 72×5×2天 = 720
 - 签证费(h预付): 825
 - 餐饮
 - 门票
@@ -91,3 +91,6 @@
 
 ## 后续
 
+[1]:	http://www.hostelworld.com/hosteldetails.php/Chalet-Backpackers/Dunedin/271539?gclid=EAIaIQobChMIv8_MvIGJ1gIVwQYqCh31iwcBEAAYASAAEgKUN_D_BwE&s_kwcid=AL!591!3!190334391036!b!!g!!&source=adwordsdynamic&network=g&creative=190334391036&adposition=1t1&uniqueclickID=8177150234244533855&sub_keyword=&sub_ad=b&sub_publisher=ADW&ef_id=WR6kpwAAAGRVenAT:20170903122544:s
+[2]:	http://www.otago-peninsula.co.nz/accommodation/mcfarmers.html
+[3]:	http://nomadsworld.com/index.php?option=com_procharter&view=booknowmessage&result=success&Itemid=569
