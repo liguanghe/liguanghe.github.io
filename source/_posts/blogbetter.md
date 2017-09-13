@@ -68,6 +68,13 @@ RSS 就相当于一个列表，你关注的人列表，有新消息也会发送�
 ## 设置后无反应
 $ hexo clean
 
+## Change Color of Blog Link
+I want my blog look like Github, so changed links color to blue.
+
+way:
+-  [hexo next 主题文章内容美化 | fuyi's blog]()(https://fuyis.me/2017/02/04/hexo-next-theme-beautiful/)
+- [用 git 及 github 的正确方式来重建博客]()(https://liguanghe.github.io/2017/05/22/blogRebuilt2/)
+
 [1]:	https://disqus.com/profile/signup/intent/
 [2]:	https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E5%A4%9A%E8%AF%B4-DISQUS
 [3]:	http://theme-next.iissnan.com/getting-started.html
