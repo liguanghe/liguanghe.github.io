@@ -13,10 +13,10 @@ comments: false
 
 [thinking][4]
 
-[ how to book liguanghe’s blog? 如何订阅李广鹤的博客? ][5]
+[ how to subscribe liguanghe’s blog? 如何订阅李广鹤的博客? ][5]
 
 [1]:	https://liguanghe.github.io/categories/python/
 [2]:	https://liguanghe.github.io/categories/github/
-[3]:	hhttps://liguanghe.github.io/categories/WriterEnvironment/
+[3]:	https://liguanghe.github.io/categories/WriterEnvironment/
 [4]:	https://liguanghe.github.io/categories/thinking/
-[5]:	http://liguanghe.github.io./2017/04/07/RSS/
+[5]:	https://liguanghe.github.io/2017/04/22/RSS/

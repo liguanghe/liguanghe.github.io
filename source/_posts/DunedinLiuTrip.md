@@ -1,0 +1,135 @@
+---
+title: Trip Dunedin and Queenstown
+date: 2017/9/19 09:34:32
+categories: 
+- GapYear
+tags:
+- NZ
+- Dunedin
+- Queenstown 
+- plan
+- meal
+- fun
+- entertainment
+- adventure
+- lifestyle
+- hostel
+- food
+- family
+- love
+- trip
+
+---
+
+[click here to hear what I was speaking(点此链接听英语语音)](https://www.lizhi.fm/2040956/2624871245400072198)
+
+## 行程
+- 10.1 香港
+- 10.2-10.4 但尼丁
+- 10.5-10.7 皇后镇
+- 10.8 新加坡
+
+## 事先准备
+### 小鹤准备
+- [x] 签证
+- [x] 订房 
+	- [x] chalets: 2/7 king size 8... [Chalet Backpackers in Dunedin, New Zealand - Find Cheap Hostels and Rooms at Hostelworld.com][1]
+	- [x] Mc farmers: 3-4 queen size [McFarmers][2]
+	- [x] nomads 5-6 queenstown [Confirmation Page][3]
+- [ ] 订餐(查最好的餐厅) 9.25 
+	+ [ ] 10.2 晚餐 青口
+	+ [ ] 10.5/6 皇后镇晚餐?
+	+ [ ] 10.7 晚餐
+- [x] 订票 9.18
+- [ ] 买手信 9.22
+	 
+### 给小鹤携带的物品准备
+- [x] 小鹤淘宝订购:
+	+ [x] 充电电池及电池盒
+	+ [x] 转换插头
+	+ [x] 内存卡
+- 刘欣签收: 
+- 刘欣代买: 
+	+ [x] 到东方宝泰 给 13416136446 会员, 配一副带度数的遮光眼镜. 
+	+ [ ] 两包最便宜的玉溪
+### 打包行李
+- 拳击套和带子
+- 写作书
+- 微单
+- 遮光眼镜
+- 月饼
+- 玉溪
+- 充电电池及电池盒
+- 转换插头
+- 内存卡   
+### 申报
+- 食物
+
+
+## 8天行程
+
+日期|时间|地点及行程
+---|---|---
+10.1|06:00|广州
+10.1|11:30|香港 午餐
+10.1|12:30|苹果专卖店(iPhone8/苹果触控板)/隐形眼镜
+10.1|13:30|
+10.1|16:00|前往香港机场
+10.1|19:10|香港-奥克兰 NZ80
+10.2|12:10|奥克兰-但尼丁 NZ675
+10.2|14:10|但尼丁机场
+10.2|15:00|广鹤旅馆
+10.2|18:00|晚餐
+10.2|20:00|pub音乐
+10.3|06:30|健身
+10.3|10:00|早午餐
+10.3|12:00|拳击
+10.3|13:30|午餐
+10.3|14:30|但尼丁特色小店: dead souls bookstop/火车站/
+10.3|17:00|超市(两天食材)
+10.3|18:00|开车到旅馆,美景
+10.3|18:30|Mcfarmer
+10.4|06:30|早餐,美景,木工,农场,读书,bbq
+10.5|07:30|离开 Mcfarmer 开车到 queenstown
+10.5|12:00|queenstown 旅馆, 午饭, 休息
+10.5|14:30|到中心 跳伞[Booking Confirmation](https://www.bookme.co.nz/things-to-do/queenstown/paymentConfirmation/4187/9C9035A1C46EF49557FD45059EB0EA46.bookme-2/984193?result=0000030111372710008260cec0c4c193&userid=Bookme)
+10.5|晚上|皇后镇 超市
+10.6|8:00|8:30旅馆接? 越野车看景 [Booking Confirmation](https://www.bookme.co.nz/things-to-do/queenstown/paymentConfirmation/4040/0179FF7037CD65F103DCCBBD648C8378.bookme-2/984398?result=00000301113929720061a89039229b5f&userid=Bookme)
+10.6|午餐|自带
+10.6|13:00|14点汽艇 [Thunder Jet - Epic deals and last minute discounts](https://www.bookme.co.nz/things-to-do/queenstown/activity/thunder-jet/47)
+10.6|晚上|
+10.7|8:00|9点缆车[Buy Tickets Queenstown](https://www.skyline.co.nz/en/queenstown/buy-skyline-queenstown-tickets/#buy)
+10.7|14:00|queenstown 开车回
+10.7|18:00|但尼丁 晚餐
+10.7|19:00|但尼丁 广鹤旅馆
+10.8|05:00|从但尼丁开车送刘欣到基督城机场
+10.8|11:50|基督城机场起飞
+10.8|17:40|新加坡机场过夜 [【樟宜机场过夜记】](https://tw.bring-you.info/changi-airport)
+10.9|08:20|新加坡机场起飞
+10.9|12:20|广州机场
+
+## 其他
+- 皇后镇天气: [Queenstown October Weather 2017 - AccuWeather Forecast for Otago New Zealand](https://www.accuweather.com/en/nz/queenstown/249932/october-weather/249932)
+
+## 费用
+
+- 刘欣机票往返: 11000
+- 住宿(h预付): 1975
+	+ 但尼丁: 62×5×2天 = 620
+	+ Mc farmers: 65×5×2天 =650
+	+ 皇后镇: 72×5×2天 = 720
+- 签证费(h预付): 825
+- 餐饮
+- 门票(h预付): 6320
+	+ 皇后镇 跳伞: 339×5×2人= 3390
+	+ 皇后镇 四驱车野外景点 150×5×2人 = 1500
+	+ 皇后镇 汽艇: 84×5×2人 = 840
+	+ 皇后镇 缆车/卡丁车: 59×5×2人 = 590
+- 油费
+- 手信
+
+## 后续
+
+[1]:	http://www.hostelworld.com/hosteldetails.php/Chalet-Backpackers/Dunedin/271539?gclid=EAIaIQobChMIv8_MvIGJ1gIVwQYqCh31iwcBEAAYASAAEgKUN_D_BwE&s_kwcid=AL!591!3!190334391036!b!!g!!&source=adwordsdynamic&network=g&creative=190334391036&adposition=1t1&uniqueclickID=8177150234244533855&sub_keyword=&sub_ad=b&sub_publisher=ADW&ef_id=WR6kpwAAAGRVenAT:20170903122544:s
+[2]:	http://www.otago-peninsula.co.nz/accommodation/mcfarmers.html
+[3]:	http://nomadsworld.com/index.php?option=com_procharter&view=booknowmessage&result=success&Itemid=569

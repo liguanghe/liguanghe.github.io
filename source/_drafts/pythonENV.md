@@ -1,4 +1,4 @@
-## 读懂仓库文件夹 README.md 线性记录 兼思考 开发和运行环境
+## 线性记录
 ### 嗯哼
 - 现象1
     + atl4dama 大妈在 ipynb 中开发完了整个脚本. 其中包括读取文件, 并操作.
@@ -11,15 +11,15 @@ xargs -I{} python zq7SET4.py {} > atl2SET4dama_all.csv
 - 一并要解决的, 是将文档中大妈散落的操作指南归化到总的 readme 上. 
 - 跟上大妈的轨迹
 ipynb -> (try) -> src
-看的时候是相反的, 先看脚本 README.md, 测试结果可以看 .ipynb
 
 ipynb|try|src/md
 zq0||readme.md
-zq1||zq1/2/3
-zq2||zq4/5/6/7SET4.py
+zq1||
+zq2||zq7SET4.py
 zq3||
 
 - 直接尝试 zq7set4.py
+
 ```
 liguanghedeMacBook-Pro:_atl2log liguanghe$ python zq7SET4.py
 Usage:
@@ -27,7 +27,10 @@ Usage:
 
 liguanghedeMacBook-Pro:_atl2log liguanghe$
 ```
+
 查看 zq7set4.py, 中写到: 
+
+
 ```
 if __name__ == '__main__':
     #print(__version__)
@@ -41,6 +44,7 @@ alt2SET4(_csv)
 ```
 
 在命令行直接试:
+
 ```
 _atl2log liguanghe$ find raw/zoomquiet/weekly/ | python zq7SET4.py
 find: raw/zoomquiet/weekly/: No such file or directory
@@ -185,136 +189,7 @@ zq2anazlyse.ipynb 中提到的 atl2dama4all.csv 是怎么生成的, 与 atl2dama
 
 他们不是一个 , 因为直接用 python zq7set4.py 处理这个. csv, 给出的是上面的结果. 
 
-发现 zq5pd0reclean.py 和 zq6split4weekly.py
-先继续关联 
-```
-find ../../raw/zoomquiet/1302--report/aTLer_14*.csv |
-xargs -I{} python zq1atl2lines.py {} |
-python zq2atl2act.py |
-python zq3st2sec.py |
-python zq4uniq.py | 
-zq5pd0reclean.py
-```
-显示: 
-```
-v17.9.10.0909
-Usage:
-        $ python zq5pd0reclean.py path/2/XXX.csv
-
-Traceback (most recent call last):
-  File "/Users/liguanghe/.pyenv/versions/3.6.1/lib/python3.6/site-packages/cbox/concurrency.py", line 53, in _simple_runner
-    yield func(item, **kwargs), None
-  File "zq4uniq.py", line 34, in uniq4ts
-    print(dl)
-BrokenPipeError: [Errno 32] Broken pipe
-```
-
-```_atl2log liguanghe$ find ../../raw/zoomquiet/1302--report/aTLer_14*.csv |
-  xargs -I{} python zq1atl2lines.py {} |
-python zq2atl2act.py |
-python zq3st2sec.py |
-python zq4uniq.py | sort -t',' -k1 > atl2dama2014.csv |
-python zq5pd0reclean.py
-v17.9.10.0909
-Usage:
-        $ python zq5pd0reclean.py path/2/XXX.csv
-```
-
-把 5 和 6 直接关联上
-```
-_atl2log liguanghe$ find ../../raw/zoomquiet/1302--report/aTLer_14*.csv | xargs -I{} python zq1atl2lines.py {} | python zq2atl2act.py | python zq3st2sec.py | python zq4uniq.py | python zq5pd0reclean.py | python zq6split4weekly.py
-v17.9.10.1001
-Usage:
-        $ python zq6split4weekly.py path/2/df_wday.csv
-
-Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
-BrokenPipeError: [Errno 32] Broken pipe
-Traceback (most recent call last):
-  File "/Users/liguanghe/.pyenv/versions/3.6.1/lib/python3.6/site-packages/cbox/concurrency.py", line 53, in _simple_runner
-    yield func(item, **kwargs), None
-  File "zq4uniq.py", line 34, in uniq4ts
-    print(dl)
-BrokenPipeError: [Errno 32] Broken pipe
-```
-
-跳过 atl2dama2014.csv 和 atl2dama4all.csv 的不同, 直接用 5 处理atl2dama2014.csv.
-```
-_atl2log liguanghe$ python zq5pd0reclean.py atl2dama2014.csv
-v17.9.10.0909
-       du_start        du_end act_type
-0  1.388490e+09  1.388495e+09    livin
-1  1.388495e+09  1.388519e+09    sleep
-2  1.388519e+09  1.388520e+09    chaos
-3  1.388520e+09  1.388532e+09    livin
-4  1.388532e+09  1.388547e+09    chaos
-       du_start        du_end act_type
-0  1.388490e+09  1.388495e+09    livin
-1  1.388495e+09  1.388519e+09    sleep
-2  1.388519e+09  1.388520e+09    chaos
-3  1.388520e+09  1.388532e+09    livin
-4  1.388532e+09  1.388547e+09    chaos
-       du_start        du_end act_type  wday
-0  1.388490e+09  1.388495e+09    livin     2
-1  1.388495e+09  1.388519e+09    sleep     2
-2  1.388519e+09  1.388520e+09    chaos     2
-3  1.388520e+09  1.388532e+09    livin     2
-4  1.388532e+09  1.388547e+09    chaos     2
-       du_start        du_end act_type  wday  wn4y
-0  1.388490e+09  1.388495e+09    livin     2     1
-1  1.388495e+09  1.388519e+09    sleep     2     1
-2  1.388519e+09  1.388520e+09    chaos     2     1
-3  1.388520e+09  1.388532e+09    livin     2     1
-4  1.388532e+09  1.388547e+09    chaos     2     1
-du_start    5700
-du_end      5700
-act_type    5700
-wday        5700
-wn4y        5700
-dtype: int64
-```
-
-
-在 \_atl2log 文件夹中找到了 df_isocalendar.csv
-
-```_atl2log liguanghe$ python zq6split4weekly.py df_isocalendar.csv
-v17.9.10.1001
-```
-
-这里没有在 weekly 的文件夹里生成文件
-
-要这样: 
-```
-python zq6split4weekly.py df_isocalendar.csv
-v17.9.10.1001
-    <---W_start
-```
-
-出了很多.csv 文件, 
-然后
-```
-༄ find ../../raw/zoomquiet/weekly/*.csv |
-xargs -I{} python zq7SET4.py {} > atl2SET4dama_all.csv
-```
-
-在 _atl2log 中生成了 atl2SET4dama_all.csv
-
-接下来用这个 .csv 在 ipynb中生成了折线图.
 
 
 
-
-
-
-
-
-
-
-
-
-## 心
-我要一生与之抗衡的就是这个得意忘形啊, 一有点成就, 就给自己过高的预期和标签, 现实中完不成, 就行为瘫痪,说自己的不是. 求快求多求全的心bug, 要一点一点的完成. 
-
-我看得懂明星的脚本, 看不懂大妈的脚本, 好想哭. 看不懂脚本, 不妨碍看懂他的 readme, 不妨碍协作.
-
-如何与高手一起做项目? 
 
