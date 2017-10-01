@@ -1,7 +1,28 @@
+---
+title: Three Months in NZ 域外生活三个月
+date: 2017/9/25 9:46:32
+categories: 
+- lifestyle
+tags: 
+- main title
+- record
+- study
+- time
+- project
+- cloud
+- person
+- English
+- project
+- Coding
+- Writing
+- law 
+
+---
+
 ## MainTitle
-- 求见云中小熊, 成为云中小熊, 灵魂伴侣也是云中小熊
-    + 云: 世界的/美好的
-    + 小熊: 自在的/不同的人
+- 求见云中小熊, 成为云中小熊, 灵魂伴侣也是云中小熊 (Bear in cloud, to visit, to be, to love)
+    + 云: 世界的/美好的 cloud: world wild/nice
+    + 小熊: 自在的/不同的人 bear: freedom/difference
 [蜉蝣化智 | Li Guanghe's blog](https://liguanghe.github.io/2017/07/27/smalltobig/)
 
 - 不断成长, 以最符合自然和自己的方式代入工作, 一切圆融统一, 成为一个不断膨胀的球体场.内核是那个带着红鼻子的云中小熊, 心里住着金色飞贼. (内)
@@ -47,9 +68,9 @@
  +-------------------------+
 ```
 
-## 三个月成果展示:
-- 英语
-    + 生活英语
+## 三个月成果展示: three months achievements
+- 英语 English
+    + 生活英语 Daily English
         + [How to begin practising English in Dunedin 选好城市, 开始英语](https://liguanghe.github.io/2017/07/07/dunedin3/)
         + [Got a car in Dunedin 没车没腿 | Li Guanghe's blog](https://liguanghe.github.io/2017/07/08/Got%20a%20car%20in%20Dunedin/)
         + [Starting Friendship in Dunedin 友谊晚餐 | Li Guanghe's blog](https://liguanghe.github.io/2017/07/09/DunedinDinner/)
@@ -76,11 +97,11 @@
         + [Meals 吃了么 | Li Guanghe's blog](https://liguanghe.github.io/2017/09/16/Dunedinfoods/)
         + [Trip Dunedin and Queenstown](https://liguanghe.github.io/2017/09/19/DunedinLiuTrip/)
 
-    - 工作英语
+    - 工作英语 Work English
         + [CV-assistant](https://app.yinxiang.com/shard/s50/nl/2147483647/c71dd8aa-8628-45f4-b746-35c6d1a67c9f/)
         + [cover letter- library assistant](https://app.yinxiang.com/shard/s50/nl/2147483647/73ea011d-8c90-477b-adb3-3797e90b3fb3/)
 
-- 编程
+- 编程 Coding
     + [Part Achievement in Python Project named atl4dama 时间账单项目阶段成果 | Li Guanghe's blog](https://liguanghe.github.io/2017/09/25/lgh8html/)
     + 工具: [du4proto/type|Jupyter notebook.md at lgh_career · DebugUself/du4proto](https://github.com/DebugUself/du4proto/blob/lgh_career/type%7CJupyter%20notebook.md)
     + 初试: [du4proto/lgh_clean_JF_data.ipynb at atl4dama · DebugUself/du4proto](https://github.com/DebugUself/du4proto/blob/atl4dama/try/lgh_clean_JF_data.ipynb)
@@ -90,15 +111,15 @@
     + [Basic Element and Grammer of Coding](https://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/)
     + [源数据 bug, 补一行代码, 中间试好多行](https://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/)
     
-- 写作
+- 写作 Writing Novel
     + [蜉蝣化智](https://liguanghe.github.io/2017/07/27/smalltobig/)
     + [苏](https://liguanghe.github.io/2017/09/14/LiveSexSoul/)
-- 知产
+- 知产 Law
     + 选题
         * [[S04E51]28d开题: 在开源的世界里是否还需要保护知识产权 · Issue #158 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/158)
         * [开源情怀遭遇专利咸猪手](https://mp.weixin.qq.com/s/_LrCmqeSGl-fAz1qos-aWw)
 
-## 时间账单
+## 时间账单 Time Report
 完成以上内容需要多少时间, 每个占比是多少? 时间账单告诉你. 
 - [六个月时间账单报告 | Li Guanghe's blog](https://liguanghe.github.io/2017/09/25/TimeReport0924/)
 - [五个月时间账单报告 | Li Guanghe's blog](https://liguanghe.github.io/2017/08/26/TimeReport0826/)

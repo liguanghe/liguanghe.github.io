@@ -112,3 +112,5 @@ df[0:z]
     - 但是, 我们自己的先见之明, 导致了一系列误解
     - 进一步的, 又没有在第一时间用 py 的自省能力完成检验
     - 导致进行了错误的 google , 自然越来越乱, 无法寸进了...
+
+[Understanding Data Types in Python | Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html)

@@ -1,0 +1,36 @@
+## 问题背景
+- [x] d1 模仿 atl4dama 项目 建立分支以及文档结构. 
+    - 将原始数据放进 _raw 中, 
+    - 在 _ipynb 中新建文件进行尝试.
+    - 项目 README.md 中撰写思路
+    - 三个阶段: 数据清洗 -> 数据分析 -> 数据展示
+- [x] 描述原始数据特点
+    - 多余空行
+    - 重复标题 '幸福之路'
+    - 章节标题 '第一章'~'第十章'
+    - 单个词已用空格隔开
+- 数据清洗
+    + 理想状态: ['动物','科学','...']
+        + 全篇不分段
+        + 没有标题'幸福之路'行
+        + 没有'第一章'...
+        + 列表每一个词.
+    + 步骤
+        + open 
+            * ```for line in data:line 分行``` 
+        
+            * ```with open as f:``` 
+        
+* 数据分析
+    - 变成二元词组 array
+    - adjacent items in list Frequency numpy
+        + numpy .unique
+
+- [numpy.asarray — NumPy v1.13 Manual](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asarray.html)
+- [numpy.bincount — NumPy v1.13 Manual](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bincount.html)
+- [numpy.unique — NumPy v1.10 Manual](https://docs.scipy.org/doc/numpy-1.10.1/reference/generated/numpy.unique.html)
+- [5. Data Structures — Python 3.6.3rc1 documentation](https://docs.python.org/3/tutorial/datastructures.html#)
+- [4. More Control Flow Tools — Python 3.6.3rc1 documentation](https://docs.python.org/3/tutorial/controlflow.html)
+- [5. Built-in Types — Python 2.7.14 documentation](https://docs.python.org/2/library/stdtypes.html)
+- [numpy - How to count the occurrence of certain item in an ndarray in Python? - Stack Overflow](https://stackoverflow.com/questions/28663856/how-to-count-the-occurrence-of-certain-item-in-an-ndarray-in-python)
+- [python - numpy: most efficient frequency counts for unique values in an array - Stack Overflow](https://stackoverflow.com/questions/10741346/numpy-most-efficient-frequency-counts-for-unique-values-in-an-array)
