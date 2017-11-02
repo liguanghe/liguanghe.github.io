@@ -6,7 +6,7 @@ categories:
 tags:
 - python
 - code
-- english
+- English
 - study
 - tutorial
 - basic
@@ -54,7 +54,7 @@ e.g.
 
 
 ## 字母词 = 数字 是变量
-e.g.
+e.g.1
 
 
 ```python
@@ -68,7 +68,14 @@ girl + boy
 
     30
 
-
+e.g.2
+变量赋值任何数字后, 之后继续使用这个变量. 
+```
+line_n = 0 
+limit > 10000
+lm = Counter() 
+line_n += 1 
+```
 
 ## 引号里面有文字, 整个是字符串
 e.g.
@@ -152,7 +159,11 @@ w[:-2]# the first letter to the last two letters of 'python'
 
     'pyth'
 
-
+## '字母词做容器( list/counter/dict)时 后面跟的[ ]表示其中的元素( elements)
+```
+lm = Counter()
+lm[key]
+```
 
 ## The built-in function len() returns the length of a string:
 e.g.

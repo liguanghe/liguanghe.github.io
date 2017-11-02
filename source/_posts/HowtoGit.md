@@ -6,7 +6,7 @@ categories:
 tags:
 - git 
 - github
-- english
+- English
 - study
 - tutorial
 ---

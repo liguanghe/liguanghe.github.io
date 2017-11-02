@@ -6,7 +6,7 @@ categories:
 tags:
 - python
 - code
-- english
+- English
 - study
 - achievement
 - atl4dama

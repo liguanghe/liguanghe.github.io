@@ -1,0 +1,65 @@
+<- [7d[LOG][ch2]记录任务过程 · Issue #60 · AIHackers/DeepLearning101-002](https://github.com/AIHackers/DeepLearning101-002/issues/60)
+- [ ] ch1改进
+- [ ] ch2改进 [DeepLearning101-002/Ch2Q3_New.ipynb at master · hysic/DeepLearning101-002](https://github.com/hysic/DeepLearning101-002/blob/master/ch2/project/Ch2Q3_New.ipynb) 
+- [x] d1 刷卡包, 提取任务和思路
+- 理解 TensorFlow，利用 TensorFlow 实现无隐层和单隐层神经网络模型
+- [x] d2 视频1.Tensorflow 与神经网络
+```
+## 线性回归
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fl26ez4959j30xs0qcwki.jpg)
+y = w_1x_1+w_2x_2+.....+w_nx_n+b
+
+向量化表示
+y=w^T x + b (t 是转至的意思, w和 x是加粗的,表示它们是个向量)
+w^T:[w_1 w_2 w_3]
+x:[竖着的 x_1 x_2 x_3]
+w_1x_1+w_2x_2+.....+w_nx_n 是 w向量和 x向量的点乘
+
+点乘
+
+$w = np.asarray([1,2,3])
+$x = np.asarray([3,2,1])
+$w.doc(x)
+10
+```
+- [x] [NumPy — NumPy](http://www.numpy.org/)
+- [x] d2 视频2. TensorFlow 导论
+
+[DeepLearning101-002/1101vedio2Tensorflow.ipynb at lghDL · liguanghe/DeepLearning101-002](https://github.com/liguanghe/DeepLearning101-002/blob/lghDL/ipynb/1101vedio2Tensorflow.ipynb)
+
+- [ ] [Getting Started With TensorFlow  |  TensorFlow](https://www.tensorflow.org/get_started/get_started)
+    - [x] Graph tensor 是张量, 包含向量(vector)/标量(sc...)等. 按阶(rank)升维( de...), 有图表( graph)和节点(node). 节点有不可变和可变, 不可变有常数(constant)和操作(operation),可变有 variable. 还有占位符. [1102TensorFlow.ipynb](https://github.com/liguanghe/DeepLearning101-002/blob/lghDL/ipynb/1102TensorFlow.ipynb)
+        - [x] [tf.Graph  |  TensorFlow](https://www.tensorflow.org/api_docs/python/tf/Graph)
+        - [x] [tf.Tensor  |  TensorFlow](https://www.tensorflow.org/api_docs/python/tf/Tensor)
+    - [ ] complete Program 
+- [ ] [Google TensorFlow Tutorial](https://www.slideshare.net/tw_dsconf/tensorflow-tutorial)
+
+- [ ] 视频3.TensorFlow 实现线性回归
+- [ ] placeholder: 从字面意思理解，它是一个占位符。使用 placeholder 构建的模型更灵活，训练模型时你可以根据需要给模型喂（feed）模型不同的数据。一般来说，placeholder 主要用于定义模型输入及 label（有监督训练模型中才需要）。
+- [ ] 随机梯度下降法与一般梯度下降法（Batch Gradient Descent)相比有哪些优点？
+- [ ] Placeholder 与直接使用数据相比有哪些好处？
+- [ ] [Stochastic gradient descent - Wikipedia](https://en.wikipedia.org/wiki/Stochastic_gradient_descent)
+- [ ] [Matplotlib: Python plotting — Matplotlib 2.1.0 documentation](https://matplotlib.org/)
+- [ ] [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/#matplotlib)
+- [ ] 视频4. 分类问题与逻辑回归
+- [ ] 图片分类 [MNIST For ML Beginners  |  TensorFlow](https://www.tensorflow.org/get_started/mnist/beginners)
+- [ ] [Logistic regression - Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)
+- [ ] [ADAfaEPoV - ch12.pdf](http://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch12.pdf)
+- [ ] 视频5.决策界面与神经网络
+- [ ] [Decision Boundaries](http://www.cs.princeton.edu/courses/archive/fall08/cos436/Duda/PR_simp/bndrys.htm)
+- [ ] 视频提到的资料[Plot the decision boundaries of a VotingClassifier — scikit-learn 0.19.1 documentation](http://scikit-learn.org/stable/auto_examples/ensemble/plot_voting_decision_regions.html)
+- [ ] 任务1. 用 TensorFlow 实现基于随机梯度下降的线性回归程序
+- [ ] 任务2. 解释交叉熵的优化效果
+    - [ ] [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/chap3.html) 第三章公式（63）的部分，解释为什么加了 Sigmoid 之后，用交叉熵做损失函数比用差值平方的效果好？
+- [ ] [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/chap3.html)可以思考一下 S 函数的特性和输出层权重的偏导数
+- [ ] 任务三：实现无隐层和单隐层神经网络
+    - 对于给定的一个二维分类数据集，基于 TensorFlow 分别实现无隐层（Sigmoid）、单隐层神经网络（tanh + sigmoid）。比较训练集的分类准确率，并绘制两个神经网络的决策界面。
+- [ ] 进阶任务（选做）解释为什么隐层加了非线性激活函数之后，整个神经网络模型的决策界面就变成非线性了。
+- [ ] 进阶任务（选做）使用 TensorFlow 构建神经网络，实现 ch2 的情感分类问题，比较与 Naive Bayes 的区别。
+
+d1 40 min
+d2 180 min
+d3 90 min
+
+
+

@@ -6,7 +6,7 @@ categories:
 tags:
 - git 
 - github
-- english
+- English
 - study
 ---
 After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, i became to use to it, I try to use it to be my knowledge management system, yet haven’t read the official document named Github guide. 
