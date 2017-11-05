@@ -1,14 +1,35 @@
 
+---
+title: Boat House 
+date: 2017/11/4 15:35:32
+categories: 
+- GapYear
+tags:
+- NZ
+- Dunedin
+- English
+- life
+- lifestyle
+- freedom
+- intelligence
+- learning 
+- record
+---
 
 
-Last week I'm a sort of confusing about the porpuse on staying in NZ, thanks for a friend took me to his friend's house, showed me something different. The life style is quite different than I have seen. As the friend said, this is  nomarl life, Dunedin's life is crazy. I think I'm from a crizier place. 
 
-This page is not for me, it's for people who love life. This boat stay nearby a road to a beach nearby Dunedin, if you drive to the beach, you will easy to miss that boat. I'm so lucky that I didn't miss it, and thanks for my friend, so i was invited in and was allowed to take pictures there. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gW-3L1G_LYE" frameborder="0" allowfullscreen></iframe>
 
-The boat was built by Doyi alone. 
+Chinese friends please watch the vedio below on bilibili:
+
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=15947363&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
+
 
 
 ![](https://ws1.sinaimg.cn/large/006tKfTcgy1fl3sprv8xyj31kw16onpd.jpg)
+
+This exquisite art stands on the side of a road leading to a beach, blocked by shrubs, it's built by Doyi himself, I'm so lucky to invite it.
 
 这座精致的艺术品与主人的一切连接在一起, 展示着职业自由人 Doyi 的精神世界. 它立在通往海滩的路边, 在灌木的掩映下, 憧憬海滩而赶路的你很容易错过它. 我很幸运, 得见这朋友的朋友的家. 
 
@@ -16,11 +37,12 @@ The boat was built by Doyi alone.
 
 船上面相当于屋顶, 通过小窗爬出来坐上屋顶, 晒着阳光浴眺望不远的天海滩. 不远处有人坐浅草野餐. 船下面围了起来, 储藏大件物品, 像车库门一样可开大开小. 船一侧是院子. 另一侧放着自制的海滩风车, 三个轮子和几条铁管焊成. 起风时, 时速有40公里. 狗狗坐在Doyi 的膝头, 海风吹动它的耳朵. 
 
+The boat cuts inside space to outside, doors and windows connect them. climbing out of a cute window, you are on the top of the boat, enjoy the sunshine, watching beach, sea and sky nearby. the bottom of the boat is coverd to hold big items. One side of the boat is a yard. There is a tricycle without engine buye by wind otherside. It's also made by Doyi, with three whiles and sveral iron pips. When wind comes, the tricycle runs 40km/h, dog sit on Doyi's knees, it's ear moved with the wind. 
 
 ![](https://ws1.sinaimg.cn/large/006tKfTcgy1fl3tbzvkvwj31kw16okjl.jpg)
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1fl3t91s1ytj31kw1kwu0y.jpg)
 
-
+The inside space also be divided to two floors, connected with a stair. There are lounge, kitchen, bathroom and washingroom on the ground, plus a amazing room. Two bedrooms on the first floor. 
 
 船内亦被隔成两层, 转梯相连. 下层是客厅,厨房,浴室,洗手间, 还有一间你想不到但看到便觉得合情合理的房间. 上层是两个卧室.
 
