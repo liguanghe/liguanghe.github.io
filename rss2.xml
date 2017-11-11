@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Li Guanghe&#39;s blog</title>
+    <link>http://liguanghe.github.io/</link>
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Sat, 11 Nov 2017 04:03:46 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Mac can&#39;t import matplotlib?</title>
+      <link>http://liguanghe.github.io/2017/11/11/PythonPltMac/</link>
+      <guid>http://liguanghe.github.io/2017/11/11/PythonPltMac/</guid>
+      <pubDate>Sat, 11 Nov 2017 03:45:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/11/PythonPltMac/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
+&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>怼圈 MVP</title>
+      <link>http://liguanghe.github.io/2017/11/06/DebugMVP/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/DebugMVP/</guid>
+      <pubDate>Sun, 05 Nov 2017 21:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;所谓 MVP, 即最小行动,内含持续, 积少成多. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;月计划 (每四周 60 min)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;s0xe51, 持续报告, 互相督促. &lt;/li&gt;
+&lt;li&gt;持续月计划的好处. &lt;ul&gt;
+&lt;li&gt;可跟踪进展, 回顾, 改进或换
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/DebugMVP/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Boat House</title>
+      <link>http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/</link>
+      <guid>http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/</guid>
+      <pubDate>Sat, 04 Nov 2017 02:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gW-3L1G_LYE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Chinese frien
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>时间告诉你什么, 开智Python104结业路演.</title>
+      <link>http://liguanghe.github.io/2017/11/01/PY104show/</link>
+      <guid>http://liguanghe.github.io/2017/11/01/PY104show/</guid>
+      <pubDate>Tue, 31 Oct 2017 21:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;昨天以时间报告的阶段成果做 PY104的结业路演. 下面将Keynote 奉上. &lt;/p&gt;
+&lt;p&gt;Python 不仅可以实现商业用途, 对于个人生活质量会有很大提升. 昨天跟 Nephew 聊天, 他的工作是图片处理, 因为程序员朋友教了他两行命令行的命令, 每天给他节省了
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/01/PY104show/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Two Days Out of Dunedin 南下两小时的两天</title>
+      <link>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</link>
+      <guid>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</guid>
+      <pubDate>Thu, 26 Oct 2017 07:09:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;After driving 90 minutes towards South, we arrived Catlin. This place is famous for its beaches, light house and the forest. &lt;/p&gt;
+&lt;p&gt;New 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>S07TimeReport 7季时间账单报告</title>
+      <link>http://liguanghe.github.io/2017/10/22/TimeReport1022/</link>
+      <guid>http://liguanghe.github.io/2017/10/22/TimeReport1022/</guid>
+      <pubDate>Sat, 21 Oct 2017 23:42:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;改版, 逐步改为自动化. &lt;/li&gt;
+&lt;li&gt;横轴为 周(W), 纵轴为 小时 (H)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Output&quot;&gt;&lt;a href=&quot;#Output&quot; class=&quot;headerlink&quot; title=&quot;Output&quot;&gt;&lt;/a&gt;Outp
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/10/22/TimeReport1022/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Git One branch to Multiple Repositories</title>
+      <link>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/</link>
+      <guid>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/</guid>
+      <pubDate>Sat, 14 Oct 2017 20:46:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;~如有更好的方法, 欢迎推荐&lt;/p&gt;
+&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;在怼圈半年, 完全熟悉了这里的模式, 希望将我的一切项目都在怼圈的分支中进行. &lt;/
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Atom Time Report1 时间账单报告自动化1</title>
+      <link>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/</link>
+      <guid>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/</guid>
+      <pubDate>Sat, 14 Oct 2017 19:45:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;Sleep&lt;/p&gt;
+&lt;h2 id=&quot;Achievement&quot;&gt;&lt;a href=&quot;#Achievement&quot; class=&quot;headerlink&quot; title=&quot;Achievement&quot;&gt;&lt;/a&gt;Achievement&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Base on Atl4dam
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>最快速提升打字速度两倍</title>
+      <link>http://liguanghe.github.io/2017/10/14/Shuangpin/</link>
+      <guid>http://liguanghe.github.io/2017/10/14/Shuangpin/</guid>
+      <pubDate>Sat, 14 Oct 2017 08:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;技巧&quot;&gt;&lt;a href=&quot;#技巧&quot; class=&quot;headerlink&quot; title=&quot;技巧&quot;&gt;&lt;/a&gt;技巧&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;自然码双拼. 要记的码最少. &lt;ul&gt;
+&lt;li&gt;找个周六清早: &lt;ul&gt;
+&lt;li&gt;10分钟记住码. &lt;/li&gt;
+&lt;li&gt;立刻将手
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/10/14/Shuangpin/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Queenstown 家人来访 之 皇后镇篇</title>
+      <link>http://liguanghe.github.io/2017/10/07/queenstown/</link>
+      <guid>http://liguanghe.github.io/2017/10/07/queenstown/</guid>
+      <pubDate>Sat, 07 Oct 2017 07:45:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;去&quot;&gt;&lt;a href=&quot;#去&quot; class=&quot;headerlink&quot; title=&quot;去&quot;&gt;&lt;/a&gt;去&lt;/h2&gt;&lt;p&gt;“提前进入工作状态是吧? 好, 现在就开始.”&lt;/p&gt;
+&lt;p&gt;这句话之后, 刘欣也打开 Macbook, 跟我一样把头埋了进去.&lt;/p&gt;
+&lt;p&gt;明天
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/10/07/queenstown/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>When they visit Dunedin 家人朋友来访时 之 但尼丁篇</title>
+      <link>http://liguanghe.github.io/2017/10/07/friendsFamilies/</link>
+      <guid>http://liguanghe.github.io/2017/10/07/friendsFamilies/</guid>
+      <pubDate>Sat, 07 Oct 2017 06:14:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;New Zealand is famous by its grouses  view, attracts huge number of people to visit. If some of them are your friends and they know that 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/10/07/friendsFamilies/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Three Months in NZ 域外生活三个月</title>
+      <link>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/</link>
+      <guid>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/</guid>
+      <pubDate>Sun, 24 Sep 2017 20:46:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;MainTitle&quot;&gt;&lt;a href=&quot;#MainTitle&quot; class=&quot;headerlink&quot; title=&quot;MainTitle&quot;&gt;&lt;/a&gt;MainTitle&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;求见云中小熊, 成为云中小熊, 灵魂伴侣也是云中小熊 (Bear 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>六个月时间账单报告</title>
+      <link>http://liguanghe.github.io/2017/09/25/TimeReport0924/</link>
+      <guid>http://liguanghe.github.io/2017/09/25/TimeReport0924/</guid>
+      <pubDate>Sun, 24 Sep 2017 20:25:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;9月小结&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;睡眠时间持平 每周 60 h&lt;/li&gt;
+&lt;li&gt;不良娱乐时间 每周 &amp;lt; 5 h&lt;/li&gt;
+&lt;li&gt;运动, 持续每天, 每周 8-11 h&lt;/li&gt;
+&lt;li&gt;编程, 持续每天, 每周 17-31 h&lt;/li&gt;
+&lt;li&gt;总学习时间, 每
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/25/TimeReport0924/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Part Achievement in Python Project named atl4dama 时间账单项目阶段成果</title>
+      <link>http://liguanghe.github.io/2017/09/25/lgh8html/</link>
+      <guid>http://liguanghe.github.io/2017/09/25/lgh8html/</guid>
+      <pubDate>Sun, 24 Sep 2017 19:25:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;In this month, I’m part of a Python project named atl4dama. Here is the achievements.&lt;/p&gt;
+&lt;h2 id=&quot;Project-Background&quot;&gt;&lt;a href=&quot;#Project-B
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/25/lgh8html/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>源数据 bug, 补一行代码, 中间试好多行</title>
+      <link>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</link>
+      <guid>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</guid>
+      <pubDate>Tue, 19 Sep 2017 23:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;bug&quot;&gt;&lt;a href=&quot;#bug&quot; class=&quot;headerlink&quot; title=&quot;bug&quot;&gt;&lt;/a&gt;bug&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;(时间账单项目)做折线图时发现异常. set4 应该在0-2 之间, 在10-20区间的都是异常, 尝试找出这两个数据(
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Trip Dunedin and Queenstown</title>
+      <link>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</link>
+      <guid>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</guid>
+      <pubDate>Mon, 18 Sep 2017 21:34:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2624871245400072198&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Meals 吃了么</title>
+      <link>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</link>
+      <guid>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</guid>
+      <pubDate>Sat, 16 Sep 2017 05:05:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2624175737723394566&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear【dunedin dinner for friendshi
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/16/Dunedinfoods/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>苏</title>
+      <link>http://liguanghe.github.io/2017/09/14/LiveSexSoul/</link>
+      <guid>http://liguanghe.github.io/2017/09/14/LiveSexSoul/</guid>
+      <pubDate>Wed, 13 Sep 2017 22:00:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;广南&quot;&gt;&lt;a href=&quot;#广南&quot; class=&quot;headerlink&quot; title=&quot;广南&quot;&gt;&lt;/a&gt;广南&lt;/h2&gt;&lt;p&gt;叶卡斯琳娜大帝生性放荡, 但这并不妨碍人们称她大帝. &lt;/p&gt;
+&lt;p&gt;以上或只是传言, 在广南构筑的商业帝国里, 她的事迹却不是, 毕竟整个
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/14/LiveSexSoul/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Basic Element and Grammer of Coding</title>
+      <link>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</link>
+      <guid>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</guid>
+      <pubDate>Sun, 10 Sep 2017 20:25:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;you must begin at this page: &lt;a href=&quot;https://docs.python.org/3.5/tuto
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Single Room in Hostel 七夕搬单间</title>
+      <link>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/</link>
+      <guid>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/</guid>
+      <pubDate>Fri, 08 Sep 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2621708463693096966&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Speaking to Writing 在英语环境中提升英语</title>
+      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
+      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;里程碑小故事&lt;ul&gt;
+&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Git 入怼之独立分支</title>
+      <link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
+      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;此分支非彼分支, 即不是一个项目中为了完善项目, 从而早晚要合并到主分支的其他分支. 而是永远不会合并到主项目, 仅为方便怼友互看的独立分支. 每个独立分支是一个独立的项目. &lt;/li&gt;
+&lt;li&gt;此分支特征&lt;ul&gt;
+&lt;li&gt;新建时基本空白, 不包含主分支的内容&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>To Be a Good Driver 但尼丁新增一名好司机</title>
+      <link>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/</link>
+      <guid>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/</guid>
+      <pubDate>Sat, 02 Sep 2017 09:10:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2621376516410964486&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking today(点此
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Mac OSx Python 环境配置(操作指南)</title>
+      <link>http://liguanghe.github.io/2017/09/02/pyenv/</link>
+      <guid>http://liguanghe.github.io/2017/09/02/pyenv/</guid>
+      <pubDate>Sat, 02 Sep 2017 03:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;why&quot;&gt;&lt;a href=&quot;#why&quot; class=&quot;headerlink&quot; title=&quot;why&quot;&gt;&lt;/a&gt;why&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;用 pyenv 管理 python 版本, 而不是用 anaconda. 理由: &lt;a href=&quot;http://blo
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/02/pyenv/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Pyenv 学习线性记录</title>
+      <link>http://liguanghe.github.io/2017/09/02/NotePyenvPython/</link>
+      <guid>http://liguanghe.github.io/2017/09/02/NotePyenvPython/</guid>
+      <pubDate>Sat, 02 Sep 2017 03:00:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;&amp;lt;- &lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/202&quot; targ
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/02/NotePyenvPython/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>五个月时间账单报告</title>
+      <link>http://liguanghe.github.io/2017/08/26/TimeReport0826/</link>
+      <guid>http://liguanghe.github.io/2017/08/26/TimeReport0826/</guid>
+      <pubDate>Sat, 26 Aug 2017 11:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;进步计划&quot;&gt;&lt;a href=&quot;#进步计划&quot; class=&quot;headerlink&quot; title=&quot;进步计划&quot;&gt;&lt;/a&gt;进步计划&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;继续坚持之前的目标&lt;/li&gt;
+&lt;li&gt;开始新项目, 列入 data, career&lt;/li&gt;
+&lt;li&gt;如果，想看
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/26/TimeReport0826/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Special Day of Dunedin 但尼丁特色一天</title>
+      <link>http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/</link>
+      <guid>http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/</guid>
+      <pubDate>Sat, 26 Aug 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2620595165221732870&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>丑照何时曝, 当然变美时 —— 运动follower 招募</title>
+      <link>http://liguanghe.github.io/2017/08/16/KeepTogether/</link>
+      <guid>http://liguanghe.github.io/2017/08/16/KeepTogether/</guid>
+      <pubDate>Tue, 15 Aug 2017 21:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2618588406176141318&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【dunedin keep hit together】在线收听&lt;em&gt;李广鹤&lt;/em&gt;荔枝FM
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/16/KeepTogether/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Weekend 周末小憩</title>
+      <link>http://liguanghe.github.io/2017/08/12/DunedinWeekend/</link>
+      <guid>http://liguanghe.github.io/2017/08/12/DunedinWeekend/</guid>
+      <pubDate>Sat, 12 Aug 2017 11:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;Today I have a Dunedin day. I went to traditional market after programing, there are many local food there, fresh and unique. Musicians p
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/12/DunedinWeekend/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Work Responsibility 负责地工作</title>
+      <link>http://liguanghe.github.io/2017/08/10/WorkResponsibility/</link>
+      <guid>http://liguanghe.github.io/2017/08/10/WorkResponsibility/</guid>
+      <pubDate>Thu, 10 Aug 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2618067057275643910&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/10/WorkResponsibility/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>workExchange 换宿及停止</title>
+      <link>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/</link>
+      <guid>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/</guid>
+      <pubDate>Wed, 09 Aug 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2617628276976195590&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Learning 沉迷学习 无法自拔</title>
+      <link>http://liguanghe.github.io/2017/08/05/learning/</link>
+      <guid>http://liguanghe.github.io/2017/08/05/learning/</guid>
+      <pubDate>Sat, 05 Aug 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2617090166966539782&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/05/learning/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>boxing 参加拳击俱乐部</title>
+      <link>http://liguanghe.github.io/2017/08/04/boxing/</link>
+      <guid>http://liguanghe.github.io/2017/08/04/boxing/</guid>
+      <pubDate>Fri, 04 Aug 2017 04:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2616141750138372102&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/04/boxing/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>新西 蓝</title>
+      <link>http://liguanghe.github.io/2017/08/01/NZBlue/</link>
+      <guid>http://liguanghe.github.io/2017/08/01/NZBlue/</guid>
+      <pubDate>Tue, 01 Aug 2017 07:09:46 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;新西-蓝&quot;&gt;&lt;a href=&quot;#新西-蓝&quot; class=&quot;headerlink&quot; title=&quot;新西 蓝&quot;&gt;&lt;/a&gt;新西 蓝&lt;/h2&gt;&lt;p&gt;行车，天上的浅灰云彩覆盖整个大陆，只在海边露出了一线亮蓝色的天，无论怎么开，都只看到这线缝隙，好像我们在大鱼嘴中驰骋, 舌头
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/01/NZBlue/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>三十女人隐喻</title>
+      <link>http://liguanghe.github.io/2017/08/01/Women/</link>
+      <guid>http://liguanghe.github.io/2017/08/01/Women/</guid>
+      <pubDate>Tue, 01 Aug 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;这是一篇读书笔记, 整本\&amp;lt;我们赖以生存的隐喻&gt; 我语音阅读完成, 记录在 &lt;a href=&quot;https://www.lizhi.fm/2040956/album/2601859502008319515&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/08/01/Women/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>First Step to Git</title>
+      <link>http://liguanghe.github.io/2017/07/30/HowtoGit/</link>
+      <guid>http://liguanghe.github.io/2017/07/30/HowtoGit/</guid>
+      <pubDate>Sat, 29 Jul 2017 21:25:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;What-is-Git&quot;&gt;&lt;a href=&quot;#What-is-Git&quot; class=&quot;headerlink&quot; title=&quot;What is Git&quot;&gt;&lt;/a&gt;What is Git&lt;/h2&gt;&lt;p&gt;I know you get in touch with Git f
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/30/HowtoGit/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四月时间账单报告</title>
+      <link>http://liguanghe.github.io/2017/07/30/TimeReport0730/</link>
+      <guid>http://liguanghe.github.io/2017/07/30/TimeReport0730/</guid>
+      <pubDate>Sat, 29 Jul 2017 13:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;进步计划&quot;&gt;&lt;a href=&quot;#进步计划&quot; class=&quot;headerlink&quot; title=&quot;进步计划&quot;&gt;&lt;/a&gt;进步计划&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;继续坚持之前的目标&lt;/li&gt;
+&lt;li&gt;开始新项目, 列入 data, career&lt;/li&gt;
+&lt;li&gt;如果，想看
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/30/TimeReport0730/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>蜉蝣化智</title>
+      <link>http://liguanghe.github.io/2017/07/27/smalltobig/</link>
+      <guid>http://liguanghe.github.io/2017/07/27/smalltobig/</guid>
+      <pubDate>Thu, 27 Jul 2017 11:00:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;岛屿上点点游蜉, 啄食绿苔。招来游蜉的是一块小又灿烂的菌类，却只能食其青苔. &lt;/p&gt;
+&lt;p&gt;食草为生的狮子，说着高贵的语言。大陆代谢掉人的味道。&lt;/p&gt;
+&lt;p&gt;云中小熊，飘到此处，以彩菌为食。&lt;/p&gt;
+&lt;p&gt;智人，艰难中生存下来的种族，发现残存在语言里的高贵。汇天地灵气，
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/27/smalltobig/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Choices of Western Environment 外国环境的几种可能</title>
+      <link>http://liguanghe.github.io/2017/07/27/WesternEnvironment/</link>
+      <guid>http://liguanghe.github.io/2017/07/27/WesternEnvironment/</guid>
+      <pubDate>Thu, 27 Jul 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2615253207306849286&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/27/WesternEnvironment/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Wake up to programing 早起编程</title>
+      <link>http://liguanghe.github.io/2017/07/25/WakeUp/</link>
+      <guid>http://liguanghe.github.io/2017/07/25/WakeUp/</guid>
+      <pubDate>Tue, 25 Jul 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2615018272595337734&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/25/WakeUp/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>How to save money on air ticket to NZ 机票省钱秘笈</title>
+      <link>http://liguanghe.github.io/2017/07/18/NZAirTicket/</link>
+      <guid>http://liguanghe.github.io/2017/07/18/NZAirTicket/</guid>
+      <pubDate>Tue, 18 Jul 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;NZ’s good view attracts tourists from all over the world, although it far away from all other countries. So air ticket to NZ is expensive
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/18/NZAirTicket/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Start talking 开聊</title>
+      <link>http://liguanghe.github.io/2017/07/15/StartTalking/</link>
+      <guid>http://liguanghe.github.io/2017/07/15/StartTalking/</guid>
+      <pubDate>Sat, 15 Jul 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;It’s easy for me to talk with strangers, I don’t know is’t easy for you too? Once you need to join in a strange place, talking to strange
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/15/StartTalking/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Maori</title>
+      <link>http://liguanghe.github.io/2017/07/13/Maori/</link>
+      <guid>http://liguanghe.github.io/2017/07/13/Maori/</guid>
+      <pubDate>Thu, 13 Jul 2017 02:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2612804474652638214&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;1  click here to hear what I was speaking(点此链接听
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/13/Maori/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>AmazingStore 神奇便利店</title>
+      <link>http://liguanghe.github.io/2017/07/10/AmazingStore/</link>
+      <guid>http://liguanghe.github.io/2017/07/10/AmazingStore/</guid>
+      <pubDate>Mon, 10 Jul 2017 11:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;Every bus stop has a store nearby. It not just sales convenient food and soft drinks, it afford more services than you think.&lt;/p&gt;
+&lt;p&gt;In N
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/10/AmazingStore/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Starting Friendship in Dunedin 友谊晚餐</title>
+      <link>http://liguanghe.github.io/2017/07/09/DunedinDinner/</link>
+      <guid>http://liguanghe.github.io/2017/07/09/DunedinDinner/</guid>
+      <pubDate>Sun, 09 Jul 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2612141808441293318&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt; click here to hear what I was speaking(点此链接听我详
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/09/DunedinDinner/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Got a car in Dunedin 没车没腿</title>
+      <link>http://liguanghe.github.io/2017/07/08/Got%20a%20car%20in%20Dunedin/</link>
+      <guid>http://liguanghe.github.io/2017/07/08/Got%20a%20car%20in%20Dunedin/</guid>
+      <pubDate>Sat, 08 Jul 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2611904032609560070&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt; click here to hear what I was speaking(点此链接听我详
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/08/Got%20a%20car%20in%20Dunedin/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>How to begin practising English in Dunedin 选好城市, 开始英语</title>
+      <link>http://liguanghe.github.io/2017/07/07/dunedin3/</link>
+      <guid>http://liguanghe.github.io/2017/07/07/dunedin3/</guid>
+      <pubDate>Fri, 07 Jul 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt; &lt;a href=&quot;https://www.lizhi.fm/2040956/2611721273163006982&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt; click here to hear what I was speaking(点此链接听我
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/07/dunedin3/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Change Blog to Bilingual 将博客改造为中英双语</title>
+      <link>http://liguanghe.github.io/2017/07/05/MakeBlogBilingual/</link>
+      <guid>http://liguanghe.github.io/2017/07/05/MakeBlogBilingual/</guid>
+      <pubDate>Tue, 04 Jul 2017 23:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;website doc: config.yml &lt;ul&gt;
+&lt;li&gt;change 李广鹤的博客 to Li Guanghe’s blog&lt;ul&gt;
+&lt;li&gt;the head is changed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;change languag
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/05/MakeBlogBilingual/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>What I Get in DebugUself for three months</title>
+      <link>http://liguanghe.github.io/2017/07/01/threemonththinking/</link>
+      <guid>http://liguanghe.github.io/2017/07/01/threemonththinking/</guid>
+      <pubDate>Fri, 30 Jun 2017 23:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Thinking&quot;&gt;&lt;a href=&quot;#Thinking&quot; class=&quot;headerlink&quot; title=&quot;Thinking&quot;&gt;&lt;/a&gt;Thinking&lt;/h2&gt;&lt;p&gt;Product and Habit is what you can really get.&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/07/01/threemonththinking/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>UAV 无人机随手拍</title>
+      <link>http://liguanghe.github.io/2017/06/24/UAV/</link>
+      <guid>http://liguanghe.github.io/2017/06/24/UAV/</guid>
+      <pubDate>Sat, 24 Jun 2017 03:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;(此处有视频， 如未载入请稍后）&lt;/p&gt;
+&lt;p&gt; &lt;iframe height=&quot;438&quot; width=&quot;680&quot; src=&quot;https://youtu.be/-G6620WM6n8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/06/24/UAV/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>First Touch to Auckland</title>
+      <link>http://liguanghe.github.io/2017/06/21/Auckland/</link>
+      <guid>http://liguanghe.github.io/2017/06/21/Auckland/</guid>
+      <pubDate>Wed, 21 Jun 2017 02:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;每个国家都有一个城市，这个城市的市中心有一条主街，卖着全世界都能见到的熟悉牌子，奢侈品或平价连锁店商品，还有一些仿照当地特色然而只卖给外国人的商品。每个国家都有这样一个地方，特别不像这个国家，但却代表这个国家，不去不行。东京不像日本，却又是日本。奥克兰不像新西兰，却代表新西
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/06/21/Auckland/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>结业 BP 及其后的故事</title>
+      <link>http://liguanghe.github.io/2017/06/03/bpstory/</link>
+      <guid>http://liguanghe.github.io/2017/06/03/bpstory/</guid>
+      <pubDate>Sat, 03 Jun 2017 04:00:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;iframe height=&quot;438&quot; width=&quot;680&quot; src=&quot;https://v.qq.com/x/page/m05035g7hf3.html&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;br&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;找到隐喻-
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/06/03/bpstory/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>普宁</title>
+      <link>http://liguanghe.github.io/2017/06/03/threesome/</link>
+      <guid>http://liguanghe.github.io/2017/06/03/threesome/</guid>
+      <pubDate>Fri, 02 Jun 2017 23:00:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;普宁从女朋友身边醒来，没有变成一只巨大的甲虫。&lt;/p&gt;
+&lt;p&gt;二十个哑铃扩胸后，勃起已不知何时消退了。 二十六岁开始的持续控制取得了不错的成果，异样的持久惊讶了历任女朋友。&lt;/p&gt;
+&lt;p&gt;醒来， 哪个女人在身边， 便可享受这天长地久，沙漠里一口井，上上下下撬动，永远也别想压
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/06/03/threesome/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>让鼻子做它该做的 — 开智写作课结业分享</title>
+      <link>http://liguanghe.github.io/2017/05/24/creater/</link>
+      <guid>http://liguanghe.github.io/2017/05/24/creater/</guid>
+      <pubDate>Wed, 24 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;如下讲稿, 于 2017.5.19 开智学堂认知写作学四期结业典礼上, 做为学员分享心得, 限时五分钟. 彼时时间有限, 未表达充分,是为快写, 此时慢改. &lt;/p&gt;
+&lt;h1 id=&quot;让鼻子做它该做的&quot;&gt;&lt;a href=&quot;#让鼻子做它该做的&quot; class=&quot;headerli
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/24/creater/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>学习路径</title>
+      <link>http://liguanghe.github.io/2017/05/14/studyway/</link>
+      <guid>http://liguanghe.github.io/2017/05/14/studyway/</guid>
+      <pubDate>Sun, 14 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;开智学习路径&quot;&gt;&lt;a href=&quot;#开智学习路径&quot; class=&quot;headerlink&quot; title=&quot;开智学习路径&quot;&gt;&lt;/a&gt;开智学习路径&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;认知写作课的路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight pla
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/14/studyway/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>岁月之书</title>
+      <link>http://liguanghe.github.io/2017/05/13/ageofbook/</link>
+      <guid>http://liguanghe.github.io/2017/05/13/ageofbook/</guid>
+      <pubDate>Sat, 13 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Alice&quot;&gt;&lt;a href=&quot;#Alice&quot; class=&quot;headerlink&quot; title=&quot;Alice&quot;&gt;&lt;/a&gt;Alice&lt;/h2&gt;&lt;p&gt;伏在案头, 爱丽丝在电脑的绘图软件中画着画, 画中的爱丽丝伏在案头,画着画…… 她环顾四周, 想把这些入画, 树皮色
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/13/ageofbook/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Changing Github Username</title>
+      <link>http://liguanghe.github.io/2017/05/11/githubUsername/</link>
+      <guid>http://liguanghe.github.io/2017/05/11/githubUsername/</guid>
+      <pubDate>Thu, 11 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;更改用户名&lt;br&gt;&lt;a href=&quot;https://help.github.com/articles/changing-your-github-username/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Changing your GitHub us
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/11/githubUsername/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>版本仓库文件存放指南</title>
+      <link>http://liguanghe.github.io/2017/05/06/repositoryfile/</link>
+      <guid>http://liguanghe.github.io/2017/05/06/repositoryfile/</guid>
+      <pubDate>Sat, 06 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;仓库里应该放哪些文件格式,是做项目和协同重要的部分.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;意义&quot;&gt;&lt;a href=&quot;#意义&quot; 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/06/repositoryfile/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>提线木偶</title>
+      <link>http://liguanghe.github.io/2017/05/04/handdoll/</link>
+      <guid>http://liguanghe.github.io/2017/05/04/handdoll/</guid>
+      <pubDate>Thu, 04 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;你看不见, 钉穿手掌的线,&lt;br&gt;手拿着脚, 脚碰着肘.&lt;br&gt;肘露关节, 蹭磨腰线.&lt;br&gt;啪, 风刮过耳.&lt;/p&gt;
+&lt;p&gt;腆出肚子, 晃荡.&lt;br&gt;肩胛间中点, 绣婆捻针.&lt;br&gt;头抓着脚, 脚勾着线.&lt;br&gt;啪, 风刮过耳.&lt;/p&gt;
+&lt;p&gt;凸面板凳, 多颗头.&lt;br&gt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/04/handdoll/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>活着  便是无休止的对话</title>
+      <link>http://liguanghe.github.io/2017/05/03/note/</link>
+      <guid>http://liguanghe.github.io/2017/05/03/note/</guid>
+      <pubDate>Wed, 03 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;写作往往追求书面/精确的语句, \&amp;lt;修辞认识&gt;将人的语言的特点表现出来, 让我们在文字中加以使用. 将口头的放到书面中来.&lt;/p&gt;
+&lt;p&gt;默说, 不说出来, 但是读者都知道你在说什么, 或者, 能接受到你要表达的感觉. &lt;/p&gt;
+&lt;p&gt;踌躇, 找不到最适合的语言, 描
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/03/note/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>《哈利波特》让位《玩具屋九讲》</title>
+      <link>http://liguanghe.github.io/2017/05/02/book/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/book/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
+&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/book/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Sublime Text / it’s all text / firefox</title>
+      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>font of code</title>
+      <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;推荐字体: &lt;a href=&quot;http://larsenwork.com/monoid/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monoid&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;缘起: 大妈说有一款字体可以区分英文大小写, 以减少代码错误.&lt;ul&gt;
+
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/font-tool/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>第四周</title>
+      <link>http://liguanghe.github.io/2017/05/01/theforthweek/</link>
+      <guid>http://liguanghe.github.io/2017/05/01/theforthweek/</guid>
+      <pubDate>Mon, 01 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;乌鸦的四个孩子&quot;&gt;&lt;a href=&quot;#乌鸦的四个孩子&quot; class=&quot;headerlink&quot; title=&quot;乌鸦的四个孩子&quot;&gt;&lt;/a&gt;乌鸦的四个孩子&lt;/h2&gt;&lt;p&gt;男孩捡拾四个兄姐掉落在地上的面包渣，塞进嘴里。夜晚降临，爸爸妈妈照顾四个孩子睡在干爽的稻草铺，男孩在
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/01/theforthweek/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/lover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/lover/</guid>
+      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/23/lover/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>爱人相处手册</title>
+      <link>http://liguanghe.github.io/2017/04/23/familyHD/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/familyHD/</guid>
+      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;手册无处不在&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;和老公的相处&lt;ul&gt;
+&lt;li&gt;每天&lt;/li&gt;
+&lt;li&gt;居家&lt;/li&gt;
+&lt;li&gt;旅行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;学习(另开)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;爱
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/23/familyHD/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Read Github Guide</title>
+      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>皆于斗室</title>
+      <link>http://liguanghe.github.io/2017/04/22/lihe/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/lihe/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
+&lt;p&gt;李贺&lt;/p&gt;
+&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
+&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/lihe/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>开智十月 持续自由</title>
+      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
+&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
+&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>抓不住你</title>
+      <link>http://liguanghe.github.io/2017/03/27/catch/</link>
+      <guid>http://liguanghe.github.io/2017/03/27/catch/</guid>
+      <pubDate>Mon, 27 Mar 2017 05:09:46 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt; 抓不住你&lt;br&gt;我用白瓷烧制的丈夫&lt;br&gt;抓不住你&lt;br&gt;我的没有瑕疵的男子&lt;/p&gt;
+&lt;p&gt;抓不住你&lt;br&gt;丈夫擦拭白瓷&lt;br&gt;琐事纷纷落下&lt;/p&gt;
+&lt;p&gt;其他的家庭成员躲在底座里&lt;br&gt;抓不住你&lt;br&gt;光滑的爱情&lt;/p&gt;
+&lt;p&gt;我们都裸露在阳光与高温下&lt;br&gt;我们都雕琢
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/27/catch/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>写作链</title>
+      <link>http://liguanghe.github.io/2017/03/22/blog/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/blog/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;尝试省略写作到发布之间的无数点击。理想的写作链是这样的：&lt;/p&gt;
+&lt;p&gt;打开编辑器 -&gt; 写字 -&gt; 点击发布 -&gt; 博客以及简书、公众号、朋友圈、微信群、知乎等所有的网站上都发布了这篇文章 -&gt; 每篇文章的评论都统一在一个页面上。&lt;/p&gt;
+&lt;p&gt;目前实现：&lt;br&gt;在 ul
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/blog/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>出走</title>
+      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>博客优化</title>
+      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>卡片和星空：将你脑中的所有想法放在眼前</title>
+      <link>http://liguanghe.github.io/2017/02/22/card/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/card/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;我们的大脑好像星空，无数思绪中有无形的力互相牵引着，我们看得到那星星，却看不到自己脑中的思绪。 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你迷茫、困惑，想做很多事情，又不知从何做起，不知道未来的方向时，甚至不知道具体是什么问题的时候，或许想跟
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>手机的自我修养</title>
+      <link>http://liguanghe.github.io/2017/02/11/imphone/</link>
+      <guid>http://liguanghe.github.io/2017/02/11/imphone/</guid>
+      <pubDate>Sat, 11 Feb 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;手机最近停止了主要功能，为了优化手机配置，我将它从操作台上取出来，邮寄到宇宙中心。为缩短调配时间，我给手机开通了自动调用支付宝的功能，并设置为只要可以节省时间或升级功能，不计金钱成本。&lt;/p&gt;
+&lt;p&gt;手机里新下载的APP：印象笔记、奇妙清单、CHROME和思维导图，吸引到一
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/11/imphone/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>把数珠一样的日子磨得发亮</title>
+      <link>http://liguanghe.github.io/2017/02/06/japan/</link>
+      <guid>http://liguanghe.github.io/2017/02/06/japan/</guid>
+      <pubDate>Mon, 06 Feb 2017 05:09:46 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;20170124-20170203&lt;br&gt;刘欣像老爷爷一样睡了。&lt;br&gt;休憩场所松叶亭，是个料理亭，热闹二年坂边的一个隐秘地点。进门后长长的狭窄通道后，是绿意堆砌的小庭院，和室小屋，小指粗细的竹栏，柔和的黄色灯光。&lt;/p&gt;
+&lt;p&gt;整间小屋只有十个座位，出名的是茶粥，午餐时才
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/06/japan/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>爱情是汪洋zs中的小船么</title>
+      <link>http://liguanghe.github.io/2017/01/03/loveship/</link>
+      <guid>http://liguanghe.github.io/2017/01/03/loveship/</guid>
+      <pubDate>Tue, 03 Jan 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;你讲话还是那么抽象。&lt;/li&gt;
+&lt;li&gt;好吧，这次变画图变讲给你听，咱们来聊天吧。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt; http://upload-images.jianshu.io/upload_images/2059688-fcd9b1ad6
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/01/03/loveship/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>是你想要的生活么</title>
+      <link>http://liguanghe.github.io/2016/12/31/706style/</link>
+      <guid>http://liguanghe.github.io/2016/12/31/706style/</guid>
+      <pubDate>Sat, 31 Dec 2016 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;20161215-20161231&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; 疗伤也罢，休息也好。&lt;br&gt; 把身体当成机器，它就坏掉了。&lt;br&gt; 吹口热气，让性灵回暖。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“你好，咱们来聊天吧。”&lt;br&gt;“好啊，先做个自我介绍呗。喏，
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2016/12/31/706style/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>五道口投资集散地</title>
+      <link>http://liguanghe.github.io/2016/12/14/wudaokou/</link>
+      <guid>http://liguanghe.github.io/2016/12/14/wudaokou/</guid>
+      <pubDate>Wed, 14 Dec 2016 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt; 20161128-20161214&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;不管你想不想见到，都会见到，因为，这里是五道口。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不要被706青年空间迷惑了，创业者和投资人才是这里的常住民。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;或许对我上一篇的豪言
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2016/12/14/wudaokou/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>写给你们的</title>
+      <link>http://liguanghe.github.io/2016/11/20/beijing/</link>
+      <guid>http://liguanghe.github.io/2016/11/20/beijing/</guid>
+      <pubDate>Sun, 20 Nov 2016 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;20161118-20161123&lt;/p&gt;
+&lt;p&gt; hi，伙伴们，更新一下我的状态。&lt;/p&gt;
+&lt;p&gt;你们印象中的我从法院辞职后又到iCourt工作，现在不说话是太忙了。&lt;/p&gt;
+&lt;p&gt;实际情况是：11月17日，在iCourt的试用期提前结束，没签约。&lt;/p&gt;
+&lt;p&gt;刚好，之
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2016/11/20/beijing/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>包里放了键盘以后还能放下什么？</title>
+      <link>http://liguanghe.github.io/2016/10/15/mac/</link>
+      <guid>http://liguanghe.github.io/2016/10/15/mac/</guid>
+      <pubDate>Sat, 15 Oct 2016 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/2059688-7b2b775192b49ace.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2016/10/15/mac/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>离</title>
+      <link>http://liguanghe.github.io/2016/08/02/leave/</link>
+      <guid>http://liguanghe.github.io/2016/08/02/leave/</guid>
+      <pubDate>Tue, 02 Aug 2016 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;\&lt;center\&gt; 仰躺荡波畔，\&lt;/center\&gt; &lt;/p&gt;
+&lt;p&gt;\&lt;center\&gt;余感水映光。\&lt;/center\&gt; &lt;/p&gt;
+&lt;p&gt;\&lt;center\&gt; 星布缓河流，\&lt;/center\&gt; &lt;/p&gt;
+&lt;p&gt;\&lt;center\&gt;联空拢四方。\&lt;/center\&gt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2016/08/02/leave/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>心中住着金色飞贼的女孩  想想都发光</title>
+      <link>http://liguanghe.github.io/2016/07/02/doll/</link>
+      <guid>http://liguanghe.github.io/2016/07/02/doll/</guid>
+      <pubDate>Sat, 02 Jul 2016 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;（一）娃娃&quot;&gt;&lt;a href=&quot;#（一）娃娃&quot; class=&quot;headerlink&quot; title=&quot;（一）娃娃&quot;&gt;&lt;/a&gt;（一）娃娃&lt;/h2&gt;&lt;p&gt;娃娃坏了，娃娃在抽搐。娃娃灰突突。娃娃在广阔的黑暗里，站在平面上，抖动着冲出十几米，动力不足，颤啊颤，攒足了力量，换
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2016/07/02/doll/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>

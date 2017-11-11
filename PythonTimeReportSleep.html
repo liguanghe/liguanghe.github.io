@@ -1,0 +1,1488 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next muse" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content=",,,,,,,,," />
+
+
+
+
+  
+
+
+  <link rel="alternate" href="/rss2.xml" title="Li Guanghe's blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="Sleep Achievement Base on Atl4dama/DataCleaning summation weekly sleep time noon + night = sleep_time limit sleep_time to 59h, =&amp;lt; true  After    n week noon night sleep_time -59h     0 13 0.0 7.4 7">
+<meta name="keywords" content="python,Record,time,report,TimeReport,thinking,skill,atl4dama,lghPR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Atom Time Report1 时间账单报告自动化1">
+<meta property="og:url" content="http://liguanghe.github.io/PythonTimeReportSleep.html">
+<meta property="og:site_name" content="Li Guanghe&#39;s blog">
+<meta property="og:description" content="Sleep Achievement Base on Atl4dama/DataCleaning summation weekly sleep time noon + night = sleep_time limit sleep_time to 59h, =&amp;lt; true  After    n week noon night sleep_time -59h     0 13 0.0 7.4 7">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2017-11-06T05:55:02.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Atom Time Report1 时间账单报告自动化1">
+<meta name="twitter:description" content="Sleep Achievement Base on Atl4dama/DataCleaning summation weekly sleep time noon + night = sleep_time limit sleep_time to 59h, =&amp;lt; true  After    n week noon night sleep_time -59h     0 13 0.0 7.4 7">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://liguanghe.github.io/PythonTimeReportSleep.html"/>
+
+
+
+
+
+  <title>Atom Time Report1 时间账单报告自动化1 | Li Guanghe's blog</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left  ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Li Guanghe's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-life">
+          <a href="/life" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-modx"></i> <br />
+            
+            Life
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-knowledge">
+          <a href="/knowledge" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            Knowledge
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-creation">
+          <a href="/creation" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-pencil"></i> <br />
+            
+            Creation
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+  <header class="post-header">
+
+	<h1 class="post-title" itemprop="name headline">Atom Time Report1 时间账单报告自动化1</h1>
+
+
+
+</header>
+
+    
+    
+      <p>Sleep</p>
+<h2 id="Achievement"><a href="#Achievement" class="headerlink" title="Achievement"></a>Achievement</h2><ul>
+<li>Base on Atl4dama/DataCleaning</li>
+<li>summation weekly sleep time</li>
+<li>noon + night = sleep_time</li>
+<li>limit sleep_time to 59h, =&lt; true</li>
+</ul>
+<p>After</p>
+<table>
+<thead>
+<tr>
+<th>n</th>
+<th>week</th>
+<th>noon</th>
+<th>night</th>
+<th>sleep_time</th>
+<th>-59h</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>13</td>
+<td>0.0</td>
+<td>7.4</td>
+<td>7.4</td>
+<td>True</td>
+</tr>
+<tr>
+<td>1</td>
+<td>14</td>
+<td>4.6</td>
+<td>46.4</td>
+<td>51.0</td>
+<td>True</td>
+</tr>
+<tr>
+<td>2</td>
+<td>15</td>
+<td>13.3</td>
+<td>64.3</td>
+<td>77.6</td>
+<td>False</td>
+</tr>
+<tr>
+<td>3</td>
+<td>16</td>
+<td>6.6</td>
+<td>53.0</td>
+<td>59.6</td>
+<td>False</td>
+</tr>
+<tr>
+<td>4</td>
+<td>17</td>
+<td>7.3</td>
+<td>53.6</td>
+<td>60.9</td>
+<td>False</td>
+</tr>
+<tr>
+<td>5</td>
+<td>18</td>
+<td>7.9</td>
+<td>46.3</td>
+<td>54.2</td>
+<td>True</td>
+</tr>
+<tr>
+<td>6</td>
+<td>19</td>
+<td>4.4</td>
+<td>65.6</td>
+<td>70.0</td>
+<td>False</td>
+</tr>
+<tr>
+<td>7</td>
+<td>20</td>
+<td>9.7</td>
+<td>44.3</td>
+<td>54.0</td>
+<td>True</td>
+</tr>
+<tr>
+<td>8</td>
+<td>21</td>
+<td>4.7</td>
+<td>58.2</td>
+<td>62.9</td>
+<td>False</td>
+</tr>
+<tr>
+<td>9</td>
+<td>22</td>
+<td>13.3</td>
+<td>53.1</td>
+<td>66.4</td>
+<td>False</td>
+</tr>
+<tr>
+<td>10</td>
+<td>23</td>
+<td>8.0</td>
+<td>65.0</td>
+<td>73.0</td>
+<td>False</td>
+</tr>
+<tr>
+<td>11</td>
+<td>24</td>
+<td>4.8</td>
+<td>46.7</td>
+<td>51.5</td>
+<td>True</td>
+</tr>
+<tr>
+<td>12</td>
+<td>25</td>
+<td>0.6</td>
+<td>65.2</td>
+<td>65.8</td>
+<td>False</td>
+</tr>
+<tr>
+<td>13</td>
+<td>26</td>
+<td>5.4</td>
+<td>60.6</td>
+<td>66.0</td>
+<td>False</td>
+</tr>
+<tr>
+<td>14</td>
+<td>27</td>
+<td>2.1</td>
+<td>47.1</td>
+<td>49.2</td>
+<td>True</td>
+</tr>
+<tr>
+<td>15</td>
+<td>28</td>
+<td>6.0</td>
+<td>50.9</td>
+<td>56.9</td>
+<td>True</td>
+</tr>
+<tr>
+<td>16</td>
+<td>29</td>
+<td>4.7</td>
+<td>69.6</td>
+<td>74.3</td>
+<td>False</td>
+</tr>
+<tr>
+<td>17</td>
+<td>30</td>
+<td>9.5</td>
+<td>49.7</td>
+<td>59.2</td>
+<td>False</td>
+</tr>
+<tr>
+<td>18</td>
+<td>31</td>
+<td>0.0</td>
+<td>44.7</td>
+<td>44.7</td>
+<td>True</td>
+</tr>
+<tr>
+<td>19</td>
+<td>32</td>
+<td>7.2</td>
+<td>53.1</td>
+<td>60.3</td>
+<td>False</td>
+</tr>
+<tr>
+<td>20</td>
+<td>33</td>
+<td>8.5</td>
+<td>44.6</td>
+<td>53.1</td>
+<td>True</td>
+</tr>
+<tr>
+<td>21</td>
+<td>34</td>
+<td>8.5</td>
+<td>49.2</td>
+<td>57.7</td>
+<td>True</td>
+</tr>
+<tr>
+<td>22</td>
+<td>35</td>
+<td>9.2</td>
+<td>48.6</td>
+<td>57.8</td>
+<td>True</td>
+</tr>
+<tr>
+<td>23</td>
+<td>36</td>
+<td>5.3</td>
+<td>60.7</td>
+<td>66.0</td>
+<td>False</td>
+</tr>
+<tr>
+<td>24</td>
+<td>37</td>
+<td>4.4</td>
+<td>53.5</td>
+<td>57.9</td>
+<td>True</td>
+</tr>
+<tr>
+<td>25</td>
+<td>38</td>
+<td>8.6</td>
+<td>48.1</td>
+<td>56.7</td>
+<td>True</td>
+</tr>
+<tr>
+<td>26</td>
+<td>39</td>
+<td>11.7</td>
+<td>44.1</td>
+<td>55.8</td>
+<td>True</td>
+</tr>
+<tr>
+<td>27</td>
+<td>40</td>
+<td>3.8</td>
+<td>55.0</td>
+<td>58.8</td>
+<td>True</td>
+</tr>
+<tr>
+<td>28</td>
+<td>41</td>
+<td>8.4</td>
+<td>50.4</td>
+<td>58.8</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+<p>Before </p>
+<table>
+<thead>
+<tr>
+<th>week</th>
+<th>noon</th>
+<th>sleep</th>
+<th>↓  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>4</td>
+<td>53</td>
+<td>- </td>
+</tr>
+<tr>
+<td>1</td>
+<td>13</td>
+<td>54</td>
+<td>↑ </td>
+</tr>
+<tr>
+<td>2</td>
+<td>6</td>
+<td>54</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6.5</td>
+<td>54</td>
+<td>- </td>
+</tr>
+<tr>
+<td>4</td>
+<td>7.5</td>
+<td>54</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>5</td>
+<td>4.5</td>
+<td>57</td>
+<td>-</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6.5</td>
+<td>46</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>7</td>
+<td>4.5</td>
+<td>57</td>
+<td>-</td>
+</tr>
+<tr>
+<td>8</td>
+<td>11.5</td>
+<td>53</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>9</td>
+<td>5</td>
+<td>54</td>
+<td>- </td>
+</tr>
+<tr>
+<td>10</td>
+<td>0.5</td>
+<td>51.5</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>11</td>
+<td>4.5</td>
+<td>64</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>12</td>
+<td>3</td>
+<td>56.5</td>
+<td>-</td>
+</tr>
+<tr>
+<td>13</td>
+<td>4</td>
+<td>50</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>14</td>
+<td>7</td>
+<td>62</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>15</td>
+<td>9.5</td>
+<td>50</td>
+<td>-</td>
+</tr>
+<tr>
+<td>16</td>
+<td>0</td>
+<td>52.5</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>17</td>
+<td>6.5</td>
+<td>40.5</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>18</td>
+<td>8</td>
+<td>46</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>19</td>
+<td>5.5</td>
+<td>47</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>20</td>
+<td>10</td>
+<td>52</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>21</td>
+<td>7</td>
+<td>53</td>
+<td>-</td>
+</tr>
+<tr>
+<td>22</td>
+<td>4.5</td>
+<td>54</td>
+<td>-</td>
+</tr>
+<tr>
+<td>23</td>
+<td>8.5</td>
+<td>48</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><ul>
+<li>Python3<ul>
+<li>list.append()</li>
+</ul>
+</li>
+<li>Pandas</li>
+<li>Numpy</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div></pre></td><td class="code"><pre><div class="line">#!/usr/bin/python</div><div class="line"># -*- coding: utf-8 -*-</div><div class="line">&apos;&apos;&apos;</div><div class="line">- use all data to sleep_time in week</div><div class="line">- every week night_sleep + noon_sleep - 59h &lt;= 0 -&gt; true</div><div class="line">- write to .md</div><div class="line"></div><div class="line">&apos;&apos;&apos;</div><div class="line">__version__ = &quot;v17.10.10.1827&quot;</div><div class="line">__author__ = &apos;lgh&apos;</div><div class="line">__license__ = &apos;MIT@2017-10&apos;</div><div class="line"></div><div class="line">import pandas as pd</div><div class="line">import numpy as np</div><div class="line">import sys</div><div class="line"></div><div class="line">def WeekTime(cvsf):</div><div class="line">    df = pd.read_csv(cvsf)</div><div class="line">    df[&apos;du_time&apos;] = df.apply(lambda x: x.du_end-x.du_start, axis=1)</div><div class="line"></div><div class="line">    sl = df[df[&apos;act_type&apos;].isin([&apos;12.sleep&apos;])]</div><div class="line">    tr = df[df[&apos;act_type&apos;].isin([&apos;12.sleep:noonsleep&apos;])]</div><div class="line">    Uniqueweeks = df.wn4y.unique()</div><div class="line">    w = []</div><div class="line">    h = []</div><div class="line">    n = []</div><div class="line">    for i in Uniqueweeks:</div><div class="line">        w.append(i)</div><div class="line">        h.append((np.sum((sl[sl[&apos;wn4y&apos;].isin([i])])[&apos;du_time&apos;])/60/60))</div><div class="line">        n.append((np.sum((tr[tr[&apos;wn4y&apos;].isin([i])])[&apos;du_time&apos;])/60/60))</div><div class="line">        d = &#123;&apos;week&apos;: w,</div><div class="line">             &apos;night&apos;:h,</div><div class="line">             &apos;noon&apos;:n&#125;</div><div class="line">    st = pd.DataFrame(d)</div><div class="line">    u = st.sort_index(axis=1, ascending=False).round(1)</div><div class="line"></div><div class="line">    u[&apos;sleep_time&apos;] = u.apply(lambda x: x.night+x.noon, axis=1).round(1)</div><div class="line">    u[&apos;-59h&apos;] = u.apply(lambda x: x.sleep_time-59&lt;=0, axis=1)</div><div class="line">    c = pd.DataFrame.to_csv(u)</div><div class="line"></div><div class="line">    </div><div class="line">    with open(&apos;TimeReport.md&apos;, &apos;a&apos;) as the_file:</div><div class="line">        the_file.write(&apos;\n ## 睡眠\n&apos;)</div><div class="line">        the_file.write(&apos;N&apos;+str(c))</div><div class="line"></div><div class="line">        </div><div class="line">if __name__ == &apos;__main__&apos;:</div><div class="line">    print(__version__)</div><div class="line"></div><div class="line">    if 2 != len(sys.argv) :</div><div class="line">        print(&apos;&apos;&apos;Usage:</div><div class="line">        $ python lgh7.py path/2/XXX.csv</div><div class="line">                #&apos;&apos;&apos;)</div><div class="line">    else:</div><div class="line">        _csv = sys.argv[1]</div><div class="line">        WeekTime(_csv)</div></pre></td></tr></table></figure>
+
+    
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="李广鹤 LiGuanghe" />
+          <p class="site-author-name" itemprop="name">李广鹤 LiGuanghe</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">90</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">168</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/rss2.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/LiGuanghe" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:liguanghe218317@gmail.com" target="_blank" title="Email">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>
+                  
+                  Email
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.lizhi.fm/2040956" target="_blank" title="Lizhi">
+                  
+                    <i class="fa fa-fw fa-headphones"></i>
+                  
+                  Lizhi
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/RaptorLiguanghe" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100011231388906&ref=bookmarks" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">李广鹤 LiGuanghe</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://ligdhe-com.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://liguanghe.github.io/PythonTimeReportSleep.html';
+          this.page.identifier = 'PythonTimeReportSleep.html';
+          this.page.title = 'Atom Time Report1 时间账单报告自动化1';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://ligdhe-com.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (search_path.endsWith("json")) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === '') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("9GEqF7BQvsUPba1qXT9WOrNM-gzGzoHsz", "YYUALuaP85zsGp44c1oCKl5D");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
