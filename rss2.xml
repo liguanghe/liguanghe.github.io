@@ -8,8 +8,56 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 11 Nov 2017 04:03:46 GMT</pubDate>
+    <pubDate>Wed, 15 Nov 2017 01:07:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title></title>
+      <link>http://liguanghe.github.io/2017/11/15/TimeReport/</link>
+      <guid>http://liguanghe.github.io/2017/11/15/TimeReport/</guid>
+      <pubDate>Wed, 15 Nov 2017 00:25:19 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;title&gt;Time Report&lt;/title&gt;
+        
+&lt;link rel=&quot;styleshee
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/15/TimeReport/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://liguanghe.github.io/2017/11/15/div/</link>
+      <guid>http://liguanghe.github.io/2017/11/15/div/</guid>
+      <pubDate>Tue, 14 Nov 2017 22:14:35 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;title&gt;Bokeh Plot&lt;/title&gt;
+        
+&lt;link rel=&quot;stylesheet
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/15/div/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Mac can&#39;t import matplotlib?</title>
@@ -29,21 +77,21 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
+      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
+          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
+&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
     </item>
     
     <item>
@@ -64,21 +112,21 @@
     </item>
     
     <item>
-      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
-&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -439,25 +487,6 @@
     </item>
     
     <item>
-      <title>Speaking to Writing 在英语环境中提升英语</title>
-      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
-      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
-      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;里程碑小故事&lt;ul&gt;
-&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Git 入怼之独立分支</title>
       <link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
       <guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
@@ -475,6 +504,25 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Speaking to Writing 在英语环境中提升英语</title>
+      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
+      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;里程碑小故事&lt;ul&gt;
+&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1175,24 +1223,6 @@
     </item>
     
     <item>
-      <title>Sublime Text / it’s all text / firefox</title>
-      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
-      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>font of code</title>
       <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
       <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
@@ -1210,6 +1240,24 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/02/font-tool/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Sublime Text / it’s all text / firefox</title>
+      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1301,23 +1349,6 @@
     </item>
     
     <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
       <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
       <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
@@ -1332,6 +1363,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1355,23 +1403,6 @@
     </item>
     
     <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>开智十月 持续自由</title>
       <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
       <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
@@ -1388,6 +1419,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1430,23 +1478,6 @@
     </item>
     
     <item>
-      <title>出走</title>
-      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
-      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>博客优化</title>
       <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
       <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
@@ -1461,6 +1492,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>出走</title>
+      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
     </item>
     
     <item>
