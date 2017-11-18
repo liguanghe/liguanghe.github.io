@@ -1,0 +1,81 @@
+~ 学友优秀资源链接
+## ch2
+
+### 文本
+
+[朴素贝叶斯分类器 (Wikipedia 中文)](https://zh.wikipedia.org/wiki/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB%E5%99%A8)
+
+[朴素贝叶斯分类器的应用 by 阮一峰](http://www.ruanyifeng.com/blog/2013/12/naive_bayes_classifier.html)
+
+[数学之美番外篇：平凡而又神奇的贝叶斯方法 by 刘未鹏](http://mindhacks.cn/2008/09/21/the-magical-bayesian-method/)
+
+[Speech and Language Processing-ch6-Naive Bayes Classification and Sentiment](https://web.stanford.edu/~jurafsky/slp3/6.pdf)
+>完成作业可只看三节： 6.2 训练、6.3 例子、6.6 评估 ，一共仅 5 页。
+图 6.2 给出了伪代码，没有思路的同学可以参考。
+
+[Simple guide to confusion matrix terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/)
+
+[Confusion matrix (Wikipedia)](https://en.wikipedia.org/wiki/Confusion_matrix)
+
+[Gradient_descent (Wikipedia)](https://en.wikipedia.org/wiki/Gradient_descent)
+
+[An overview of gradient descent optimization algorithms](http://sebastianruder.com/optimizing-gradient-descent/)
+>时间紧张可只读第一节：Gradient descent variants
+
+[ch2 任务提示 Wiki](https://github.com/AIHackers/DeepLearning101-002/wiki/InfoCh2Task2Instruction)
+>建议尽量独立思考完成任务后，再查看
+
+[分享你遇到的 ch2 优秀资源／实践 · Issue #63](
+https://github.com/AIHackers/DeepLearning101-002/issues/63)
+
+[Knowledge Debt](http://amir.rachum.com/blog/2016/09/15/knowledge-debt/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website)
+
+[如何在 Docker 里切换 Python 版本 · Issue #59](http://c.openmindclub.com/course/packs/e4452b40-a293-11e7-ab15-d58d9b4e09ac/cards/a43dc930-b959-11e7-a2bd-4320eac6661f?page=1)
+
+---
+[@Hugo1030](https://github.com/Hugo1030)提供
+
+任务二的公式三 分母中为什么要加上总词表的大小？
+
+是为了让总词频概率之和仍然为1。
+
+- [Naive Bayes and Sentiment Classification](https://web.stanford.edu/~jurafsky/slp3/6.pdf) 第二章和第三章
+- [线性回归模型的代价函数和梯度下降算法](https://zhuanlan.zhihu.com/p/29549888)
+
+---
+[@faketooth](https://github.com/faketooth)提供
+- [An overview of gradient descent optimization algorithms](http://sebastianruder.com/optimizing-gradient-descent/)的中文翻译 [梯度下降优化算法综述](http://blog.csdn.net/google19890102/article/details/69942970)
+- [重点推荐](https://github.com/faketooth/DeepLearning101-002/tree/master/ch2/note/novig_spell_corrector)
+>重点推荐的目录中主要涉及2篇文章，一篇是bayes的推荐阅读资料中的直接引用资料，How to Write a Spelling Corrector，如果用贝叶斯做情感分类没有整明白的话，可以用这个拼写纠正的新角度来理解一下。徐宥翻译过中文版，但是原文链接已经404了，从其他地方找到一份当时的原文转载。
+>
+>第二篇是How_to_Do_Things_with_Words.ipynb，算是上面的拼写纠正器的进一步拓展，除了用朴素贝叶斯方法，还用了更多数据和n-gram两个思路来对其进行优化，并且演示了数据平滑。最有意思的是在文章最后，用贝叶斯方法来演示怎么破解移位加密的字符串。
+>
+>文章中有一处代码错误，已经在我库里的notebook中做了修正。另外，作者并没有提供完整的语料数据，所以代码未能全部执行完成。
+>
+>大牛的代码真是思路清晰，简洁有力。
+
+---
+[@kidult00](https://github.com/kidult00)提供
+- [LaTeX - Wikiwand](https://www.wikiwand.com/en/LaTeX)
+
+---
+另外，数学公式编辑也可以看这两个页面
+
+[LaTeX/数学公式](https://zh.wikibooks.org/zh-cn/LaTeX/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F)
+
+[LaTeX/Advanced Mathematics](https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics)
+
+### 视频
+
+[有监督学习 by Andrew Ng](https://www.coursera.org/learn/machine-learning/lecture/1VkCb/supervised-learning)
+
+## ch3
+- @hysic
+推荐内容：[TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
+推荐理由：这个仓库给出了大量TensorFlow的实例，对本章作业非常有帮助。比如[线性回归](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/2_BasicModels/linear_regression.py)、[Logistic回归](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/2_BasicModels/logistic_regression.py)、[神经网络的原始实现](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/neural_network_raw.py)、[用tf.layers.dense实现神经网络](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/neural_network.py)，都可以作为本周第1题和第3题的参考。
+* 推荐 3Blue1Brown 的深度学习系列视频，目前已经除了两部视频：[1. 神经网络的结构](https://www.bilibili.com/video/av15532370/)、[2. 梯度下降法](https://www.bilibili.com/video/av16144388/)
+* 推荐理由：3Blue1Brown 的视频非常形象，可视化做得非常棒，可以帮助更直观地理解深度学习中的一些概念。另外，如果有兴趣的话可以看一下之前出的[线性代数系列](https://space.bilibili.com/88461692#!/channel/detail?cid=9450)，真的是太牛了。
+
+## 增补
+- 各位可以直接在本 wiki 上增补
+    - 方法1: 本页面 -> edit 将内容放进来即可.

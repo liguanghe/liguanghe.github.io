@@ -1,0 +1,82 @@
+大妈 slack 回复: 
+你的希望 本身都没有经过认真的考虑
+提问是讨论, 而不是限制对方只能在自己的技术方案中来补完
+第一印象, 只是一个函式提纯的重构问题
+你非要直接怼到文本替换上
+本身就不是一个问题解决的讨论
+而是一个不知道哪儿来的解决思路的补救
+这样等于先否认了其它可能性
+要求大家必须来完成自己蜜汁创意
+
+***
+- 函式提纯的重构? = function 的优化
+- 如何提一个好问题, 而不是这样的限制问题?
+重写问题 如下:
+
+***
+
+## 背景
+- 没有搭建网页知识 
+- 无需在公网另行搭建网页
+
+## 目标思路及尝试
+- 目标: 网页版的时间报告, 内含 图片和 文字
+- 在 jupyter notebook里, 用 matplotlib 生成的图片和结果无法批量导出为 html.
+    - 尝试过将 .ipynb 直接导出 html格式, 并在blog 中展示, 问题, 一是不能只导出 output 的结果, 一并显示很多代码. 而是排版不好看.
+- bokeh 框架, 可以直接导出 图片到 html, 
+    - 可以将不同的图片按照 坐标的方式排版. 
+    - 可在网页中同时嵌入widget, 包括 按钮/文字 等.
+    - 但是widget 中嵌入的文字, 一个是纯文本, 一个是 div = ''' < > ''' 遵循 html 的语法
+    - 我要嵌入widget 的文字是, 一个函式的导出结果. 
+- 我想到的解决方案是:[将导出结果替换到widget 的文本](https://github.com/DebugUself/du4proto/issues/294)
+- 有无其他更好方案么?
+
+代码如下: 
+
+```
+...
+''' sum = 0 / sum = n, n is not sport last week'''
+
+if (yu.sum(axis = 0)<=0)[-1:].values == True:
+    print ('sport everyday')
+else:
+    print (yu.sum(axis = 0)[-1:])
+    print ("days didn't sport last week")
+```
+ 
+ 希望将print 后的内容放到如下代码中:
+
+ ```
+ ...
+
+ t2 = PreText(text="""
+
+    sport everyday.
+
+    """,
+
+    width=WIDTH, height=100,)
+
+
+    grid = gridplot([[widgetbox(t0)],[pt],[widgetbox(t1)], [po],[widgetbox(t2)],[pi,None],[ps,None],[pf,None],[ph,None]])
+
+
+    show(grid)
+ ```
+## 问题 
+
+以上 ''' ''' 只能添加纯文本. 
+
+## 解决
+等等, 如果连 ''' ''' 也一并列入上一个脚本的输出结果呢?
+比如 preText = 脚本1, 这样, 要把脚本1先变成 function, 取名 fsport
+preText = function
+报错: 期待的是 str
+那就改成 str, str(fsport)
+返回空白
+改成 str(fsport(cvsf)) 跟 def的一致, 居然就可以了. 
+
+## 心
+- 怎样提问, 把猜测前的所有折腾的事实和思路列出来无比的重要哇, 列出来问题自己就能解决啦. 
+
+交付 -> [du4proto/lgh7SumType.py at atl4dama · DebugUself/du4proto](https://github.com/DebugUself/du4proto/blob/atl4dama/src/_rp4lgh/lgh7SumType.py)
