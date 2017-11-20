@@ -98,13 +98,20 @@
 <meta property="og:site_name" content="Li Guanghe&#39;s blog">
 <meta property="og:description" content="前言 这是一篇写给小白的教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.   需求 图文展示一年中时间分配 类型频率及持续时间  toolsPytho">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://liguanghe.github.io/2017/11/21/PythonSumType/output_21_0.png">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tKfTcgy1flpcrg0hu9j30p807qwf6.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006tKfTcgy1flpcs4c2l9j31kk05y3ze.jpg">
+<meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcgy1flpcsu8t2uj31k602wt96.jpg">
+<meta property="og:image" content="https://ws2.sinaimg.cn/large/006tKfTcgy1flpctjlbstj31jw05sjs7.jpg">
+<meta property="og:image" content="https://ws2.sinaimg.cn/large/006tKfTcgy1flpcu42kcyj31js048aa9.jpg">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tKfTcgy1flpcul9nh2j31jy03sjro.jpg">
+<meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcgy1flpcgep189j30ai073aa1.jpg">
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcgy1flp95kgmcbj30z60h0di7.jpg">
-<meta property="og:updated_time" content="2017-11-20T23:06:37.428Z">
+<meta property="og:image" content="https://ws2.sinaimg.cn/large/006tKfTcgy1flpcwa694aj31jw07ot94.jpg">
+<meta property="og:updated_time" content="2017-11-20T23:33:14.286Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python | Pandas&#x2F;bokeh 实现交互数据可视化报告">
 <meta name="twitter:description" content="前言 这是一篇写给小白的教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.   需求 图文展示一年中时间分配 类型频率及持续时间  toolsPytho">
-<meta name="twitter:image" content="http://liguanghe.github.io/2017/11/21/PythonSumType/output_21_0.png">
+<meta name="twitter:image" content="https://ws4.sinaimg.cn/large/006tKfTcgy1flpcrg0hu9j30p807qwf6.jpg">
 
 
 
@@ -487,20 +494,14 @@
 </li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</div><div class="line"></div><div class="line">df = pd.read_csv(<span class="string">'/Users/liguanghe/atl4dama/src/_rp4lgh/df_isocalendar4lgh.csv'</span>)</div><div class="line">df.head(<span class="number">3</span>) <span class="comment">#显示头部, 还可以显示尾部 tail(), 显示描述 describ() ,括号里填写数字, 即可限定显示多少行</span></div></pre></td></tr></table></figure>
-<div><br><style><br><br></style><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>du_start</th><br>      <th>du_end</th><br>      <th>act_type</th><br>      <th>wday</th><br>      <th>wn4y</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>0</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>05.Career</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>    <tr><br>      <th>1</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>07.social</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>    <tr><br>      <th>2</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>07.social:networking</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>  </tbody><br></table><br></div>
-
-
-
+<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1flpcrg0hu9j30p807qwf6.jpg" alt=""></p>
 <h2 id="计算各类型每周总用时"><a href="#计算各类型每周总用时" class="headerlink" title="计算各类型每周总用时"></a>计算各类型每周总用时</h2><h3 id="目标-上述列表转化成如下列表"><a href="#目标-上述列表转化成如下列表" class="headerlink" title="目标: 上述列表转化成如下列表"></a>目标: 上述列表转化成如下列表</h3><ul>
 <li>columns 是各类别</li>
 <li>index 是 week</li>
 <li>values 是 总用时 即每类别每周的总用时</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">df3[<span class="number">44</span>:<span class="number">45</span>]</div></pre></td></tr></table></figure>
-<div><br><style><br><br></style><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>0</th><br>      <th>05.Career</th><br>      <th>07.social</th><br>      <th>07.social:networking</th><br>      <th>09.HealthFun:sport</th><br>      <th>12.sleep:noonsleep</th><br>      <th>04.StudyGrow:reading</th><br>      <th>11.traffic</th><br>      <th>04.StudyGrow:writer</th><br>      <th>04.StudyGrow:ComputerThinking</th><br>      <th>…</th><br>      <th>04.StudyGrow</th><br>      <th>04.StudyGrow:law</th><br>      <th>08.familylife:finance</th><br>      <th>09.HealthFun</th><br>      <th>09.HealthFun:fantasy</th><br>      <th>Sleep</th><br>      <th>Live</th><br>      <th>HealthFun</th><br>      <th>Input</th><br>      <th>Output</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>44</th><br>      <td>44</td><br>      <td>0.0</td><br>      <td>12.4</td><br>      <td>3.1</td><br>      <td>6.3</td><br>      <td>7.6</td><br>      <td>1.1</td><br>      <td>2.5</td><br>      <td>6.0</td><br>      <td>27.2</td><br>      <td>…</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>56.4</td><br>      <td>45.9</td><br>      <td>12.1</td><br>      <td>16.6</td><br>      <td>33.2</td><br>    </tr><br>  </tbody><br></table><br><p>1 rows × 26 columns</p><br></div>
-
-
-
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1flpcs4c2l9j31kk05y3ze.jpg" alt=""></p>
 <h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><ul>
 <li>增加列, 这列的内容可以根据前面各列的数据, 计算得出. <ul>
 <li><a href="https://pandas.pydata.org/pandas-docs/stable/basics.html#general-dataframe-combine" target="_blank" rel="external">lambda</a></li>
@@ -510,10 +511,7 @@
 </li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">df[<span class="string">'du_time'</span>] = df.apply(<span class="keyword">lambda</span> x: x.du_end-x.du_start, axis=<span class="number">1</span>)</div><div class="line">df.tail(<span class="number">1</span>)</div></pre></td></tr></table></figure>
-<div><br><style><br><br></style><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>du_start</th><br>      <th>du_end</th><br>      <th>act_type</th><br>      <th>wday</th><br>      <th>wn4y</th><br>      <th>du_time</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>3695</th><br>      <td>1.511088e+09</td><br>      <td>1.511090e+09</td><br>      <td>04.StudyGrow:ComputerThinking</td><br>      <td>6</td><br>      <td>46</td><br>      <td>1429.0</td><br>    </tr><br>  </tbody><br></table><br></div>
-
-
-
+<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1flpcsu8t2uj31k602wt96.jpg" alt=""></p>
 <ul>
 <li>df中 某一列, 去掉重复的元素后, 有哪些, 可用来分类和计数.<ul>
 <li>计算有多少类行为, 这些行为都在 act_type 这一列中. </li>
@@ -542,10 +540,7 @@
 </li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">ls = list(range(<span class="number">52</span>))</div><div class="line">df3=pd.DataFrame(ls)</div><div class="line"><span class="keyword">for</span> act <span class="keyword">in</span> UniqueAct:</div><div class="line">    df3[act]= (to.loc[act]).set_index(<span class="string">'week'</span>)</div><div class="line">df3.tail(<span class="number">1</span>)</div></pre></td></tr></table></figure>
-<div><br><style><br></style><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>0</th><br>      <th>05.Career</th><br>      <th>07.social</th><br>      <th>07.social:networking</th><br>      <th>09.HealthFun:sport</th><br>      <th>12.sleep:noonsleep</th><br>      <th>04.StudyGrow:reading</th><br>      <th>11.traffic</th><br>      <th>04.StudyGrow:writer</th><br>      <th>04.StudyGrow:ComputerThinking</th><br>      <th>…</th><br>      <th>08.familylife:washingbeauty</th><br>      <th>12.sleep</th><br>      <th>08.familylife:families</th><br>      <th>08.familylife:dinner</th><br>      <th>08.familylife:generalAffair</th><br>      <th>04.StudyGrow</th><br>      <th>04.StudyGrow:law</th><br>      <th>08.familylife:finance</th><br>      <th>09.HealthFun</th><br>      <th>09.HealthFun:fantasy</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>51</th><br>      <td>51</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>…</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>    </tr><br>  </tbody><br></table><br><p>1 rows × 21 columns</p><br></div>
-
-
-
+<p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1flpctjlbstj31jw05sjs7.jpg" alt=""></p>
 <h2 id="分类制表"><a href="#分类制表" class="headerlink" title="分类制表"></a>分类制表</h2><p>有了按照类型分周的总用时的矩阵 df3,可根据自己的希望的分类选择类型, 组建新表. 下面是特有的类型 </p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">df3.columns</div></pre></td></tr></table></figure>
 <pre><code>Index([                              0,                     &apos;05.Career&apos;,
@@ -562,14 +557,10 @@
       dtype=&apos;object&apos;)
 
 
-
 - select data with loc [Indexing and Selecting Data](https://pandas.pydata.org/pandas-docs/stable/indexing.html)
 - 举例, 睡眠包括午睡和晚上的睡眠
 </code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sl =df3.loc[:,[<span class="string">'12.sleep'</span>,<span class="string">'12.sleep:noonsleep'</span>]]<span class="comment"># :指所有的index,即所有的行, ['','']是要选择的 column, 即列</span></div><div class="line">sl[<span class="number">44</span>:<span class="number">45</span>]</div></pre></td></tr></table></figure>
-<div><br><style><br></style><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>12.sleep</th><br>      <th>12.sleep:noonsleep</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>44</th><br>      <td>48.8</td><br>      <td>7.6</td><br>    </tr><br>  </tbody><br></table><br></div>
-
-
-
+<p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1flpcu42kcyj31js048aa9.jpg" alt=""></p>
 <p>下面分别为 live, healthfun, input,output 的分类表格</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">fa = df3.loc[:,[<span class="string">'08.familylife:washingbeauty'</span>,<span class="string">'08.familylife:generalAffair'</span>,<span class="string">'08.familylife:dinner'</span>,<span class="string">'08.familylife:families'</span>,<span class="string">'08.familylife:finance'</span>]]</div><div class="line">hf = df3.loc[:,[<span class="string">'09.HealthFun:sport'</span>, <span class="string">'09.HealthFun:fun'</span>,<span class="string">'09.HealthFun'</span>, <span class="string">'09.HealthFun:fantasy'</span>]]</div><div class="line">ip = df3.loc[:,[<span class="string">'04.StudyGrow:reading'</span>,<span class="string">'07.social'</span>, <span class="string">'07.social:networking'</span>]]</div><div class="line">op = df3.loc[:,[<span class="string">'04.StudyGrow:ComputerThinking'</span>,<span class="string">'04.StudyGrow:writer'</span>,<span class="string">'05.Career'</span>, <span class="string">'04.StudyGrow:law'</span>,</div><div class="line">       <span class="string">'04.StudyGrow'</span>]]</div></pre></td></tr></table></figure>
 <ul>
@@ -577,21 +568,14 @@
 <li>将各大类的总用时再列一张表, 就是5大类总用时的表格</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">df3[<span class="string">'Sleep'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'12.sleep:noonsleep'</span>]+x[<span class="string">'12.sleep'</span>], axis=<span class="number">1</span>)</div><div class="line">df3[<span class="string">'Live'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'08.familylife:washingbeauty'</span>]+x[<span class="string">'08.familylife:families'</span>]+x[<span class="string">'08.familylife:dinner'</span>]+x[<span class="string">'08.familylife:generalAffair'</span>]+x[<span class="string">'08.familylife:finance'</span>], axis=<span class="number">1</span>)</div><div class="line">df3[<span class="string">'HealthFun'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'09.HealthFun:sport'</span>]+x[<span class="string">'09.HealthFun'</span>]+x[<span class="string">'09.HealthFun:fantasy'</span>]+x[<span class="string">'09.HealthFun:fun'</span>], axis=<span class="number">1</span>)</div><div class="line">df3[<span class="string">'Input'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'04.StudyGrow:reading'</span>]+x[<span class="string">'07.social'</span>]+x[<span class="string">'07.social:networking'</span>], axis=<span class="number">1</span>)</div><div class="line">df3[<span class="string">'Output'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'04.StudyGrow:ComputerThinking'</span>]+x[<span class="string">'04.StudyGrow:writer'</span>]+x[<span class="string">'05.Career'</span>]+x[<span class="string">'04.StudyGrow:law'</span>]+x[</div><div class="line">    <span class="string">'04.StudyGrow'</span>], axis=<span class="number">1</span>)</div><div class="line"></div><div class="line">ti =df3.loc[:,[<span class="string">'Output'</span>,<span class="string">'Input'</span>,<span class="string">'Sleep'</span>,<span class="string">'Live'</span>,<span class="string">'HealthFun'</span>]]</div><div class="line">ti[<span class="number">44</span>:<span class="number">45</span>]</div></pre></td></tr></table></figure>
-<div><br><style><br></style><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>Output</th><br>      <th>Input</th><br>      <th>Sleep</th><br>      <th>Live</th><br>      <th>HealthFun</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>44</th><br>      <td>33.2</td><br>      <td>16.6</td><br>      <td>56.4</td><br>      <td>45.9</td><br>      <td>12.1</td><br>    </tr><br>  </tbody><br></table><br></div>
-
-
-
+<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1flpcul9nh2j31jy03sjro.jpg" alt=""></p>
 <h2 id="制图"><a href="#制图" class="headerlink" title="制图"></a>制图</h2><h3 id="经典的Matplotlib"><a href="#经典的Matplotlib" class="headerlink" title="经典的Matplotlib"></a>经典的Matplotlib</h3><p>开篇分析了可视化框架的选择, 虽然本报告使用 bokeh, 但因 <a href="https://matplotlib.org/" target="_blank" rel="external">Matplotlib</a> 是经典的 jupyter notebook 可视化框架, 这里快速展示一下, 其他可视化框架的原理都跟这差不多.</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div><div class="line"></div><div class="line">ti.plot.bar(stacked=<span class="keyword">True</span>); <span class="comment">#ti 是矩阵名称, .plot是制图, .bar 是制作柱状图 (stacked=True) 是说折叠的柱状图</span></div><div class="line">plt.show() <span class="comment">#展示图片</span></div></pre></td></tr></table></figure>
-<p><img src="output_21_0.png" alt="png"></p>
+<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1flpcgep189j30ai073aa1.jpg" alt=""></p>
 <h3 id="本报告使用-bokeh"><a href="#本报告使用-bokeh" class="headerlink" title="本报告使用 bokeh"></a>本报告使用 bokeh</h3><p>主要是其可导出为 .html, 这样可直接发布到公网, 无需再另行排版或上传图片取得链接等等. </p>
 <p>且 bokeh 与 jupyter notebook 对接良好, 图片可直接在notebook 里预览.  </p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#from bokeh.io import show, output_file #生成的图片在 html网页显示</span></div><div class="line"><span class="keyword">from</span> bokeh.io <span class="keyword">import</span> output_notebook, show <span class="comment">#生成的图片在 jupyter notebook 中的 .ipynb 中显示</span></div><div class="line"></div><div class="line">output_notebook()</div><div class="line"><span class="comment">#output_file('/Users/liguanghe/liguanghe.github.io/source/_posts/TimeReport.html', title = 'Time Report')</span></div></pre></td></tr></table></figure>
-<pre><code>&lt;div class=&quot;bk-root&quot;&gt;
-    &lt;a href=&quot;https://bokeh.pydata.org&quot; target=&quot;_blank&quot; class=&quot;bk-logo bk-logo-small bk-logo-notebook&quot;&gt;&lt;/a&gt;
-    &lt;span id=&quot;53a2095c-c661-4676-8be2-8cfec9625f2c&quot;&gt;Loading BokehJS ...&lt;/span&gt;
-&lt;/div&gt;
-</code></pre><p>bokeh 也可以直接处理 矩阵, 比 matplotlib 多一步</p>
+<p>bokeh 也可以直接处理 矩阵, 比 matplotlib 多一步</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> bokeh.models <span class="keyword">import</span> ColumnDataSource</div><div class="line"><span class="comment"># 下文中 source3 = ColumnDataSource(ti) source1 = ColumnDataSource(op)... 等</span></div></pre></td></tr></table></figure>
 <h3 id="bokeh-生成图片"><a href="#bokeh-生成图片" class="headerlink" title="bokeh 生成图片"></a>bokeh 生成图片</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">pt = figure(title=&apos;5 types&apos;)</div><div class="line">pt.vbar_stack(ti.columns, x = ti.index,width = 0.9,color=Spectral5,source = source3, </div><div class="line">              legend=[value(x) for x in ti.columns])</div><div class="line">pt.legend.location = &quot;top_left&quot;</div></pre></td></tr></table></figure>
 <ul>
@@ -636,10 +620,7 @@
 <li>value: 有行动是0, 没有行动是1</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</div><div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line"><span class="comment">#import matplotlib.pyplot as plt</span></div><div class="line"></div><div class="line">u = (((df.loc[:,[<span class="string">'act_type'</span>,<span class="string">'wday'</span>,<span class="string">'wn4y'</span>]]).set_index(<span class="string">'act_type'</span>)).loc[<span class="string">'09.HealthFun:sport'</span>]).set_index(<span class="string">'wn4y'</span>)</div><div class="line">yo =[]</div><div class="line">we=[]</div><div class="line">da = []</div><div class="line"><span class="keyword">for</span> week <span class="keyword">in</span> u.index.unique():</div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">7</span>):</div><div class="line">        <span class="keyword">if</span> i <span class="keyword">in</span> (u.loc[week].values):</div><div class="line">            y = <span class="number">0</span></div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            y = <span class="number">1</span></div><div class="line">        yo.append(y)</div><div class="line">        we.append(week)</div><div class="line">        da.append(i)</div><div class="line">        d = &#123;<span class="string">'you'</span>:yo,</div><div class="line">            <span class="string">'week'</span>:we,</div><div class="line">            <span class="string">'day'</span>:da&#125;  </div><div class="line">y= pd.DataFrame(d).set_index(<span class="string">'week'</span>)</div><div class="line">ls = list(range(<span class="number">7</span>))</div><div class="line"></div><div class="line">yu = pd.DataFrame(ls)             </div><div class="line"><span class="keyword">for</span> we <span class="keyword">in</span> u.index.unique():</div><div class="line">    yu[we] = (y.loc[we]).set_index(<span class="string">'day'</span>)</div><div class="line">(yu.T).loc[<span class="number">30</span>:<span class="number">33</span>]</div></pre></td></tr></table></figure>
-<div><br><style><br></style><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>0</th><br>      <th>1</th><br>      <th>2</th><br>      <th>3</th><br>      <th>4</th><br>      <th>5</th><br>      <th>6</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>30</th><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>    </tr><br>    <tr><br>      <th>31</th><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>    </tr><br>    <tr><br>      <th>32</th><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>    </tr><br>    <tr><br>      <th>33</th><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>    </tr><br>  </tbody><br></table><br></div>
-
-
-
+<p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1flpcwa694aj31jw07ot94.jpg" alt=""></p>
 <h3 id="根据表格内容输出话语"><a href="#根据表格内容输出话语" class="headerlink" title="根据表格内容输出话语"></a>根据表格内容输出话语</h3><ul>
 <li>如果 每行的总和是0, 输出: 每天都运动</li>
 <li>如果 每行总和不是0, 输出: 总和 天没有运动</li>
