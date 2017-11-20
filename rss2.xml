@@ -126,23 +126,6 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
@@ -158,6 +141,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1236,24 +1236,6 @@
     </item>
     
     <item>
-      <title>Sublime Text / it’s all text / firefox</title>
-      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
-      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>font of code</title>
       <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
       <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
@@ -1271,6 +1253,24 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/02/font-tool/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Sublime Text / it’s all text / firefox</title>
+      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1363,20 +1363,20 @@
     </item>
     
     <item>
-      <title>Read Github Guide</title>
-      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
       <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1397,40 +1397,20 @@
     </item>
     
     <item>
-      <title>皆于斗室</title>
-      <link>http://liguanghe.github.io/2017/04/22/lihe/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/lihe/</guid>
+      <title>Read Github Guide</title>
+      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
       <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
-&lt;p&gt;李贺&lt;/p&gt;
-&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
-&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
+          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/lihe/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1448,6 +1428,26 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>皆于斗室</title>
+      <link>http://liguanghe.github.io/2017/04/22/lihe/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/lihe/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
+&lt;p&gt;李贺&lt;/p&gt;
+&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
+&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/lihe/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1507,6 +1507,25 @@
     </item>
     
     <item>
+      <title>写作链</title>
+      <link>http://liguanghe.github.io/2017/03/22/blog/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/blog/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;尝试省略写作到发布之间的无数点击。理想的写作链是这样的：&lt;/p&gt;
+&lt;p&gt;打开编辑器 -&gt; 写字 -&gt; 点击发布 -&gt; 博客以及简书、公众号、朋友圈、微信群、知乎等所有的网站上都发布了这篇文章 -&gt; 每篇文章的评论都统一在一个页面上。&lt;/p&gt;
+&lt;p&gt;目前实现：&lt;br&gt;在 ul
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/blog/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>博客优化</title>
       <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
       <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
@@ -1524,22 +1543,22 @@
     </item>
     
     <item>
-      <title>写作链</title>
-      <link>http://liguanghe.github.io/2017/03/22/blog/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/blog/</guid>
-      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;尝试省略写作到发布之间的无数点击。理想的写作链是这样的：&lt;/p&gt;
-&lt;p&gt;打开编辑器 -&gt; 写字 -&gt; 点击发布 -&gt; 博客以及简书、公众号、朋友圈、微信群、知乎等所有的网站上都发布了这篇文章 -&gt; 每篇文章的评论都统一在一个页面上。&lt;/p&gt;
-&lt;p&gt;目前实现：&lt;br&gt;在 ul
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/03/22/blog/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1560,25 +1579,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
     </item>
     
     <item>
