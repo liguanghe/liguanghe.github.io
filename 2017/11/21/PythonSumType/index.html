@@ -1,0 +1,1573 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next muse" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="python,thinking,skill,time,pandas,Record,report,TimeReport,atl4dama,lghPR,bokeh,matplotlib,function,needs," />
+
+
+
+
+
+  <link rel="alternate" href="/rss2.xml" title="Li Guanghe's blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="#  前言 这是一篇写给小白的教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.   需求 图文展示一年中时间分配 类型频率及持续时间  toolsPy">
+<meta name="keywords" content="python,thinking,skill,time,pandas,Record,report,TimeReport,atl4dama,lghPR,bokeh,matplotlib,function,needs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python | Pandas&#x2F;bokeh 实现交互数据可视化报告">
+<meta property="og:url" content="http://liguanghe.github.io/2017/11/21/PythonSumType/index.html">
+<meta property="og:site_name" content="Li Guanghe&#39;s blog">
+<meta property="og:description" content="#  前言 这是一篇写给小白的教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.   需求 图文展示一年中时间分配 类型频率及持续时间  toolsPy">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://liguanghe.github.io/2017/11/21/PythonSumType/output_21_0.png">
+<meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcgy1flp95kgmcbj30z60h0di7.jpg">
+<meta property="og:updated_time" content="2017-11-20T22:52:45.116Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="python | Pandas&#x2F;bokeh 实现交互数据可视化报告">
+<meta name="twitter:description" content="#  前言 这是一篇写给小白的教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.   需求 图文展示一年中时间分配 类型频率及持续时间  toolsPy">
+<meta name="twitter:image" content="http://liguanghe.github.io/2017/11/21/PythonSumType/output_21_0.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://liguanghe.github.io/2017/11/21/PythonSumType/"/>
+
+
+
+
+
+  <title>python | Pandas/bokeh 实现交互数据可视化报告 | Li Guanghe's blog</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Li Guanghe's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-life">
+          <a href="/life" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-modx"></i> <br />
+            
+            Life
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-knowledge">
+          <a href="/knowledge" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            Knowledge
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-creation">
+          <a href="/creation" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-pencil"></i> <br />
+            
+            Creation
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://liguanghe.github.io/2017/11/21/PythonSumType/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="李广鹤 LiGuanghe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Li Guanghe's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">python | Pandas/bokeh 实现交互数据可视化报告</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-21T11:45:32+13:00">
+                2017-11-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index">
+                    <span itemprop="name">python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/11/21/PythonSumType/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/11/21/PythonSumType/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017/11/21/PythonSumType/" class="leancloud_visitors" data-flag-title="python | Pandas/bokeh 实现交互数据可视化报告">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p># </p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
+<li>这是一篇写给小白的教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用.</li>
+<li>这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容. </li>
+</ul>
+<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
+<li>图文展示一年中时间分配</li>
+<li>类型频率及持续时间</li>
+</ul>
+<h2 id="tools"><a href="#tools" class="headerlink" title="tools"></a>tools</h2><h3 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h3><p>Python 做数据分析有完整的工具链条.</p>
+<p>往深, 可以实现 Deep Learning 的项目(Scikitlearn/Tensorflow)</p>
+<p>往浅, 也可以实现表格(二维矩阵)的处理</p>
+<p>本次即使用较浅的部分,处理表格(虽然只有一张, 但很长)</p>
+<h3 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h3><p>数据科学最小工具链</p>
+<table>
+<thead>
+<tr>
+<th>python</th>
+<th>numpy</th>
+<th>pandas</th>
+<th>Matplotlib(/bokeh)</th>
+<th>Scikit-Learn(/tensorflow)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>list</td>
+<td>array</td>
+<td>matrix</td>
+<td>plot</td>
+<td></td>
+</tr>
+<tr>
+<td>.</td>
+<td>.</td>
+<td>index,column,column,column</td>
+<td>.</td>
+<td></td>
+</tr>
+<tr>
+<td>l=[,,]</td>
+<td>a=[[,,]</td>
+<td>index,,,</td>
+<td></td>
+</tr>
+<tr>
+<td>.</td>
+<td>[,,]]</td>
+<td>index,,,</td>
+<td></td>
+</tr>
+<tr>
+<td>l</td>
+<td>np.xxx</td>
+<td>pd.dataframe(np.xxx)</td>
+<td>plot.xxx.(pd.dataframe(np.xxx),x,x)</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/02.09-structured-data-numpy.html" target="_blank" rel="external">NumPy’s Structured Arrays</a></td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html" target="_blank" rel="external">Pandas df operates like a tructured array</a></td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html" target="_blank" rel="external">Visualization with Matplotlib</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="Bokeh"><a href="#Bokeh" class="headerlink" title="Bokeh"></a>Bokeh</h3><p>matplotlib 和 bokeh 选哪个?</p>
+<pre><code>- [Jupyter 常见可视化框架的选择](https://mp.weixin.qq.com/s/FiuwSoaeNTfk9BYS-sswzw)
+- 我希望导出 html并且可交互, 故选择 bokeh.
+- 内部显示的话, matplotlib也很顺手, 有时会现用它展示, 再重新用 bokeh写一次. 
+</code></pre><h2 id="处理-csv-格式的表格"><a href="#处理-csv-格式的表格" class="headerlink" title="处理 .csv 格式的表格"></a>处理 .csv 格式的表格</h2><ul>
+<li>导入, 并将其转化为 DataFrame(以下简称df, pandas 可以处理的数据形式. 如上表格显示, 与 list 相似,也是数据形式, 但可以被 pandas 处理.  <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.from_csv.html" target="_blank" rel="external">pandas.DataFrame.from_csv</a></li>
+<li>导出也可为 .csv, 因在本项目中不需要导出表格, 故省略.</li>
+<li><p>举例</p>
+<ul>
+<li><p>原始数据格式如下:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">du_start,du_end,act_type,wday,wn4y</div><div class="line">1491088707.0,1491088708.0,05.Career,6,13</div><div class="line">1491088708.0,1491088865.0,07.social,6,13</div></pre></td></tr></table></figure>
+<ul>
+<li>转换后格式如下: </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</div><div class="line"></div><div class="line">df = pd.read_csv(<span class="string">'/Users/liguanghe/atl4dama/src/_rp4lgh/df_isocalendar4lgh.csv'</span>)</div><div class="line">df.head(<span class="number">3</span>) <span class="comment">#显示头部, 还可以显示尾部 tail(), 显示描述 describ() ,括号里填写数字, 即可限定显示多少行</span></div></pre></td></tr></table></figure>
+<div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>du_start</th><br>      <th>du_end</th><br>      <th>act_type</th><br>      <th>wday</th><br>      <th>wn4y</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>0</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>05.Career</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>    <tr><br>      <th>1</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>07.social</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>    <tr><br>      <th>2</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>07.social:networking</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>  </tbody><br></table><br></div>
+
+
+
+<h2 id="计算各类型每周总用时"><a href="#计算各类型每周总用时" class="headerlink" title="计算各类型每周总用时"></a>计算各类型每周总用时</h2><h3 id="目标-上述列表转化成如下列表"><a href="#目标-上述列表转化成如下列表" class="headerlink" title="目标: 上述列表转化成如下列表"></a>目标: 上述列表转化成如下列表</h3><ul>
+<li>columns 是各类别</li>
+<li>index 是 week</li>
+<li>values 是 总用时 即每类别每周的总用时</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">df3[<span class="number">44</span>:<span class="number">45</span>]</div></pre></td></tr></table></figure>
+<div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>0</th><br>      <th>05.Career</th><br>      <th>07.social</th><br>      <th>07.social:networking</th><br>      <th>09.HealthFun:sport</th><br>      <th>12.sleep:noonsleep</th><br>      <th>04.StudyGrow:reading</th><br>      <th>11.traffic</th><br>      <th>04.StudyGrow:writer</th><br>      <th>04.StudyGrow:ComputerThinking</th><br>      <th>…</th><br>      <th>04.StudyGrow</th><br>      <th>04.StudyGrow:law</th><br>      <th>08.familylife:finance</th><br>      <th>09.HealthFun</th><br>      <th>09.HealthFun:fantasy</th><br>      <th>Sleep</th><br>      <th>Live</th><br>      <th>HealthFun</th><br>      <th>Input</th><br>      <th>Output</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>44</th><br>      <td>44</td><br>      <td>0.0</td><br>      <td>12.4</td><br>      <td>3.1</td><br>      <td>6.3</td><br>      <td>7.6</td><br>      <td>1.1</td><br>      <td>2.5</td><br>      <td>6.0</td><br>      <td>27.2</td><br>      <td>…</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>56.4</td><br>      <td>45.9</td><br>      <td>12.1</td><br>      <td>16.6</td><br>      <td>33.2</td><br>    </tr><br>  </tbody><br></table><br><p>1 rows × 26 columns</p><br></div>
+
+
+
+<h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><ul>
+<li>增加列, 这列的内容可以根据前面各列的数据, 计算得出. <ul>
+<li><a href="https://pandas.pydata.org/pandas-docs/stable/basics.html#general-dataframe-combine" target="_blank" rel="external">lambda</a></li>
+<li><a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.apply.html" target="_blank" rel="external">pandas.DataFrame.apply</a></li>
+<li>du_start 是开始的秒数, du_end 是结束的秒数. du_time 即结束减去开始, 即持续时间. </li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">df[<span class="string">'du_time'</span>] = df.apply(<span class="keyword">lambda</span> x: x.du_end-x.du_start, axis=<span class="number">1</span>)</div><div class="line">df.tail(<span class="number">1</span>)</div></pre></td></tr></table></figure>
+<div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>du_start</th><br>      <th>du_end</th><br>      <th>act_type</th><br>      <th>wday</th><br>      <th>wn4y</th><br>      <th>du_time</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>3695</th><br>      <td>1.511088e+09</td><br>      <td>1.511090e+09</td><br>      <td>04.StudyGrow:ComputerThinking</td><br>      <td>6</td><br>      <td>46</td><br>      <td>1429.0</td><br>    </tr><br>  </tbody><br></table><br></div>
+
+
+
+<ul>
+<li>df中 某一列, 去掉重复的元素后, 有哪些, 可用来分类和计数.<ul>
+<li>计算有多少类行为, 这些行为都在 act_type 这一列中. </li>
+<li>计算有多少周 都在 wn4y 这一列中.</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line">UniqueAct = df.act_type.unique()</div></pre></td></tr></table></figure>
+<ul>
+<li>按照某一列中特有的某一元素 提取行, <ul>
+<li>eg:要从 df 中提取出 在 act_type 中都是 sleep 的行 重组一个矩阵. c = df[df[‘act_type’].isin([‘sleep’])</li>
+<li>在矩阵 c中提取出 在wn4y 中都是 14 的行 重组一个矩阵 c[c[‘wn4y’].isin([‘14’] 即第14周的所有 sleep 的数据.</li>
+</ul>
+</li>
+<li>某一列求和 np.sum(df).[‘columnA’], eg: np.sum((c[c[‘wn4y’].isin([week])])[‘du_time’] 及某一行为某一周的总秒数, /60/60, 可得小时.</li>
+<li>使用 for in 循环, 即可将所有行为不同周的总小时数计算出来. 添加到 list l. 同时列出 list a(行为) , list w(week). 将三个列表连在一起, 形成新的矩阵. d4 = {‘act’:a, ‘week’:w,’sum’:l} pd.DataFrame(d4) </li>
+<li>矩阵里的元素只取小数点后一位 .round(1)</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">l = []</div><div class="line">a = []</div><div class="line">w = []</div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> UniqueAct:</div><div class="line">    c = df[df[<span class="string">'act_type'</span>].isin([i])]</div><div class="line">    Uniqueweeks = df.wn4y.unique()</div><div class="line">    <span class="keyword">for</span> week <span class="keyword">in</span> Uniqueweeks:</div><div class="line">        a.append(i)</div><div class="line">        w.append(week)</div><div class="line">        l.append(np.sum((c[c[<span class="string">'wn4y'</span>].isin([week])])[<span class="string">'du_time'</span>])/<span class="number">60</span>/<span class="number">60</span>)</div><div class="line">        d4 = &#123;<span class="string">'act'</span>:a,</div><div class="line">        <span class="string">'week'</span>:w,</div><div class="line">        <span class="string">'sum'</span>:l&#125;</div><div class="line">to= (pd.DataFrame(d4).round(<span class="number">1</span>)).set_index(<span class="string">'act'</span>)</div></pre></td></tr></table></figure>
+<ul>
+<li>将某一列的内容变成 columns 另外一列的内容变成 index, 第三列的内容作为 values的方法. <ul>
+<li>以’ act’作为 index, pandas 针对 index 提供检索的功能 .loc[]</li>
+<li>eg: ((pd.DataFrame(d4).round(1)).set_index(‘act’)).loc[‘sleep] 即在所有 index 中检出行为 在这个基础上, 再使用 .set_index(‘week’), 将周作为 index</li>
+<li>事先建立一个纵轴为52周的矩阵, 在这个矩阵后面添加过滤过的矩阵. </li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">ls = list(range(<span class="number">52</span>))</div><div class="line">df3=pd.DataFrame(ls)</div><div class="line"><span class="keyword">for</span> act <span class="keyword">in</span> UniqueAct:</div><div class="line">    df3[act]= (to.loc[act]).set_index(<span class="string">'week'</span>)</div><div class="line">df3.tail(<span class="number">1</span>)</div></pre></td></tr></table></figure>
+<div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>0</th><br>      <th>05.Career</th><br>      <th>07.social</th><br>      <th>07.social:networking</th><br>      <th>09.HealthFun:sport</th><br>      <th>12.sleep:noonsleep</th><br>      <th>04.StudyGrow:reading</th><br>      <th>11.traffic</th><br>      <th>04.StudyGrow:writer</th><br>      <th>04.StudyGrow:ComputerThinking</th><br>      <th>…</th><br>      <th>08.familylife:washingbeauty</th><br>      <th>12.sleep</th><br>      <th>08.familylife:families</th><br>      <th>08.familylife:dinner</th><br>      <th>08.familylife:generalAffair</th><br>      <th>04.StudyGrow</th><br>      <th>04.StudyGrow:law</th><br>      <th>08.familylife:finance</th><br>      <th>09.HealthFun</th><br>      <th>09.HealthFun:fantasy</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>51</th><br>      <td>51</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>…</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>      <td>NaN</td><br>    </tr><br>  </tbody><br></table><br><p>1 rows × 21 columns</p><br></div>
+
+
+
+<h2 id="分类制表"><a href="#分类制表" class="headerlink" title="分类制表"></a>分类制表</h2><p>有了按照类型分周的总用时的矩阵 df3,可根据自己的希望的分类选择类型, 组建新表. 下面是特有的类型 </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">df3.columns</div></pre></td></tr></table></figure>
+<pre><code>Index([                              0,                     &apos;05.Career&apos;,
+                           &apos;07.social&apos;,          &apos;07.social:networking&apos;,
+                  &apos;09.HealthFun:sport&apos;,            &apos;12.sleep:noonsleep&apos;,
+                &apos;04.StudyGrow:reading&apos;,                    &apos;11.traffic&apos;,
+                 &apos;04.StudyGrow:writer&apos;, &apos;04.StudyGrow:ComputerThinking&apos;,
+                    &apos;09.HealthFun:fun&apos;,   &apos;08.familylife:washingbeauty&apos;,
+                            &apos;12.sleep&apos;,        &apos;08.familylife:families&apos;,
+                &apos;08.familylife:dinner&apos;,   &apos;08.familylife:generalAffair&apos;,
+                        &apos;04.StudyGrow&apos;,              &apos;04.StudyGrow:law&apos;,
+               &apos;08.familylife:finance&apos;,                  &apos;09.HealthFun&apos;,
+                &apos;09.HealthFun:fantasy&apos;],
+      dtype=&apos;object&apos;)
+
+
+
+- select data with loc [Indexing and Selecting Data](https://pandas.pydata.org/pandas-docs/stable/indexing.html)
+- 举例, 睡眠包括午睡和晚上的睡眠
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sl =df3.loc[:,[<span class="string">'12.sleep'</span>,<span class="string">'12.sleep:noonsleep'</span>]]<span class="comment"># :指所有的index,即所有的行, ['','']是要选择的 column, 即列</span></div><div class="line">sl[<span class="number">44</span>:<span class="number">45</span>]</div></pre></td></tr></table></figure>
+<div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>12.sleep</th><br>      <th>12.sleep:noonsleep</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>44</th><br>      <td>48.8</td><br>      <td>7.6</td><br>    </tr><br>  </tbody><br></table><br></div>
+
+
+
+<p>下面分别为 live, healthfun, input,output 的分类表格</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">fa = df3.loc[:,[<span class="string">'08.familylife:washingbeauty'</span>,<span class="string">'08.familylife:generalAffair'</span>,<span class="string">'08.familylife:dinner'</span>,<span class="string">'08.familylife:families'</span>,<span class="string">'08.familylife:finance'</span>]]</div><div class="line">hf = df3.loc[:,[<span class="string">'09.HealthFun:sport'</span>, <span class="string">'09.HealthFun:fun'</span>,<span class="string">'09.HealthFun'</span>, <span class="string">'09.HealthFun:fantasy'</span>]]</div><div class="line">ip = df3.loc[:,[<span class="string">'04.StudyGrow:reading'</span>,<span class="string">'07.social'</span>, <span class="string">'07.social:networking'</span>]]</div><div class="line">op = df3.loc[:,[<span class="string">'04.StudyGrow:ComputerThinking'</span>,<span class="string">'04.StudyGrow:writer'</span>,<span class="string">'05.Career'</span>, <span class="string">'04.StudyGrow:law'</span>,</div><div class="line">       <span class="string">'04.StudyGrow'</span>]]</div></pre></td></tr></table></figure>
+<ul>
+<li>计算以上各类的总用时, 添加到 df3后面</li>
+<li>将各大类的总用时再列一张表, 就是5大类总用时的表格</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">df3[<span class="string">'Sleep'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'12.sleep:noonsleep'</span>]+x[<span class="string">'12.sleep'</span>], axis=<span class="number">1</span>)</div><div class="line">df3[<span class="string">'Live'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'08.familylife:washingbeauty'</span>]+x[<span class="string">'08.familylife:families'</span>]+x[<span class="string">'08.familylife:dinner'</span>]+x[<span class="string">'08.familylife:generalAffair'</span>]+x[<span class="string">'08.familylife:finance'</span>], axis=<span class="number">1</span>)</div><div class="line">df3[<span class="string">'HealthFun'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'09.HealthFun:sport'</span>]+x[<span class="string">'09.HealthFun'</span>]+x[<span class="string">'09.HealthFun:fantasy'</span>]+x[<span class="string">'09.HealthFun:fun'</span>], axis=<span class="number">1</span>)</div><div class="line">df3[<span class="string">'Input'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'04.StudyGrow:reading'</span>]+x[<span class="string">'07.social'</span>]+x[<span class="string">'07.social:networking'</span>], axis=<span class="number">1</span>)</div><div class="line">df3[<span class="string">'Output'</span>] = df3.apply(<span class="keyword">lambda</span> x: x[<span class="string">'04.StudyGrow:ComputerThinking'</span>]+x[<span class="string">'04.StudyGrow:writer'</span>]+x[<span class="string">'05.Career'</span>]+x[<span class="string">'04.StudyGrow:law'</span>]+x[</div><div class="line">    <span class="string">'04.StudyGrow'</span>], axis=<span class="number">1</span>)</div><div class="line"></div><div class="line">ti =df3.loc[:,[<span class="string">'Output'</span>,<span class="string">'Input'</span>,<span class="string">'Sleep'</span>,<span class="string">'Live'</span>,<span class="string">'HealthFun'</span>]]</div><div class="line">ti[<span class="number">44</span>:<span class="number">45</span>]</div></pre></td></tr></table></figure>
+<div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>Output</th><br>      <th>Input</th><br>      <th>Sleep</th><br>      <th>Live</th><br>      <th>HealthFun</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>44</th><br>      <td>33.2</td><br>      <td>16.6</td><br>      <td>56.4</td><br>      <td>45.9</td><br>      <td>12.1</td><br>    </tr><br>  </tbody><br></table><br></div>
+
+
+
+<h2 id="制图"><a href="#制图" class="headerlink" title="制图"></a>制图</h2><h3 id="经典的Matplotlib"><a href="#经典的Matplotlib" class="headerlink" title="经典的Matplotlib"></a>经典的Matplotlib</h3><p>开篇分析了可视化框架的选择, 虽然本报告使用 bokeh, 但因 <a href="https://matplotlib.org/" target="_blank" rel="external">Matplotlib</a> 是经典的 jupyter notebook 可视化框架, 这里快速展示一下, 其他可视化框架的原理都跟这差不多.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div><div class="line"></div><div class="line">ti.plot.bar(stacked=<span class="keyword">True</span>); <span class="comment">#ti 是矩阵名称, .plot是制图, .bar 是制作柱状图 (stacked=True) 是说折叠的柱状图</span></div><div class="line">plt.show() <span class="comment">#展示图片</span></div></pre></td></tr></table></figure>
+<p><img src="output_21_0.png" alt="png"></p>
+<h3 id="本报告使用-bokeh"><a href="#本报告使用-bokeh" class="headerlink" title="本报告使用 bokeh"></a>本报告使用 bokeh</h3><p>主要是其可导出为 .html, 这样可直接发布到公网, 无需再另行排版或上传图片取得链接等等. </p>
+<p>且 bokeh 与 jupyter notebook 对接良好, 图片可直接在notebook 里预览.  </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#from bokeh.io import show, output_file #生成的图片在 html网页显示</span></div><div class="line"><span class="keyword">from</span> bokeh.io <span class="keyword">import</span> output_notebook, show <span class="comment">#生成的图片在 jupyter notebook 中的 .ipynb 中显示</span></div><div class="line"></div><div class="line">output_notebook()</div><div class="line"><span class="comment">#output_file('/Users/liguanghe/liguanghe.github.io/source/_posts/TimeReport.html', title = 'Time Report')</span></div></pre></td></tr></table></figure>
+<pre><code>&lt;div class=&quot;bk-root&quot;&gt;
+    &lt;a href=&quot;https://bokeh.pydata.org&quot; target=&quot;_blank&quot; class=&quot;bk-logo bk-logo-small bk-logo-notebook&quot;&gt;&lt;/a&gt;
+    &lt;span id=&quot;53a2095c-c661-4676-8be2-8cfec9625f2c&quot;&gt;Loading BokehJS ...&lt;/span&gt;
+&lt;/div&gt;
+</code></pre><p>bokeh 也可以直接处理 矩阵, 比 matplotlib 多一步</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> bokeh.models <span class="keyword">import</span> ColumnDataSource</div><div class="line"><span class="comment"># 下文中 source3 = ColumnDataSource(ti) source1 = ColumnDataSource(op)... 等</span></div></pre></td></tr></table></figure>
+<h3 id="bokeh-生成图片"><a href="#bokeh-生成图片" class="headerlink" title="bokeh 生成图片"></a>bokeh 生成图片</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">pt = figure(title=&apos;5 types&apos;)</div><div class="line">pt.vbar_stack(ti.columns, x = ti.index,width = 0.9,color=Spectral5,source = source3, </div><div class="line">              legend=[value(x) for x in ti.columns])</div><div class="line">pt.legend.location = &quot;top_left&quot;</div></pre></td></tr></table></figure>
+<ul>
+<li>画一个空白的图 p5= figure(height=HEIGHT) ,同时可以设置这个图的长度和高度, 在括号里赋值 height 和 width…</li>
+<li>这个图是折叠柱状图 .vbar_stack</li>
+<li>要折叠的内容的 矩阵 ti 中 columns 里的各类. ti.columns( 几个类型)</li>
+<li>横轴(x)是 矩阵 ti 中的 index (周)</li>
+<li>每个bar 的宽度是0.9 width = 0.9</li>
+<li><p>bar 里的不同类要有不同颜色, 用 color 来赋值</p>
+<ul>
+<li>这里需要特别注意, 有几类, 就用几个颜色. </li>
+<li><figure class="highlight plain"><figcaption><span>bokeh.palettes import GnBu5,Greens3,Spectral5,Oranges5,Reds4``` </span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">    - 在[bokeh.palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html)可以选取颜色组合 </div><div class="line">    - 这些组合最少三个色, 你只有两个也没关系, 可以自己设定两个颜色, 见下面代码中 ps 那张图.</div><div class="line">- source 就是用什么来做图.</div><div class="line">- legend 是给每一截bar打标签, 即在图中显示每截不同颜色的 bar 是什么. 这里也要注意, 长度和内容应该与图中实际情况一样. ```legend=[value(x) for x in ti.columns</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>以上内容在<a href="https://bokeh.pydata.org/en/latest/docs/user_guide/quickstart.html" target="_blank" rel="external">Quickstart — Bokeh</a>有介绍.</p>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> bokeh.plotting <span class="keyword">import</span> figure</div><div class="line"><span class="keyword">from</span> bokeh.palettes <span class="keyword">import</span> GnBu5,Greens3,Spectral5,Oranges5,Reds4</div><div class="line"><span class="keyword">from</span> bokeh.core.properties <span class="keyword">import</span> value</div><div class="line"></div><div class="line"><span class="comment">#WIDTH = 500</span></div><div class="line">HEIGHT = <span class="number">300</span></div><div class="line"></div><div class="line">source3 = ColumnDataSource(ti)</div><div class="line">pt = figure(title=<span class="string">'5 types'</span>)</div><div class="line">pt.vbar_stack(ti.columns, x = ti.index,width = <span class="number">0.9</span>,color=Spectral5,source = source3, </div><div class="line">              legend=[value(x) <span class="keyword">for</span> x <span class="keyword">in</span> ti.columns])</div><div class="line">pt.legend.location = <span class="string">"top_left"</span></div><div class="line"></div><div class="line">po = figure(height=HEIGHT)</div><div class="line">source1 = ColumnDataSource(op)</div><div class="line">po.vbar_stack(op.columns, x = op.index,width = <span class="number">0.9</span>,color=GnBu5,source = source1,</div><div class="line">legend=[value(x) <span class="keyword">for</span> x <span class="keyword">in</span> op.columns])</div><div class="line">po.legend.location = <span class="string">"top_left"</span></div><div class="line"></div><div class="line">source2 = ColumnDataSource(ip)</div><div class="line">pi = figure(height=HEIGHT,title=<span class="string">'Input'</span>)</div><div class="line">pi.vbar_stack(ip.columns, x = ip.index,width = <span class="number">0.9</span>,color=Greens3,source = source2,</div><div class="line">             legend=[value(x) <span class="keyword">for</span> x <span class="keyword">in</span> ip.columns])</div><div class="line">pi.legend.location = <span class="string">"top_left"</span></div><div class="line"></div><div class="line">colors = [<span class="string">'#ffffcc'</span>,<span class="string">'#FDE724'</span> ]</div><div class="line"></div><div class="line">ps = figure(height=HEIGHT)</div><div class="line">source4 = ColumnDataSource(sl)</div><div class="line">ps = figure(height=HEIGHT,title=<span class="string">'sleep'</span>)</div><div class="line">ps.vbar_stack(sl.columns, x = sl.index,width = <span class="number">0.9</span>,color=colors,source = source4,</div><div class="line">             legend=[value(x) <span class="keyword">for</span> x <span class="keyword">in</span> sl.columns])</div><div class="line">ps.legend.location = <span class="string">"top_left"</span></div><div class="line"></div><div class="line">source5= ColumnDataSource(fa)</div><div class="line">pf = figure(height=HEIGHT,title=<span class="string">'live'</span>)</div><div class="line">pf.vbar_stack(fa.columns, x = fa.index,width = <span class="number">0.9</span>,color=Oranges5,source = source5,</div><div class="line">             legend=[value(x) <span class="keyword">for</span> x <span class="keyword">in</span> fa.columns])</div><div class="line">pf.legend.location = <span class="string">"top_left"</span></div><div class="line"></div><div class="line"></div><div class="line">source6= ColumnDataSource(hf)</div><div class="line">ph = figure(height=HEIGHT,title=<span class="string">'healthfun'</span>)</div><div class="line">ph.vbar_stack(hf.columns, x = hf.index,width = <span class="number">0.9</span>,color=Reds4,source = source6,</div><div class="line">             legend=[value(x) <span class="keyword">for</span> x <span class="keyword">in</span> hf.columns])</div><div class="line">ph.legend.location = <span class="string">"top_left"</span></div></pre></td></tr></table></figure>
+<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1flp95kgmcbj30z60h0di7.jpg" alt=""></p>
+<h3 id="bokeh-HTML-排版及插入视窗"><a href="#bokeh-HTML-排版及插入视窗" class="headerlink" title="bokeh HTML 排版及插入视窗"></a>bokeh HTML 排版及插入视窗</h3><ul>
+<li>前面说 bokeh 可输出漂亮的可交互的 html, 将多张图片按照你希望的格式排列在网页上. 不仅是图片, 也可以插入文字/按钮等等</li>
+<li><p>先说插入文字/按钮等视窗</p>
+<ul>
+<li><a href="https://bokeh.pydata.org/en/latest/docs/user_guide/interaction/widgets.html#userguide-interaction-widgets" target="_blank" rel="external">Div</a>是可以识别 html 排版语言的小窗口, 把你想要显示的文字填在 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line">```python</div><div class="line">from bokeh.layouts import widgetbox</div><div class="line">from bokeh.models.widgets import Div</div><div class="line"></div><div class="line">t0 = Div(text=&quot;&quot;&quot;</div><div class="line">    &lt;h1 align=&quot;center&quot;&gt;Time Report&lt;/h1&gt;</div><div class="line">    &lt;p&gt;Each Nature week has 168 hours(24h*7d=168h).&lt;/p&gt;</div><div class="line">    &lt;p&gt;Hours in this form are a little more or less. </div><div class="line">    One reason is some time may not be recorded,the other reason </div><div class="line">    is an event time may cross two weeks.&lt;/p&gt;</div><div class="line">    &lt;p&gt;Each bar in the plot nearly touchs 168(y), </div><div class="line">    this shows I record all time-spent every week.  &lt;/p&gt;</div><div class="line">    &lt;h2&gt; 5 big types&lt;/h2&gt;</div><div class="line">    &lt;p&gt;Label daily action to 5 big types, like the plot shows. &lt;/p&gt;</div><div class="line">    &quot;&quot;&quot;,width=WIDTH, height=200)</div></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>除了文字, 还可以填写 function, 给 variable 赋值, 即可显示对应的输出结果. </p>
+</li>
+<li>frequency 是我编写的 function, 会在下文详解. </li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> lgh7SumFrequency <span class="keyword">import</span> frequency</div><div class="line">t1 = Div(text=<span class="string">'''&lt;h2&gt;Output ↑&lt;/h2&gt;'''</span></div><div class="line">    +frequency(cvsf,<span class="string">'04.StudyGrow:ComputerThinking'</span>)+<span class="string">'''&lt;p&gt;\n&lt;/p&gt;'''</span></div><div class="line">    +frequency(cvsf,<span class="string">'04.StudyGrow:writer'</span>)+<span class="string">'''&lt;p&gt;\n04.StudyGrow shows  curious.&lt;/p&gt;'''</span>,width=WIDTH, height=<span class="number">100</span>)</div><div class="line">t2 = Div(text=<span class="string">'''&lt;h2&gt;Input ↑&lt;/h2&gt;</span></div><div class="line"><span class="string">    &lt;p&gt;Reading without output is input.&lt;/p&gt;</span></div><div class="line"><span class="string">    &lt;p&gt;Meaningly social is in this part. Others belong to live:familes.\n&lt;p&gt;'''</span></div><div class="line">    +frequency(cvsf,<span class="string">'04.StudyGrow:reading'</span>),width=WIDTH, height=<span class="number">100</span>)</div><div class="line">t3 = Div(text=<span class="string">'''&lt;h2&gt;Sleep ↓&lt;/h2&gt;</span></div><div class="line"><span class="string">    &lt;p&gt;sleep &lt; 59h&lt;/p&gt;'''</span>,width=WIDTH, height=<span class="number">100</span>)</div><div class="line">t4 = Div(text=<span class="string">'''&lt;h2&gt;Live&lt;/h2&gt;&lt;p&gt;08.familylife:familes includes other social.&lt;/p&gt;'''</span></div><div class="line">    +frequency(cvsf,<span class="string">'08.familylife:washingbeauty'</span>),width=WIDTH, height=<span class="number">100</span>)</div><div class="line">t5 = Div(text=<span class="string">'''&lt;h2&gt;HealthFun&lt;/h2&gt;'''</span>+frequency(cvsf,<span class="string">'09.HealthFun:sport'</span>)+<span class="string">'''\n&lt;p&gt;09.Healthfun shows curious.&lt;/p&gt;</span></div><div class="line"><span class="string">    &lt;p&gt;09.Healthfun:fun should be down.&lt;/p&gt;</span></div><div class="line"><span class="string">    '''</span>,width=WIDTH, height=<span class="number">100</span>,)</div></pre></td></tr></table></figure>
+<ul>
+<li>排版, 可以按照坐标的方式, 即 grid, 也可以按照 row 和 column 排列, 这里选择 grid , [widgetbox(t0),none] 则会将他们排在一行, 其他的一次排下去. <a href="https://bokeh.pydata.org/en/latest/docs/user_guide/layout.html#" target="_blank" rel="external">Laying out Plots and Widgets</a></li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> bokeh.layouts <span class="keyword">import</span> gridplot</div><div class="line"></div><div class="line">grid = gridplot([[widgetbox(t0)],[pt],[t1], [po],[t2],[pi],[t3],[ps],[t4],[pf],[t5],[ph]])</div><div class="line">    save(grid)</div><div class="line"></div><div class="line">show(grid)</div></pre></td></tr></table></figure>
+<p>即可生成 HTML, 输出成果见<a href="https://liguanghe.github.io/2017/11/17/TimeReport/">time report</a></p>
+<h2 id="计算频率的-function"><a href="#计算频率的-function" class="headerlink" title="计算频率的 function"></a>计算频率的 function</h2><h3 id="制表"><a href="#制表" class="headerlink" title="制表"></a>制表</h3><ul>
+<li>一个行动类型一张表</li>
+<li>index: 周</li>
+<li>column: 7天</li>
+<li>value: 有行动是0, 没有行动是1</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</div><div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line"><span class="comment">#import matplotlib.pyplot as plt</span></div><div class="line"></div><div class="line">u = (((df.loc[:,[<span class="string">'act_type'</span>,<span class="string">'wday'</span>,<span class="string">'wn4y'</span>]]).set_index(<span class="string">'act_type'</span>)).loc[<span class="string">'09.HealthFun:sport'</span>]).set_index(<span class="string">'wn4y'</span>)</div><div class="line">yo =[]</div><div class="line">we=[]</div><div class="line">da = []</div><div class="line"><span class="keyword">for</span> week <span class="keyword">in</span> u.index.unique():</div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">7</span>):</div><div class="line">        <span class="keyword">if</span> i <span class="keyword">in</span> (u.loc[week].values):</div><div class="line">            y = <span class="number">0</span></div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            y = <span class="number">1</span></div><div class="line">        yo.append(y)</div><div class="line">        we.append(week)</div><div class="line">        da.append(i)</div><div class="line">        d = &#123;<span class="string">'you'</span>:yo,</div><div class="line">            <span class="string">'week'</span>:we,</div><div class="line">            <span class="string">'day'</span>:da&#125;  </div><div class="line">y= pd.DataFrame(d).set_index(<span class="string">'week'</span>)</div><div class="line">ls = list(range(<span class="number">7</span>))</div><div class="line"></div><div class="line">yu = pd.DataFrame(ls)             </div><div class="line"><span class="keyword">for</span> we <span class="keyword">in</span> u.index.unique():</div><div class="line">    yu[we] = (y.loc[we]).set_index(<span class="string">'day'</span>)</div><div class="line">(yu.T).loc[<span class="number">30</span>:<span class="number">33</span>]</div></pre></td></tr></table></figure>
+<div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>0</th><br>      <th>1</th><br>      <th>2</th><br>      <th>3</th><br>      <th>4</th><br>      <th>5</th><br>      <th>6</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>30</th><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>    </tr><br>    <tr><br>      <th>31</th><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>    </tr><br>    <tr><br>      <th>32</th><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>    </tr><br>    <tr><br>      <th>33</th><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>      <td>0</td><br>    </tr><br>  </tbody><br></table><br></div>
+
+
+
+<h3 id="根据表格内容输出话语"><a href="#根据表格内容输出话语" class="headerlink" title="根据表格内容输出话语"></a>根据表格内容输出话语</h3><ul>
+<li>如果 每行的总和是0, 输出: 每天都运动</li>
+<li>如果 每行总和不是0, 输出: 总和 天没有运动</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> we <span class="keyword">in</span> u.index.unique():</div><div class="line">            yu[we] = (y.loc[we]).set_index(<span class="string">'day'</span>)</div><div class="line">            <span class="string">''' sum = 0 / sum = n, n is not sport last week'''</span></div><div class="line">        <span class="keyword">if</span> (yu.sum(axis = <span class="number">0</span>)&lt;=<span class="number">0</span>)[<span class="number">-1</span>:].values == <span class="keyword">True</span>:</div><div class="line">            <span class="keyword">return</span> stype + <span class="string">' everyday.'</span></div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            <span class="keyword">return</span> str(yu.sum(axis = <span class="number">0</span>).iloc[<span class="number">-1</span>]) + <span class="string">" days didn't "</span>+ stype +<span class="string">' last week.'</span></div></pre></td></tr></table></figure>
+<ul>
+<li>转成 function,处理不同的行为<ul>
+<li>如果输入的不是行为列表中的元素, 则输出, 请输入你行为列表中的行为</li>
+<li>调用这个函式如上文小窗口 t1,t3,t4 中的 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line">```python</div><div class="line">import sys</div><div class="line">import pandas as pd</div><div class="line">import numpy as np</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">def frequency(cvsf,stype):</div><div class="line">    &apos;&apos;&apos;read .csv to df&apos;&apos;&apos;</div><div class="line">    df = pd.read_csv(cvsf)</div><div class="line">    df[&apos;du_time&apos;] = df.apply(lambda x: x.du_end-x.du_start, axis=1)</div><div class="line">    &apos;&apos;&apos;sport index=week, column = day&apos;&apos;&apos;</div><div class="line">    </div><div class="line">    if stype in str(df[&apos;act_type&apos;]):</div><div class="line">        u = (((df.loc[:,[&apos;act_type&apos;,&apos;wday&apos;,&apos;wn4y&apos;]]).set_index(&apos;act_type&apos;)).loc[stype]).set_index(&apos;wn4y&apos;)</div><div class="line"></div><div class="line">        &apos;&apos;&apos;index = 0-6, column = week, value = 0/1&apos;&apos;&apos;</div><div class="line">        Uniqueday = u.wday.unique()    </div><div class="line">        UniqueWeeks = df.wn4y.unique()</div><div class="line"></div><div class="line">        yo =[]</div><div class="line">        we =[]</div><div class="line">        da =[]</div><div class="line">        for week in u.index.unique():</div><div class="line">            for i in range(7):</div><div class="line">                if i in (u.loc[week].values):</div><div class="line">                    y = 0</div><div class="line">                else:</div><div class="line">                    y = 1</div><div class="line">                yo.append(y)</div><div class="line">                we.append(week)</div><div class="line">                da.append(i)</div><div class="line">                d = &#123;&apos;you&apos;:yo,</div><div class="line">                    &apos;week&apos;:we,</div><div class="line">                    &apos;day&apos;:da&#125;  </div><div class="line">        y= pd.DataFrame(d).set_index(&apos;week&apos;)</div><div class="line">        ls = list(range(7))</div><div class="line"></div><div class="line">        yu = pd.DataFrame(ls)             </div><div class="line">        for we in u.index.unique():</div><div class="line">            yu[we] = (y.loc[we]).set_index(&apos;day&apos;)</div><div class="line">            &apos;&apos;&apos; sum = 0 / sum = n, n is not sport last week&apos;&apos;&apos;</div><div class="line">        if (yu.sum(axis = 0)&lt;=0)[-1:].values == True:</div><div class="line">            return stype + &apos; everyday.&apos;</div><div class="line">        else:</div><div class="line">            return stype+&apos; &apos; +str(yu.sum(axis = 0).iloc[-1]) + &quot; days off last week.&quot;</div><div class="line">        </div><div class="line">    else:</div><div class="line">        print (&apos;please input one act_type in your data&apos;)</div><div class="line">    </div><div class="line"></div><div class="line">if __name__ == &apos;__main__&apos;:</div><div class="line">    print(__version__)</div><div class="line">    _csv = sys.argv[1]</div><div class="line">    _ty = sys.argv[2]</div><div class="line">    frequency(_csv,_ty)</div></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><ul>
+<li>照着 <a href="https://learnpythonthehardway.org/book/" target="_blank" rel="external">Learn Python the Hard Way</a> 抄了一个月的代码. </li>
+<li>看 pandas 来写代码了. 大妈提供了 <a href="https://jakevdp.github.io/PythonDataScienceHandbook/index.html" target="_blank" rel="external">Python Data Science Handbook | Python Data Science Handbook</a> 这本数据科学工具书. 我并没有全看完, 只是把每个工具都有的10分钟快速掌握看完, 知道它主要实现什么功能, 然后就去完成自己的需求. 千万不要抱着都看完才去学, 这样无法开动, 带着项目搜索怎么做, 并不断的实验 是最快的. </li>
+<li>经常会遇到报错, 见这篇: <a href="https://liguanghe.github.io/2017/11/18/pythonErrorSolution/">When Your Computer Answer ‘Error’ 写代码遇到报错怎么办? | Li Guanghe’s blog</a></li>
+<li>这中间遇到的最大的坑, 是 type. <a href="https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html" target="_blank" rel="external">Understanding Data Types in Python | Python Data Science Handbook</a>, 这篇一定要看. </li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/python/" rel="tag"># python</a>
+          
+            <a href="/tags/thinking/" rel="tag"># thinking</a>
+          
+            <a href="/tags/skill/" rel="tag"># skill</a>
+          
+            <a href="/tags/time/" rel="tag"># time</a>
+          
+            <a href="/tags/pandas/" rel="tag"># pandas</a>
+          
+            <a href="/tags/Record/" rel="tag"># Record</a>
+          
+            <a href="/tags/report/" rel="tag"># report</a>
+          
+            <a href="/tags/TimeReport/" rel="tag"># TimeReport</a>
+          
+            <a href="/tags/atl4dama/" rel="tag"># atl4dama</a>
+          
+            <a href="/tags/lghPR/" rel="tag"># lghPR</a>
+          
+            <a href="/tags/bokeh/" rel="tag"># bokeh</a>
+          
+            <a href="/tags/matplotlib/" rel="tag"># matplotlib</a>
+          
+            <a href="/tags/function/" rel="tag"># function</a>
+          
+            <a href="/tags/needs/" rel="tag"># needs</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/11/18/PythonTimeReport1/" rel="next" title="Time Report's Report 时间报告的报告">
+                <i class="fa fa-chevron-left"></i> Time Report's Report 时间报告的报告
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="李广鹤 LiGuanghe" />
+          <p class="site-author-name" itemprop="name">李广鹤 LiGuanghe</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">94</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">174</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/rss2.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/LiGuanghe" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:liguanghe218317@gmail.com" target="_blank" title="Email">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>
+                  
+                  Email
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.lizhi.fm/2040956" target="_blank" title="Lizhi">
+                  
+                    <i class="fa fa-fw fa-headphones"></i>
+                  
+                  Lizhi
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/RaptorLiguanghe" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100011231388906&ref=bookmarks" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需求"><span class="nav-text">需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tools"><span class="nav-text">tools</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Python"><span class="nav-text">Python</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Pandas"><span class="nav-text">Pandas</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Bokeh"><span class="nav-text">Bokeh</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#处理-csv-格式的表格"><span class="nav-text">处理 .csv 格式的表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#计算各类型每周总用时"><span class="nav-text">计算各类型每周总用时</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#目标-上述列表转化成如下列表"><span class="nav-text">目标: 上述列表转化成如下列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实现"><span class="nav-text">实现</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分类制表"><span class="nav-text">分类制表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#制图"><span class="nav-text">制图</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#经典的Matplotlib"><span class="nav-text">经典的Matplotlib</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#本报告使用-bokeh"><span class="nav-text">本报告使用 bokeh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bokeh-生成图片"><span class="nav-text">bokeh 生成图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bokeh-HTML-排版及插入视窗"><span class="nav-text">bokeh HTML 排版及插入视窗</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#计算频率的-function"><span class="nav-text">计算频率的 function</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#制表"><span class="nav-text">制表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#根据表格内容输出话语"><span class="nav-text">根据表格内容输出话语</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小结"><span class="nav-text">小结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">李广鹤 LiGuanghe</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://ligdhe-com.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://liguanghe.github.io/2017/11/21/PythonSumType/';
+          this.page.identifier = '2017/11/21/PythonSumType/';
+          this.page.title = 'python | Pandas/bokeh 实现交互数据可视化报告';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://ligdhe-com.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (search_path.endsWith("json")) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === '') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("9GEqF7BQvsUPba1qXT9WOrNM-gzGzoHsz", "YYUALuaP85zsGp44c1oCKl5D");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
