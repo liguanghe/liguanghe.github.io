@@ -100,7 +100,7 @@
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://liguanghe.github.io/2017/11/21/PythonSumType/output_21_0.png">
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcgy1flp95kgmcbj30z60h0di7.jpg">
-<meta property="og:updated_time" content="2017-11-20T22:56:39.348Z">
+<meta property="og:updated_time" content="2017-11-20T22:58:54.041Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python | Pandas&#x2F;bokeh 实现交互数据可视化报告">
 <meta name="twitter:description" content="前言 这是一篇写给小白的教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.   需求 图文展示一年中时间分配 类型频率及持续时间  toolsPytho">
@@ -489,8 +489,6 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</div><div class="line"></div><div class="line">df = pd.read_csv(<span class="string">'/Users/liguanghe/atl4dama/src/_rp4lgh/df_isocalendar4lgh.csv'</span>)</div><div class="line">df.head(<span class="number">3</span>) <span class="comment">#显示头部, 还可以显示尾部 tail(), 显示描述 describ() ,括号里填写数字, 即可限定显示多少行</span></div></pre></td></tr></table></figure>
 <div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>du_start</th><br>      <th>du_end</th><br>      <th>act_type</th><br>      <th>wday</th><br>      <th>wn4y</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>0</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>05.Career</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>    <tr><br>      <th>1</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>07.social</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>    <tr><br>      <th>2</th><br>      <td>1.491089e+09</td><br>      <td>1.491089e+09</td><br>      <td>07.social:networking</td><br>      <td>6</td><br>      <td>13</td><br>    </tr><br>  </tbody><br></table><br></div>
 
-
-
 <h2 id="计算各类型每周总用时"><a href="#计算各类型每周总用时" class="headerlink" title="计算各类型每周总用时"></a>计算各类型每周总用时</h2><h3 id="目标-上述列表转化成如下列表"><a href="#目标-上述列表转化成如下列表" class="headerlink" title="目标: 上述列表转化成如下列表"></a>目标: 上述列表转化成如下列表</h3><ul>
 <li>columns 是各类别</li>
 <li>index 是 week</li>
@@ -498,8 +496,6 @@
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">df3[<span class="number">44</span>:<span class="number">45</span>]</div></pre></td></tr></table></figure>
 <div><br><table border="1" class="dataframe"><br>  <thead><br>    <tr style="text-align: right;"><br>      <th></th><br>      <th>0</th><br>      <th>05.Career</th><br>      <th>07.social</th><br>      <th>07.social:networking</th><br>      <th>09.HealthFun:sport</th><br>      <th>12.sleep:noonsleep</th><br>      <th>04.StudyGrow:reading</th><br>      <th>11.traffic</th><br>      <th>04.StudyGrow:writer</th><br>      <th>04.StudyGrow:ComputerThinking</th><br>      <th>…</th><br>      <th>04.StudyGrow</th><br>      <th>04.StudyGrow:law</th><br>      <th>08.familylife:finance</th><br>      <th>09.HealthFun</th><br>      <th>09.HealthFun:fantasy</th><br>      <th>Sleep</th><br>      <th>Live</th><br>      <th>HealthFun</th><br>      <th>Input</th><br>      <th>Output</th><br>    </tr><br>  </thead><br>  <tbody><br>    <tr><br>      <th>44</th><br>      <td>44</td><br>      <td>0.0</td><br>      <td>12.4</td><br>      <td>3.1</td><br>      <td>6.3</td><br>      <td>7.6</td><br>      <td>1.1</td><br>      <td>2.5</td><br>      <td>6.0</td><br>      <td>27.2</td><br>      <td>…</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>0.0</td><br>      <td>56.4</td><br>      <td>45.9</td><br>      <td>12.1</td><br>      <td>16.6</td><br>      <td>33.2</td><br>    </tr><br>  </tbody><br></table><br><p>1 rows × 26 columns</p><br></div>
-
-
 
 <h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><ul>
 <li>增加列, 这列的内容可以根据前面各列的数据, 计算得出. <ul>
@@ -560,8 +556,6 @@
                &apos;08.familylife:finance&apos;,                  &apos;09.HealthFun&apos;,
                 &apos;09.HealthFun:fantasy&apos;],
       dtype=&apos;object&apos;)
-
-
 
 - select data with loc [Indexing and Selecting Data](https://pandas.pydata.org/pandas-docs/stable/indexing.html)
 - 举例, 睡眠包括午睡和晚上的睡眠
