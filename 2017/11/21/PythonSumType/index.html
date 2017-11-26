@@ -90,13 +90,13 @@
 
 
 
-<meta name="description" content="前言 这是一篇写给小白的技术教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.  时间报告见: Time Report 设计原理见: Time Repo">
+<meta name="description" content="前言 这是一篇写给过去自己的教程, 如果你跟四个月前的我一样, 对编程几乎没认知, 也可以看懂.  这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.  时间报告见: Time Report 设计原理见: Time Report’s Report 时间报告的报告 | Li Guanghe’s blog  需求 图文展示一年中时间分">
 <meta name="keywords" content="python,thinking,skill,Record,time,report,TimeReport,atl4dama,lghPR,pandas,bokeh,matplotlib,function,needs">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python | Pandas&#x2F;bokeh 实现交互数据可视化报告">
 <meta property="og:url" content="http://liguanghe.github.io/2017/11/21/PythonSumType/index.html">
 <meta property="og:site_name" content="Li Guanghe&#39;s blog">
-<meta property="og:description" content="前言 这是一篇写给小白的技术教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.  时间报告见: Time Report 设计原理见: Time Repo">
+<meta property="og:description" content="前言 这是一篇写给过去自己的教程, 如果你跟四个月前的我一样, 对编程几乎没认知, 也可以看懂.  这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.  时间报告见: Time Report 设计原理见: Time Report’s Report 时间报告的报告 | Li Guanghe’s blog  需求 图文展示一年中时间分">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://ws2.sinaimg.cn/large/006tKfTcgy1flpozwcu2fj31520ee75u.jpg">
 <meta property="og:image" content="https://ws1.sinaimg.cn/large/006tKfTcgy1flpp09az0gj315g07g75o.jpg">
@@ -107,10 +107,10 @@
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcgy1flpcgep189j30ai073aa1.jpg">
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcgy1flp95kgmcbj30z60h0di7.jpg">
 <meta property="og:image" content="https://ws4.sinaimg.cn/large/006tKfTcgy1flpp1oubpfj313u0f8wfi.jpg">
-<meta property="og:updated_time" content="2017-11-21T06:45:36.854Z">
+<meta property="og:updated_time" content="2017-11-21T23:15:05.787Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python | Pandas&#x2F;bokeh 实现交互数据可视化报告">
-<meta name="twitter:description" content="前言 这是一篇写给小白的技术教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用. 这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.  时间报告见: Time Report 设计原理见: Time Repo">
+<meta name="twitter:description" content="前言 这是一篇写给过去自己的教程, 如果你跟四个月前的我一样, 对编程几乎没认知, 也可以看懂.  这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容.  时间报告见: Time Report 设计原理见: Time Report’s Report 时间报告的报告 | Li Guanghe’s blog  需求 图文展示一年中时间分">
 <meta name="twitter:image" content="https://ws2.sinaimg.cn/large/006tKfTcgy1flpozwcu2fj31520ee75u.jpg">
 
 
@@ -412,11 +412,10 @@
 
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
-<li>这是一篇写给小白的技术教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用 python, 用 pandas等等. 所以不必担心, 你也可以用.</li>
+<li>这是一篇写给过去自己的教程, 如果你跟四个月前的我一样, 对编程几乎没认知, 也可以看懂. </li>
 <li>这也是一篇写给未来自己的备忘, 以后重现这个项目, 或做类似项目时, 不需重构思路, 也不需再次检索已经检索过的内容. </li>
 <li>时间报告见: <a href="https://liguanghe.github.io/2017/11/17/TimeReport/">Time Report</a></li>
 <li>设计原理见: <a href="https://liguanghe.github.io/2017/11/18/PythonTimeReport1/">Time Report’s Report 时间报告的报告 | Li Guanghe’s blog</a></li>
-<li></li>
 </ul>
 <h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
 <li>图文展示一年中时间分配</li>
