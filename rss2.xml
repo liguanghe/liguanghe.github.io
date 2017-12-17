@@ -13,9 +13,9 @@
     
     <item>
       <title>成为程序员十问</title>
-      <link>http://liguanghe.github.io/2017/12/04/meetZH/</link>
-      <guid>http://liguanghe.github.io/2017/12/04/meetZH/</guid>
-      <pubDate>Sun, 03 Dec 2017 14:42:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/12/03/meetZH/</link>
+      <guid>http://liguanghe.github.io/2017/12/03/meetZH/</guid>
+      <pubDate>Sun, 03 Dec 2017 09:42:32 GMT</pubDate>
       <description>
       
         
@@ -25,14 +25,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/12/04/meetZH/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/12/03/meetZH/#disqus_thread</comments>
     </item>
     
     <item>
       <title>聚会邀请--小鹤临回广州见友</title>
-      <link>http://liguanghe.github.io/2017/11/29/MeetGZ/</link>
-      <guid>http://liguanghe.github.io/2017/11/29/MeetGZ/</guid>
-      <pubDate>Tue, 28 Nov 2017 11:42:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/11/28/MeetGZ/</link>
+      <guid>http://liguanghe.github.io/2017/11/28/MeetGZ/</guid>
+      <pubDate>Tue, 28 Nov 2017 06:42:32 GMT</pubDate>
       <description>
       
         
@@ -45,14 +45,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/29/MeetGZ/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/28/MeetGZ/#disqus_thread</comments>
     </item>
     
     <item>
       <title>python | Pandas/bokeh 实现交互数据可视化报告</title>
       <link>http://liguanghe.github.io/2017/11/21/PythonSumType/</link>
       <guid>http://liguanghe.github.io/2017/11/21/PythonSumType/</guid>
-      <pubDate>Tue, 21 Nov 2017 03:45:32 GMT</pubDate>
+      <pubDate>Mon, 20 Nov 2017 22:45:32 GMT</pubDate>
       <description>
       
         
@@ -69,9 +69,9 @@
     
     <item>
       <title>Time Report&#39;s Report 时间报告的报告</title>
-      <link>http://liguanghe.github.io/2017/11/19/PythonTimeReport1/</link>
-      <guid>http://liguanghe.github.io/2017/11/19/PythonTimeReport1/</guid>
-      <pubDate>Sat, 18 Nov 2017 12:45:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/11/18/PythonTimeReport1/</link>
+      <guid>http://liguanghe.github.io/2017/11/18/PythonTimeReport1/</guid>
+      <pubDate>Sat, 18 Nov 2017 07:45:32 GMT</pubDate>
       <description>
       
         
@@ -83,14 +83,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/19/PythonTimeReport1/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/18/PythonTimeReport1/#disqus_thread</comments>
     </item>
     
     <item>
       <title>When Your Computer Answer &#39;Error&#39; 写代码遇到报错怎么办?</title>
       <link>http://liguanghe.github.io/2017/11/18/pythonErrorSolution/</link>
       <guid>http://liguanghe.github.io/2017/11/18/pythonErrorSolution/</guid>
-      <pubDate>Sat, 18 Nov 2017 08:15:32 GMT</pubDate>
+      <pubDate>Sat, 18 Nov 2017 03:15:32 GMT</pubDate>
       <description>
       
         
@@ -132,7 +132,7 @@
       <title>Mac can&#39;t import matplotlib?</title>
       <link>http://liguanghe.github.io/2017/11/11/PythonPltMac/</link>
       <guid>http://liguanghe.github.io/2017/11/11/PythonPltMac/</guid>
-      <pubDate>Sat, 11 Nov 2017 08:45:32 GMT</pubDate>
+      <pubDate>Sat, 11 Nov 2017 03:45:32 GMT</pubDate>
       <description>
       
         
@@ -146,21 +146,20 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -182,27 +181,28 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
       <title>怼圈 MVP</title>
       <link>http://liguanghe.github.io/2017/11/06/DebugMVP/</link>
       <guid>http://liguanghe.github.io/2017/11/06/DebugMVP/</guid>
-      <pubDate>Mon, 06 Nov 2017 02:35:32 GMT</pubDate>
+      <pubDate>Sun, 05 Nov 2017 21:35:32 GMT</pubDate>
       <description>
       
         
@@ -225,7 +225,7 @@
       <title>Boat House</title>
       <link>http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/</link>
       <guid>http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/</guid>
-      <pubDate>Sat, 04 Nov 2017 07:35:32 GMT</pubDate>
+      <pubDate>Sat, 04 Nov 2017 02:35:32 GMT</pubDate>
       <description>
       
         
@@ -244,7 +244,7 @@
       <title>时间告诉你什么, 开智Python104结业路演.</title>
       <link>http://liguanghe.github.io/2017/11/01/PY104show/</link>
       <guid>http://liguanghe.github.io/2017/11/01/PY104show/</guid>
-      <pubDate>Wed, 01 Nov 2017 02:35:32 GMT</pubDate>
+      <pubDate>Tue, 31 Oct 2017 21:35:32 GMT</pubDate>
       <description>
       
         
@@ -260,9 +260,9 @@
     
     <item>
       <title>Two Days Out of Dunedin 南下两小时的两天</title>
-      <link>http://liguanghe.github.io/2017/10/27/NZOthersBeauty/</link>
-      <guid>http://liguanghe.github.io/2017/10/27/NZOthersBeauty/</guid>
-      <pubDate>Thu, 26 Oct 2017 12:09:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</link>
+      <guid>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</guid>
+      <pubDate>Thu, 26 Oct 2017 07:09:32 GMT</pubDate>
       <description>
       
         
@@ -273,14 +273,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/10/27/NZOthersBeauty/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/#disqus_thread</comments>
     </item>
     
     <item>
       <title>S07TimeReport 7季时间账单报告</title>
       <link>http://liguanghe.github.io/2017/10/22/TimeReport1022/</link>
       <guid>http://liguanghe.github.io/2017/10/22/TimeReport1022/</guid>
-      <pubDate>Sun, 22 Oct 2017 04:42:32 GMT</pubDate>
+      <pubDate>Sat, 21 Oct 2017 23:42:32 GMT</pubDate>
       <description>
       
         
@@ -301,7 +301,7 @@
       <title>Git One branch to Multiple Repositories</title>
       <link>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/</link>
       <guid>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/</guid>
-      <pubDate>Sun, 15 Oct 2017 01:46:32 GMT</pubDate>
+      <pubDate>Sat, 14 Oct 2017 20:46:32 GMT</pubDate>
       <description>
       
         
@@ -320,7 +320,7 @@
       <title>Atom Time Report1 时间账单报告自动化1</title>
       <link>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/</link>
       <guid>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/</guid>
-      <pubDate>Sun, 15 Oct 2017 00:45:32 GMT</pubDate>
+      <pubDate>Sat, 14 Oct 2017 19:45:32 GMT</pubDate>
       <description>
       
         
@@ -337,9 +337,9 @@
     
     <item>
       <title>最快速提升打字速度两倍</title>
-      <link>http://liguanghe.github.io/2017/10/15/Shuangpin/</link>
-      <guid>http://liguanghe.github.io/2017/10/15/Shuangpin/</guid>
-      <pubDate>Sat, 14 Oct 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/10/14/Shuangpin/</link>
+      <guid>http://liguanghe.github.io/2017/10/14/Shuangpin/</guid>
+      <pubDate>Sat, 14 Oct 2017 08:35:32 GMT</pubDate>
       <description>
       
         
@@ -353,14 +353,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/10/15/Shuangpin/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/10/14/Shuangpin/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Queenstown 家人来访 之 皇后镇篇</title>
-      <link>http://liguanghe.github.io/2017/10/08/queenstown/</link>
-      <guid>http://liguanghe.github.io/2017/10/08/queenstown/</guid>
-      <pubDate>Sat, 07 Oct 2017 12:45:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/10/07/queenstown/</link>
+      <guid>http://liguanghe.github.io/2017/10/07/queenstown/</guid>
+      <pubDate>Sat, 07 Oct 2017 07:45:32 GMT</pubDate>
       <description>
       
         
@@ -372,14 +372,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/10/08/queenstown/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/10/07/queenstown/#disqus_thread</comments>
     </item>
     
     <item>
       <title>When they visit Dunedin 家人朋友来访时 之 但尼丁篇</title>
-      <link>http://liguanghe.github.io/2017/10/08/friendsFamilies/</link>
-      <guid>http://liguanghe.github.io/2017/10/08/friendsFamilies/</guid>
-      <pubDate>Sat, 07 Oct 2017 11:14:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/10/07/friendsFamilies/</link>
+      <guid>http://liguanghe.github.io/2017/10/07/friendsFamilies/</guid>
+      <pubDate>Sat, 07 Oct 2017 06:14:32 GMT</pubDate>
       <description>
       
         
@@ -389,14 +389,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/10/08/friendsFamilies/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/10/07/friendsFamilies/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Three Months in NZ 域外生活三个月</title>
       <link>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/</link>
       <guid>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/</guid>
-      <pubDate>Mon, 25 Sep 2017 01:46:32 GMT</pubDate>
+      <pubDate>Sun, 24 Sep 2017 20:46:32 GMT</pubDate>
       <description>
       
         
@@ -414,7 +414,7 @@
       <title>六个月时间账单报告</title>
       <link>http://liguanghe.github.io/2017/09/25/TimeReport0924/</link>
       <guid>http://liguanghe.github.io/2017/09/25/TimeReport0924/</guid>
-      <pubDate>Mon, 25 Sep 2017 01:25:32 GMT</pubDate>
+      <pubDate>Sun, 24 Sep 2017 20:25:32 GMT</pubDate>
       <description>
       
         
@@ -437,7 +437,7 @@
       <title>Part Achievement in Python Project named atl4dama 时间账单项目阶段成果</title>
       <link>http://liguanghe.github.io/2017/09/25/lgh8html/</link>
       <guid>http://liguanghe.github.io/2017/09/25/lgh8html/</guid>
-      <pubDate>Mon, 25 Sep 2017 00:25:32 GMT</pubDate>
+      <pubDate>Sun, 24 Sep 2017 19:25:32 GMT</pubDate>
       <description>
       
         
@@ -455,7 +455,7 @@
       <title>源数据 bug, 补一行代码, 中间试好多行</title>
       <link>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</link>
       <guid>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</guid>
-      <pubDate>Wed, 20 Sep 2017 03:35:32 GMT</pubDate>
+      <pubDate>Tue, 19 Sep 2017 23:35:32 GMT</pubDate>
       <description>
       
         
@@ -473,7 +473,7 @@
       <title>Trip Dunedin and Queenstown</title>
       <link>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</link>
       <guid>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</guid>
-      <pubDate>Tue, 19 Sep 2017 01:34:32 GMT</pubDate>
+      <pubDate>Mon, 18 Sep 2017 21:34:32 GMT</pubDate>
       <description>
       
         
@@ -490,7 +490,7 @@
       <title>Meals 吃了么</title>
       <link>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</link>
       <guid>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</guid>
-      <pubDate>Sat, 16 Sep 2017 09:05:32 GMT</pubDate>
+      <pubDate>Sat, 16 Sep 2017 05:05:32 GMT</pubDate>
       <description>
       
         
@@ -507,7 +507,7 @@
       <title>苏</title>
       <link>http://liguanghe.github.io/2017/09/14/LiveSexSoul/</link>
       <guid>http://liguanghe.github.io/2017/09/14/LiveSexSoul/</guid>
-      <pubDate>Thu, 14 Sep 2017 02:00:32 GMT</pubDate>
+      <pubDate>Wed, 13 Sep 2017 22:00:32 GMT</pubDate>
       <description>
       
         
@@ -525,7 +525,7 @@
       <title>Basic Element and Grammer of Coding</title>
       <link>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</link>
       <guid>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</guid>
-      <pubDate>Mon, 11 Sep 2017 00:25:32 GMT</pubDate>
+      <pubDate>Sun, 10 Sep 2017 20:25:32 GMT</pubDate>
       <description>
       
         
@@ -542,7 +542,7 @@
       <title>Single Room in Hostel 七夕搬单间</title>
       <link>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/</link>
       <guid>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/</guid>
-      <pubDate>Fri, 08 Sep 2017 10:35:32 GMT</pubDate>
+      <pubDate>Fri, 08 Sep 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -557,9 +557,9 @@
     
     <item>
       <title>Git 入怼之独立分支</title>
-      <link>http://liguanghe.github.io/2017/09/08/HbUsageGithubBranch/</link>
-      <guid>http://liguanghe.github.io/2017/09/08/HbUsageGithubBranch/</guid>
-      <pubDate>Thu, 07 Sep 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
+      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -572,14 +572,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/09/08/HbUsageGithubBranch/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Speaking to Writing 在英语环境中提升英语</title>
-      <link>http://liguanghe.github.io/2017/09/08/EnglishSpeakingtoWriting/</link>
-      <guid>http://liguanghe.github.io/2017/09/08/EnglishSpeakingtoWriting/</guid>
-      <pubDate>Thu, 07 Sep 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
+      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -591,14 +591,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/09/08/EnglishSpeakingtoWriting/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
     </item>
     
     <item>
       <title>To Be a Good Driver 但尼丁新增一名好司机</title>
-      <link>http://liguanghe.github.io/2017/09/03/DunedinGoodDriver/</link>
-      <guid>http://liguanghe.github.io/2017/09/03/DunedinGoodDriver/</guid>
-      <pubDate>Sat, 02 Sep 2017 13:10:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/</link>
+      <guid>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/</guid>
+      <pubDate>Sat, 02 Sep 2017 09:10:32 GMT</pubDate>
       <description>
       
         
@@ -608,14 +608,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/09/03/DunedinGoodDriver/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Mac OSx Python 环境配置(操作指南)</title>
       <link>http://liguanghe.github.io/2017/09/02/pyenv/</link>
       <guid>http://liguanghe.github.io/2017/09/02/pyenv/</guid>
-      <pubDate>Sat, 02 Sep 2017 07:35:32 GMT</pubDate>
+      <pubDate>Sat, 02 Sep 2017 03:35:32 GMT</pubDate>
       <description>
       
         
@@ -633,7 +633,7 @@
       <title>Pyenv 学习线性记录</title>
       <link>http://liguanghe.github.io/2017/09/02/NotePyenvPython/</link>
       <guid>http://liguanghe.github.io/2017/09/02/NotePyenvPython/</guid>
-      <pubDate>Sat, 02 Sep 2017 07:00:32 GMT</pubDate>
+      <pubDate>Sat, 02 Sep 2017 03:00:32 GMT</pubDate>
       <description>
       
         
@@ -648,9 +648,9 @@
     
     <item>
       <title>五个月时间账单报告</title>
-      <link>http://liguanghe.github.io/2017/08/27/TimeReport0826/</link>
-      <guid>http://liguanghe.github.io/2017/08/27/TimeReport0826/</guid>
-      <pubDate>Sat, 26 Aug 2017 15:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/08/26/TimeReport0826/</link>
+      <guid>http://liguanghe.github.io/2017/08/26/TimeReport0826/</guid>
+      <pubDate>Sat, 26 Aug 2017 11:35:32 GMT</pubDate>
       <description>
       
         
@@ -663,14 +663,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/08/27/TimeReport0826/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/08/26/TimeReport0826/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Special Day of Dunedin 但尼丁特色一天</title>
       <link>http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/</link>
       <guid>http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/</guid>
-      <pubDate>Sat, 26 Aug 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 26 Aug 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -687,7 +687,7 @@
       <title>丑照何时曝, 当然变美时 —— 运动follower 招募</title>
       <link>http://liguanghe.github.io/2017/08/16/KeepTogether/</link>
       <guid>http://liguanghe.github.io/2017/08/16/KeepTogether/</guid>
-      <pubDate>Wed, 16 Aug 2017 01:35:32 GMT</pubDate>
+      <pubDate>Tue, 15 Aug 2017 21:35:32 GMT</pubDate>
       <description>
       
         
@@ -702,9 +702,9 @@
     
     <item>
       <title>Weekend 周末小憩</title>
-      <link>http://liguanghe.github.io/2017/08/13/DunedinWeekend/</link>
-      <guid>http://liguanghe.github.io/2017/08/13/DunedinWeekend/</guid>
-      <pubDate>Sat, 12 Aug 2017 15:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/08/12/DunedinWeekend/</link>
+      <guid>http://liguanghe.github.io/2017/08/12/DunedinWeekend/</guid>
+      <pubDate>Sat, 12 Aug 2017 11:35:32 GMT</pubDate>
       <description>
       
         
@@ -714,14 +714,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/08/13/DunedinWeekend/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/08/12/DunedinWeekend/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Work Responsibility 负责地工作</title>
-      <link>http://liguanghe.github.io/2017/08/11/WorkResponsibility/</link>
-      <guid>http://liguanghe.github.io/2017/08/11/WorkResponsibility/</guid>
-      <pubDate>Thu, 10 Aug 2017 14:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/08/10/WorkResponsibility/</link>
+      <guid>http://liguanghe.github.io/2017/08/10/WorkResponsibility/</guid>
+      <pubDate>Thu, 10 Aug 2017 10:35:32 GMT</pubDate>
       <description>
       
         
@@ -731,14 +731,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/08/11/WorkResponsibility/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/08/10/WorkResponsibility/#disqus_thread</comments>
     </item>
     
     <item>
       <title>workExchange 换宿及停止</title>
       <link>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/</link>
       <guid>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/</guid>
-      <pubDate>Wed, 09 Aug 2017 09:35:32 GMT</pubDate>
+      <pubDate>Wed, 09 Aug 2017 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -755,7 +755,7 @@
       <title>Learning 沉迷学习 无法自拔</title>
       <link>http://liguanghe.github.io/2017/08/05/learning/</link>
       <guid>http://liguanghe.github.io/2017/08/05/learning/</guid>
-      <pubDate>Sat, 05 Aug 2017 09:35:32 GMT</pubDate>
+      <pubDate>Sat, 05 Aug 2017 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -772,7 +772,7 @@
       <title>boxing 参加拳击俱乐部</title>
       <link>http://liguanghe.github.io/2017/08/04/boxing/</link>
       <guid>http://liguanghe.github.io/2017/08/04/boxing/</guid>
-      <pubDate>Fri, 04 Aug 2017 08:35:32 GMT</pubDate>
+      <pubDate>Fri, 04 Aug 2017 04:35:32 GMT</pubDate>
       <description>
       
         
@@ -789,7 +789,7 @@
       <title>新西 蓝</title>
       <link>http://liguanghe.github.io/2017/08/01/NZBlue/</link>
       <guid>http://liguanghe.github.io/2017/08/01/NZBlue/</guid>
-      <pubDate>Tue, 01 Aug 2017 11:09:46 GMT</pubDate>
+      <pubDate>Tue, 01 Aug 2017 07:09:46 GMT</pubDate>
       <description>
       
         
@@ -806,7 +806,7 @@
       <title>三十女人隐喻</title>
       <link>http://liguanghe.github.io/2017/08/01/Women/</link>
       <guid>http://liguanghe.github.io/2017/08/01/Women/</guid>
-      <pubDate>Tue, 01 Aug 2017 10:35:32 GMT</pubDate>
+      <pubDate>Tue, 01 Aug 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -823,7 +823,7 @@
       <title>First Step to Git</title>
       <link>http://liguanghe.github.io/2017/07/30/HowtoGit/</link>
       <guid>http://liguanghe.github.io/2017/07/30/HowtoGit/</guid>
-      <pubDate>Sun, 30 Jul 2017 01:25:32 GMT</pubDate>
+      <pubDate>Sat, 29 Jul 2017 21:25:32 GMT</pubDate>
       <description>
       
         
@@ -840,7 +840,7 @@
       <title>四月时间账单报告</title>
       <link>http://liguanghe.github.io/2017/07/30/TimeReport0730/</link>
       <guid>http://liguanghe.github.io/2017/07/30/TimeReport0730/</guid>
-      <pubDate>Sat, 29 Jul 2017 17:35:32 GMT</pubDate>
+      <pubDate>Sat, 29 Jul 2017 13:35:32 GMT</pubDate>
       <description>
       
         
@@ -858,9 +858,9 @@
     
     <item>
       <title>蜉蝣化智</title>
-      <link>http://liguanghe.github.io/2017/07/28/smalltobig/</link>
-      <guid>http://liguanghe.github.io/2017/07/28/smalltobig/</guid>
-      <pubDate>Thu, 27 Jul 2017 15:00:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/27/smalltobig/</link>
+      <guid>http://liguanghe.github.io/2017/07/27/smalltobig/</guid>
+      <pubDate>Thu, 27 Jul 2017 11:00:32 GMT</pubDate>
       <description>
       
         
@@ -873,14 +873,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/28/smalltobig/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/27/smalltobig/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Choices of Western Environment 外国环境的几种可能</title>
-      <link>http://liguanghe.github.io/2017/07/28/WesternEnvironment/</link>
-      <guid>http://liguanghe.github.io/2017/07/28/WesternEnvironment/</guid>
-      <pubDate>Thu, 27 Jul 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/27/WesternEnvironment/</link>
+      <guid>http://liguanghe.github.io/2017/07/27/WesternEnvironment/</guid>
+      <pubDate>Thu, 27 Jul 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -890,14 +890,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/28/WesternEnvironment/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/27/WesternEnvironment/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Wake up to programing 早起编程</title>
-      <link>http://liguanghe.github.io/2017/07/26/WakeUp/</link>
-      <guid>http://liguanghe.github.io/2017/07/26/WakeUp/</guid>
-      <pubDate>Tue, 25 Jul 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/25/WakeUp/</link>
+      <guid>http://liguanghe.github.io/2017/07/25/WakeUp/</guid>
+      <pubDate>Tue, 25 Jul 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -907,14 +907,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/26/WakeUp/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/25/WakeUp/#disqus_thread</comments>
     </item>
     
     <item>
       <title>How to save money on air ticket to NZ 机票省钱秘笈</title>
-      <link>http://liguanghe.github.io/2017/07/19/NZAirTicket/</link>
-      <guid>http://liguanghe.github.io/2017/07/19/NZAirTicket/</guid>
-      <pubDate>Tue, 18 Jul 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/18/NZAirTicket/</link>
+      <guid>http://liguanghe.github.io/2017/07/18/NZAirTicket/</guid>
+      <pubDate>Tue, 18 Jul 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -924,14 +924,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/19/NZAirTicket/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/18/NZAirTicket/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Start talking 开聊</title>
-      <link>http://liguanghe.github.io/2017/07/16/StartTalking/</link>
-      <guid>http://liguanghe.github.io/2017/07/16/StartTalking/</guid>
-      <pubDate>Sat, 15 Jul 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/15/StartTalking/</link>
+      <guid>http://liguanghe.github.io/2017/07/15/StartTalking/</guid>
+      <pubDate>Sat, 15 Jul 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -941,14 +941,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/16/StartTalking/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/15/StartTalking/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Maori</title>
       <link>http://liguanghe.github.io/2017/07/13/Maori/</link>
       <guid>http://liguanghe.github.io/2017/07/13/Maori/</guid>
-      <pubDate>Thu, 13 Jul 2017 06:35:32 GMT</pubDate>
+      <pubDate>Thu, 13 Jul 2017 02:35:32 GMT</pubDate>
       <description>
       
         
@@ -963,9 +963,9 @@
     
     <item>
       <title>AmazingStore 神奇便利店</title>
-      <link>http://liguanghe.github.io/2017/07/11/AmazingStore/</link>
-      <guid>http://liguanghe.github.io/2017/07/11/AmazingStore/</guid>
-      <pubDate>Mon, 10 Jul 2017 15:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/10/AmazingStore/</link>
+      <guid>http://liguanghe.github.io/2017/07/10/AmazingStore/</guid>
+      <pubDate>Mon, 10 Jul 2017 11:35:32 GMT</pubDate>
       <description>
       
         
@@ -976,14 +976,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/11/AmazingStore/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/10/AmazingStore/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Starting Friendship in Dunedin 友谊晚餐</title>
-      <link>http://liguanghe.github.io/2017/07/10/DunedinDinner/</link>
-      <guid>http://liguanghe.github.io/2017/07/10/DunedinDinner/</guid>
-      <pubDate>Sun, 09 Jul 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/09/DunedinDinner/</link>
+      <guid>http://liguanghe.github.io/2017/07/09/DunedinDinner/</guid>
+      <pubDate>Sun, 09 Jul 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -993,14 +993,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/10/DunedinDinner/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/09/DunedinDinner/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Got a car in Dunedin 没车没腿</title>
-      <link>http://liguanghe.github.io/2017/07/09/Got%20a%20car%20in%20Dunedin/</link>
-      <guid>http://liguanghe.github.io/2017/07/09/Got%20a%20car%20in%20Dunedin/</guid>
-      <pubDate>Sat, 08 Jul 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/08/Got%20a%20car%20in%20Dunedin/</link>
+      <guid>http://liguanghe.github.io/2017/07/08/Got%20a%20car%20in%20Dunedin/</guid>
+      <pubDate>Sat, 08 Jul 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -1010,14 +1010,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/09/Got%20a%20car%20in%20Dunedin/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/08/Got%20a%20car%20in%20Dunedin/#disqus_thread</comments>
     </item>
     
     <item>
       <title>How to begin practising English in Dunedin 选好城市, 开始英语</title>
-      <link>http://liguanghe.github.io/2017/07/08/dunedin3/</link>
-      <guid>http://liguanghe.github.io/2017/07/08/dunedin3/</guid>
-      <pubDate>Fri, 07 Jul 2017 13:35:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2017/07/07/dunedin3/</link>
+      <guid>http://liguanghe.github.io/2017/07/07/dunedin3/</guid>
+      <pubDate>Fri, 07 Jul 2017 09:35:32 GMT</pubDate>
       <description>
       
         
@@ -1027,14 +1027,14 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/08/dunedin3/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/07/dunedin3/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Change Blog to Bilingual 将博客改造为中英双语</title>
       <link>http://liguanghe.github.io/2017/07/05/MakeBlogBilingual/</link>
       <guid>http://liguanghe.github.io/2017/07/05/MakeBlogBilingual/</guid>
-      <pubDate>Wed, 05 Jul 2017 03:35:32 GMT</pubDate>
+      <pubDate>Tue, 04 Jul 2017 23:35:32 GMT</pubDate>
       <description>
       
         
@@ -1057,7 +1057,7 @@
       <title>What I Get in DebugUself for three months</title>
       <link>http://liguanghe.github.io/2017/07/01/threemonththinking/</link>
       <guid>http://liguanghe.github.io/2017/07/01/threemonththinking/</guid>
-      <pubDate>Sat, 01 Jul 2017 03:35:32 GMT</pubDate>
+      <pubDate>Fri, 30 Jun 2017 23:35:32 GMT</pubDate>
       <description>
       
         
@@ -1074,7 +1074,7 @@
       <title>UAV 无人机随手拍</title>
       <link>http://liguanghe.github.io/2017/06/24/UAV/</link>
       <guid>http://liguanghe.github.io/2017/06/24/UAV/</guid>
-      <pubDate>Sat, 24 Jun 2017 07:35:32 GMT</pubDate>
+      <pubDate>Sat, 24 Jun 2017 03:35:32 GMT</pubDate>
       <description>
       
         
@@ -1092,7 +1092,7 @@
       <title>First Touch to Auckland</title>
       <link>http://liguanghe.github.io/2017/06/21/Auckland/</link>
       <guid>http://liguanghe.github.io/2017/06/21/Auckland/</guid>
-      <pubDate>Wed, 21 Jun 2017 06:35:32 GMT</pubDate>
+      <pubDate>Wed, 21 Jun 2017 02:35:32 GMT</pubDate>
       <description>
       
         
@@ -1109,7 +1109,7 @@
       <title>结业 BP 及其后的故事</title>
       <link>http://liguanghe.github.io/2017/06/03/bpstory/</link>
       <guid>http://liguanghe.github.io/2017/06/03/bpstory/</guid>
-      <pubDate>Sat, 03 Jun 2017 08:00:32 GMT</pubDate>
+      <pubDate>Sat, 03 Jun 2017 04:00:32 GMT</pubDate>
       <description>
       
         
@@ -1128,7 +1128,7 @@
       <title>普宁</title>
       <link>http://liguanghe.github.io/2017/06/03/threesome/</link>
       <guid>http://liguanghe.github.io/2017/06/03/threesome/</guid>
-      <pubDate>Sat, 03 Jun 2017 03:00:32 GMT</pubDate>
+      <pubDate>Fri, 02 Jun 2017 23:00:32 GMT</pubDate>
       <description>
       
         
@@ -1147,7 +1147,7 @@
       <title>让鼻子做它该做的 — 开智写作课结业分享</title>
       <link>http://liguanghe.github.io/2017/05/24/creater/</link>
       <guid>http://liguanghe.github.io/2017/05/24/creater/</guid>
-      <pubDate>Wed, 24 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Wed, 24 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1165,7 +1165,7 @@
       <title>学习路径</title>
       <link>http://liguanghe.github.io/2017/05/14/studyway/</link>
       <guid>http://liguanghe.github.io/2017/05/14/studyway/</guid>
-      <pubDate>Sun, 14 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sun, 14 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1185,7 +1185,7 @@
       <title>岁月之书</title>
       <link>http://liguanghe.github.io/2017/05/13/ageofbook/</link>
       <guid>http://liguanghe.github.io/2017/05/13/ageofbook/</guid>
-      <pubDate>Sat, 13 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 13 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1202,7 +1202,7 @@
       <title>Changing Github Username</title>
       <link>http://liguanghe.github.io/2017/05/11/githubUsername/</link>
       <guid>http://liguanghe.github.io/2017/05/11/githubUsername/</guid>
-      <pubDate>Thu, 11 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Thu, 11 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1219,7 +1219,7 @@
       <title>版本仓库文件存放指南</title>
       <link>http://liguanghe.github.io/2017/05/06/repositoryfile/</link>
       <guid>http://liguanghe.github.io/2017/05/06/repositoryfile/</guid>
-      <pubDate>Sat, 06 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 06 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1239,7 +1239,7 @@
       <title>提线木偶</title>
       <link>http://liguanghe.github.io/2017/05/04/handdoll/</link>
       <guid>http://liguanghe.github.io/2017/05/04/handdoll/</guid>
-      <pubDate>Thu, 04 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Thu, 04 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1258,7 +1258,7 @@
       <title>活着  便是无休止的对话</title>
       <link>http://liguanghe.github.io/2017/05/03/note/</link>
       <guid>http://liguanghe.github.io/2017/05/03/note/</guid>
-      <pubDate>Wed, 03 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Wed, 03 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1274,46 +1274,10 @@
     </item>
     
     <item>
-      <title>《哈利波特》让位《玩具屋九讲》</title>
-      <link>http://liguanghe.github.io/2017/05/02/book/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/book/</guid>
-      <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
-&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/book/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Sublime Text / it’s all text / firefox</title>
-      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
-      <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>font of code</title>
       <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
       <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
-      <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1330,10 +1294,46 @@
     </item>
     
     <item>
+      <title>Sublime Text / it’s all text / firefox</title>
+      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>《哈利波特》让位《玩具屋九讲》</title>
+      <link>http://liguanghe.github.io/2017/05/02/book/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/book/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
+&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/book/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>第四周</title>
       <link>http://liguanghe.github.io/2017/05/01/theforthweek/</link>
       <guid>http://liguanghe.github.io/2017/05/01/theforthweek/</guid>
-      <pubDate>Mon, 01 May 2017 10:35:32 GMT</pubDate>
+      <pubDate>Mon, 01 May 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1350,7 +1350,7 @@
       <title>爱人相处手册</title>
       <link>http://liguanghe.github.io/2017/04/23/familyHD/</link>
       <guid>http://liguanghe.github.io/2017/04/23/familyHD/</guid>
-      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1379,7 +1379,7 @@
       <title>致爱人</title>
       <link>http://liguanghe.github.io/2017/04/23/lover/</link>
       <guid>http://liguanghe.github.io/2017/04/23/lover/</guid>
-      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1401,27 +1401,10 @@
     </item>
     
     <item>
-      <title>Read Github Guide</title>
-      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>皆于斗室</title>
       <link>http://liguanghe.github.io/2017/04/22/lihe/</link>
       <guid>http://liguanghe.github.io/2017/04/22/lihe/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1438,27 +1421,27 @@
     </item>
     
     <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
       <title>开智十月 持续自由</title>
       <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
       <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1474,27 +1457,44 @@
     </item>
     
     <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Read Github Guide</title>
+      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
     </item>
     
     <item>
       <title>四周学习时间报告</title>
       <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
       <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1511,7 +1511,7 @@
       <title>抓不住你</title>
       <link>http://liguanghe.github.io/2017/03/27/catch/</link>
       <guid>http://liguanghe.github.io/2017/03/27/catch/</guid>
-      <pubDate>Mon, 27 Mar 2017 10:09:46 GMT</pubDate>
+      <pubDate>Mon, 27 Mar 2017 05:09:46 GMT</pubDate>
       <description>
       
         
@@ -1528,27 +1528,10 @@
     </item>
     
     <item>
-      <title>博客优化</title>
-      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
-      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>写作链</title>
       <link>http://liguanghe.github.io/2017/03/22/blog/</link>
       <guid>http://liguanghe.github.io/2017/03/22/blog/</guid>
-      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1567,7 +1550,7 @@
       <title>出走</title>
       <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
       <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
-      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1581,10 +1564,46 @@
     </item>
     
     <item>
+      <title>博客优化</title>
+      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>卡片和星空：将你脑中的所有想法放在眼前</title>
       <link>http://liguanghe.github.io/2017/02/22/card/</link>
       <guid>http://liguanghe.github.io/2017/02/22/card/</guid>
-      <pubDate>Wed, 22 Feb 2017 10:35:32 GMT</pubDate>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1601,29 +1620,10 @@
     </item>
     
     <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>手机的自我修养</title>
       <link>http://liguanghe.github.io/2017/02/11/imphone/</link>
       <guid>http://liguanghe.github.io/2017/02/11/imphone/</guid>
-      <pubDate>Sat, 11 Feb 2017 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 11 Feb 2017 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1641,7 +1641,7 @@
       <title>把数珠一样的日子磨得发亮</title>
       <link>http://liguanghe.github.io/2017/02/06/japan/</link>
       <guid>http://liguanghe.github.io/2017/02/06/japan/</guid>
-      <pubDate>Mon, 06 Feb 2017 10:09:46 GMT</pubDate>
+      <pubDate>Mon, 06 Feb 2017 05:09:46 GMT</pubDate>
       <description>
       
         
@@ -1659,7 +1659,7 @@
       <title>爱情是汪洋zs中的小船么</title>
       <link>http://liguanghe.github.io/2017/01/03/loveship/</link>
       <guid>http://liguanghe.github.io/2017/01/03/loveship/</guid>
-      <pubDate>Tue, 03 Jan 2017 10:35:32 GMT</pubDate>
+      <pubDate>Tue, 03 Jan 2017 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1680,7 +1680,7 @@
       <title>是你想要的生活么</title>
       <link>http://liguanghe.github.io/2016/12/31/706style/</link>
       <guid>http://liguanghe.github.io/2016/12/31/706style/</guid>
-      <pubDate>Sat, 31 Dec 2016 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 31 Dec 2016 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1701,7 +1701,7 @@
       <title>五道口投资集散地</title>
       <link>http://liguanghe.github.io/2016/12/14/wudaokou/</link>
       <guid>http://liguanghe.github.io/2016/12/14/wudaokou/</guid>
-      <pubDate>Wed, 14 Dec 2016 10:35:32 GMT</pubDate>
+      <pubDate>Wed, 14 Dec 2016 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1725,7 +1725,7 @@
       <title>写给你们的</title>
       <link>http://liguanghe.github.io/2016/11/20/beijing/</link>
       <guid>http://liguanghe.github.io/2016/11/20/beijing/</guid>
-      <pubDate>Sun, 20 Nov 2016 10:35:32 GMT</pubDate>
+      <pubDate>Sun, 20 Nov 2016 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1746,7 +1746,7 @@
       <title>包里放了键盘以后还能放下什么？</title>
       <link>http://liguanghe.github.io/2016/10/15/mac/</link>
       <guid>http://liguanghe.github.io/2016/10/15/mac/</guid>
-      <pubDate>Sat, 15 Oct 2016 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 15 Oct 2016 05:35:32 GMT</pubDate>
       <description>
       
         
@@ -1763,7 +1763,7 @@
       <title>离</title>
       <link>http://liguanghe.github.io/2016/08/02/leave/</link>
       <guid>http://liguanghe.github.io/2016/08/02/leave/</guid>
-      <pubDate>Tue, 02 Aug 2016 10:35:32 GMT</pubDate>
+      <pubDate>Tue, 02 Aug 2016 06:35:32 GMT</pubDate>
       <description>
       
         
@@ -1783,7 +1783,7 @@
       <title>心中住着金色飞贼的女孩  想想都发光</title>
       <link>http://liguanghe.github.io/2016/07/02/doll/</link>
       <guid>http://liguanghe.github.io/2016/07/02/doll/</guid>
-      <pubDate>Sat, 02 Jul 2016 10:35:32 GMT</pubDate>
+      <pubDate>Sat, 02 Jul 2016 06:35:32 GMT</pubDate>
       <description>
       
         
