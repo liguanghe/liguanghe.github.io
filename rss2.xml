@@ -146,23 +146,6 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
@@ -196,6 +179,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1401,23 +1401,6 @@
     </item>
     
     <item>
-      <title>Read Github Guide</title>
-      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>皆于斗室</title>
       <link>http://liguanghe.github.io/2017/04/22/lihe/</link>
       <guid>http://liguanghe.github.io/2017/04/22/lihe/</guid>
@@ -1455,25 +1438,6 @@
     </item>
     
     <item>
-      <title>开智十月 持续自由</title>
-      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
-&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
-&lt;
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>两周学习时间报告</title>
       <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
       <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
@@ -1508,6 +1472,42 @@
     </item>
     
     <item>
+      <title>Read Github Guide</title>
+      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>开智十月 持续自由</title>
+      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
+&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
+&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>抓不住你</title>
       <link>http://liguanghe.github.io/2017/03/27/catch/</link>
       <guid>http://liguanghe.github.io/2017/03/27/catch/</guid>
@@ -1525,23 +1525,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/03/27/catch/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>出走</title>
-      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
-      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1581,22 +1564,20 @@
     </item>
     
     <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
+      <title>出走</title>
+      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
+          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1617,6 +1598,25 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
     </item>
     
     <item>
