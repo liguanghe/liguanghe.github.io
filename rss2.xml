@@ -8,19 +8,20 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 23 Jan 2018 09:10:49 GMT</pubDate>
+    <pubDate>Tue, 23 Jan 2018 09:15:04 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title></title>
+      <title>How to Install XGboost</title>
       <link>http://liguanghe.github.io/2018/01/23/pythonSpeedml/</link>
       <guid>http://liguanghe.github.io/2018/01/23/pythonSpeedml/</guid>
-      <pubDate>Tue, 23 Jan 2018 09:10:49 GMT</pubDate>
+      <pubDate>Tue, 23 Jan 2018 07:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h1 id=&quot;如何安装-xgboost&quot;&gt;&lt;a href=&quot;#如何安装-xgboost&quot; class=&quot;headerlink&quot; title=&quot;如何安装 xgboost&quot;&gt;&lt;/a&gt;如何安装 xgboost&lt;/h1&gt;&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;
+          &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;深度学习的 kaggle 平台, Titanic项目 推荐 speedml&lt;a href=&quot;https://www.kaggle
         
       
       </description>
