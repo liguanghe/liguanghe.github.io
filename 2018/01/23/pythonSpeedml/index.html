@@ -90,18 +90,18 @@
 
 
 
-<meta name="description" content="背景 深度学习的 kaggle 平台, Titanic项目 推荐 speedmlTitanic Data Science Solutions | Kaggle, speedml 需要提前安装 Xgboost, 这个在机器学习竞赛中表现卓越的模块.  install speedml```时遇到问题, 报错: XGBoostLibraryNotFound 1```Command &amp;quot;pytho">
+<meta name="description" content="背景 深度学习的 kaggle 平台, Titanic项目 推荐 speedmlTitanic Data Science Solutions | Kaggle, speedml 需要提前安装 Xgboost, 这个在机器学习竞赛中表现卓越的模块.  install speedml123```报错: XGBoostLibraryNotFound Command “python setup.py eg">
 <meta name="keywords" content="python,environment,speedml,XGboost,deep learning,machine learning">
 <meta property="og:type" content="article">
 <meta property="og:title" content="How to Install XGboost">
 <meta property="og:url" content="http://liguanghe.github.io/2018/01/23/pythonSpeedml/index.html">
 <meta property="og:site_name" content="Li Guanghe&#39;s blog">
-<meta property="og:description" content="背景 深度学习的 kaggle 平台, Titanic项目 推荐 speedmlTitanic Data Science Solutions | Kaggle, speedml 需要提前安装 Xgboost, 这个在机器学习竞赛中表现卓越的模块.  install speedml```时遇到问题, 报错: XGBoostLibraryNotFound 1```Command &amp;quot;pytho">
+<meta property="og:description" content="背景 深度学习的 kaggle 平台, Titanic项目 推荐 speedmlTitanic Data Science Solutions | Kaggle, speedml 需要提前安装 Xgboost, 这个在机器学习竞赛中表现卓越的模块.  install speedml123```报错: XGBoostLibraryNotFound Command “python setup.py eg">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-23T09:15:04.544Z">
+<meta property="og:updated_time" content="2018-01-23T09:20:15.871Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="How to Install XGboost">
-<meta name="twitter:description" content="背景 深度学习的 kaggle 平台, Titanic项目 推荐 speedmlTitanic Data Science Solutions | Kaggle, speedml 需要提前安装 Xgboost, 这个在机器学习竞赛中表现卓越的模块.  install speedml```时遇到问题, 报错: XGBoostLibraryNotFound 1```Command &amp;quot;pytho">
+<meta name="twitter:description" content="背景 深度学习的 kaggle 平台, Titanic项目 推荐 speedmlTitanic Data Science Solutions | Kaggle, speedml 需要提前安装 Xgboost, 这个在机器学习竞赛中表现卓越的模块.  install speedml123```报错: XGBoostLibraryNotFound Command “python setup.py eg">
 
 
 
@@ -404,14 +404,10 @@
         <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><ul>
 <li>深度学习的 kaggle 平台, Titanic项目 推荐 speedml<a href="https://www.kaggle.com/startupsci/titanic-data-science-solutions/notebook" target="_blank" rel="external">Titanic Data Science Solutions | Kaggle</a>, speedml 需要提前安装 <a href="https://en.wikipedia.org/wiki/Xgboost" target="_blank" rel="external">Xgboost</a>, 这个<a href="https://juejin.im/post/5a03fabcf265da432b4a44e2" target="_blank" rel="external">在机器学习竞赛中表现卓越</a>的模块.</li>
 </ul>
-<figure class="highlight plain"><figcaption><span>install speedml```时遇到问题, 报错: XGBoostLibraryNotFound </span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">```Command &quot;python setup.py egg_info&quot; failed with error code 1 in /private/var/folders/mx/jr287k4x6x50nkb0t20x4lcc0000gn/T/pip-build-iulz4qok/xgboost/.</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>install speedml</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">```</div><div class="line"></div><div class="line">报错: XGBoostLibraryNotFound</div></pre></td></tr></table></figure>
+<p>Command “python setup.py egg_info” failed with error code 1 in /private/var/folders/mx/jr287k4x6x50nkb0t20x4lcc0000gn/T/pip-build-iulz4qok/xgboost/.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">- 查到: [xgboost/build_trouble_shooting.md at master · dmlc/xgboost](https://github.com/dmlc/xgboost/blob/master/python-package/build_trouble_shooting.md) </div><div class="line">- [Discussion and troubleshooting on PyPI (pip) installation (the newest 0.6 version) · Issue #1446 · dmlc/xgboost](https://github.com/dmlc/xgboost/issues/1446)</div><div class="line">- 尝试 ```brew install gcc``` 和 ```clang-omg```, 找不到模块</div><div class="line"></div><div class="line">## xgboost</div><div class="line">- 要用到 [GCC](https://zh.wikipedia.org/wiki/GCC)</div><div class="line">-  GCC 之前要按照 xcode(苹果商店就有)</div><div class="line"></div><div class="line">## 操作</div><div class="line">- 安装时遵循 [xgboost官方github](https://github.com/dmlc/xgboost/tree/master/python-package), 不要使用 ```pip install xgboost```的方式, 而是使用 clone文件夹到本地的方式(from source). </div><div class="line">- 先安装 gcc@5</div><div class="line">    - set compiler 的方法是: 在 config.mk(在 xgboost 里) 中添加: ```export CC = gcc-5 ,export CXX = g++-5</div></pre></td></tr></table></figure></p>
 <ul>
-<li>查到: <a href="https://github.com/dmlc/xgboost/blob/master/python-package/build_trouble_shooting.md" target="_blank" rel="external">xgboost/build_trouble_shooting.md at master · dmlc/xgboost</a> </li>
-<li><a href="https://github.com/dmlc/xgboost/issues/1446" target="_blank" rel="external">Discussion and troubleshooting on PyPI (pip) installation (the newest 0.6 version) · Issue #1446 · dmlc/xgboost</a></li>
-<li><p>尝试 <figure class="highlight plain"><figcaption><span>install gcc``` 和 ```clang-omg```, 找不到模块</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">## xgboost</div><div class="line">- 要用到 [GCC](https://zh.wikipedia.org/wiki/GCC)</div><div class="line">-  GCC 之前要按照 xcode(苹果商店就有)</div><div class="line"></div><div class="line">## 操作</div><div class="line">- 安装时遵循 [xgboost官方github](https://github.com/dmlc/xgboost/tree/master/python-package), 不要使用 ```pip install xgboost```的方式, 而是使用 clone文件夹到本地的方式(from source). </div><div class="line">- 先安装 gcc@5</div><div class="line">    - set compiler 的方法是: 在 config.mk(在 xgboost 里) 中添加: ```export CC = gcc-5 ,export CXX = g++-5</div></pre></td></tr></table></figure></p>
-</li>
-<li><p>官网 <a href="https://xgboost.readthedocs.io/en/latest/build.html" target="_blank" rel="external">Installation Guide — xgboost 0.6 documentation</a> from source. </p>
-</li>
+<li>官网 <a href="https://xgboost.readthedocs.io/en/latest/build.html" target="_blank" rel="external">Installation Guide — xgboost 0.6 documentation</a> from source. </li>
 <li><code>make -j4</code> 这一步可能会遇到 <a href="https://github.com/dmlc/xgboost/issues/1442" target="_blank" rel="external">Error installing xgboost with OpenMP-enabled compliers · Issue #1442 · dmlc/xgboost</a>  按上文 set compiler 即可. </li>
 <li>如果你的 python 环境另有设置, 比如我用了 pyenv 来管理 python 的版本, 即在 <code>cd xgboost</code> 后, 使用: <code>cd python-package; sudo python setup.py install</code>, 即可将 xgboost 转到相应的路径下. </li>
 <li>以上的安装步骤可参照: <a href="https://www.ibm.com/developerworks/community/blogs/jfp/entry/Installing_XGBoost_on_Mac_OSX?lang=en" target="_blank" rel="external">Installing XGBoost on Mac OSX (IT Best Kept Secret Is Optimization)</a></li>
