@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 10 Feb 2018 07:13:36 GMT</pubDate>
+    <pubDate>Fri, 16 Feb 2018 19:09:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>一路向北(4) 海边人家</title>
+      <link>http://liguanghe.github.io/2018/02/17/NzWaikawa/</link>
+      <guid>http://liguanghe.github.io/2018/02/17/NzWaikawa/</guid>
+      <pubDate>Fri, 16 Feb 2018 18:45:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;上次说到青旅的花园就挺好, 毕竟是托大了. 这次刘欣来, 我订的是 Airbnb, 希望能跟当地人家接触. 他们在 airbnb 上的照片很低调, 但每一个宅子, 初见都会惊叹, 拍个不停. 给你看我写这文时坐在哪儿:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/02/17/NzWaikawa/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>如何筹划旅游? 以新西兰游为例</title>
@@ -31,7 +49,7 @@
     </item>
     
     <item>
-      <title>一路向北(1)</title>
+      <title>一路向北(1) 首次长途</title>
       <link>http://liguanghe.github.io/2018/02/08/NzDunedinOut/</link>
       <guid>http://liguanghe.github.io/2018/02/08/NzDunedinOut/</guid>
       <pubDate>Thu, 08 Feb 2018 08:45:32 GMT</pubDate>
@@ -314,21 +332,21 @@
     </item>
     
     <item>
-      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
-&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -349,21 +367,21 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
+      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
+          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
+&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1442,6 +1460,26 @@
     </item>
     
     <item>
+      <title>font of code</title>
+      <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;推荐字体: &lt;a href=&quot;http://larsenwork.com/monoid/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monoid&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;缘起: 大妈说有一款字体可以区分英文大小写, 以减少代码错误.&lt;ul&gt;
+
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/font-tool/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>《哈利波特》让位《玩具屋九讲》</title>
       <link>http://liguanghe.github.io/2017/05/02/book/</link>
       <guid>http://liguanghe.github.io/2017/05/02/book/</guid>
@@ -1478,26 +1516,6 @@
     </item>
     
     <item>
-      <title>font of code</title>
-      <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
-      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;推荐字体: &lt;a href=&quot;http://larsenwork.com/monoid/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monoid&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;缘起: 大妈说有一款字体可以区分英文大小写, 以减少代码错误.&lt;ul&gt;
-
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/font-tool/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>第四周</title>
       <link>http://liguanghe.github.io/2017/05/01/theforthweek/</link>
       <guid>http://liguanghe.github.io/2017/05/01/theforthweek/</guid>
@@ -1512,31 +1530,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/01/theforthweek/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/lover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/lover/</guid>
-      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/lover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1569,39 +1562,28 @@
     </item>
     
     <item>
-      <title>开智十月 持续自由</title>
-      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/lover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/lover/</guid>
+      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
-&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
-&lt;
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/23/lover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1622,6 +1604,42 @@
     </item>
     
     <item>
+      <title>开智十月 持续自由</title>
+      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
+&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
+&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>两周学习时间报告</title>
       <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
       <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
@@ -1636,6 +1654,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1656,23 +1691,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/lihe/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1749,25 +1767,6 @@
     </item>
     
     <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>卡片和星空：将你脑中的所有想法放在眼前</title>
       <link>http://liguanghe.github.io/2017/02/22/card/</link>
       <guid>http://liguanghe.github.io/2017/02/22/card/</guid>
@@ -1785,6 +1784,25 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
     </item>
     
     <item>
