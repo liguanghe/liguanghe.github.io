@@ -92,7 +92,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Li Guanghe&#39;s blog">
-<meta property="og:url" content="http://liguanghe.github.io/tags/Repository/index.html">
+<meta property="og:url" content="http://liguanghe.github.io/tags/repository/index.html">
 <meta property="og:site_name" content="Li Guanghe&#39;s blog">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
@@ -124,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://liguanghe.github.io/tags/Repository/"/>
+  <link rel="canonical" href="http://liguanghe.github.io/tags/repository/"/>
 
 
 
 
 
-  <title>Tag: Repository | Li Guanghe's blog</title>
+  <title>Tag: repository | Li Guanghe's blog</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -280,7 +280,7 @@
 
   <div id="posts" class="posts-collapse">
     <div class="collection-title">
-      <h1>Repository<small>Tag</small>
+      <h1>repository<small>Tag</small>
       </h1>
     </div>
 
@@ -292,9 +292,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2017/10/15/GitRemoteMultipleRep/" itemprop="url">
+            <a class="post-title-link" href="/2017/09/07/HbUsageGithubBranch/" itemprop="url">
               
-                <span itemprop="name">Git One branch to Multiple Repositories</span>
+                <span itemprop="name">Git 入怼之独立分支</span>
               
             </a>
         
@@ -302,9 +302,37 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2017-10-15T09:46:32+13:00"
-              content="2017-10-15" >
-          10-15
+              datetime="2017-09-07T21:35:32+12:00"
+              content="2017-09-07" >
+          09-07
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2017/05/06/repositoryfile/" itemprop="url">
+              
+                <span itemprop="name">版本仓库文件存放指南</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-05-06T18:35:32+12:00"
+              content="2017-05-06" >
+          05-06
         </time>
       </div>
 
@@ -358,7 +386,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">111</span>
+                <span class="site-state-item-count">112</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -1025,42 +1053,6 @@
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
                 $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
-              },
-              error: function(newcounter, error) {
-                console.log('Failed to create');
-              }
-            });
-          }
-        },
-        error: function(error) {
-          console.log('Error:' + error.code + " " + error.message);
-        }
-      });
-    }
-
-    $(function() {
-      var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
-      }
-    });
-  </script>
-
-
-
-  
-
-  
-
-  
-
-  
-
-</body>
-</html>
-ancloud-visitors-count').text(newcounter.get('time'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
