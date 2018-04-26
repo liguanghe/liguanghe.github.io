@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 26 Apr 2018 02:22:08 GMT</pubDate>
+    <pubDate>Thu, 26 Apr 2018 13:53:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>巧用调查表单让敲定产品配置更快</title>
+      <link>http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/</link>
+      <guid>http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/</guid>
+      <pubDate>Thu, 26 Apr 2018 13:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNc79gy1fqqebsbn49j316e0w27ey.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; tit
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>一路向北(9)奥克兰印象</title>
@@ -506,23 +524,6 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
@@ -538,6 +539,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -916,6 +934,25 @@
     </item>
     
     <item>
+      <title>Speaking to Writing 在英语环境中提升英语</title>
+      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
+      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;里程碑小故事&lt;ul&gt;
+&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>Git 入怼之独立分支</title>
       <link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
       <guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
@@ -933,25 +970,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Speaking to Writing 在英语环境中提升英语</title>
-      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
-      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
-      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;里程碑小故事&lt;ul&gt;
-&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1761,6 +1779,42 @@
     </item>
     
     <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>开智十月 持续自由</title>
+      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
+&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
+&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>Read Github Guide</title>
       <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
       <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
@@ -1832,42 +1886,6 @@
     </item>
     
     <item>
-      <title>开智十月 持续自由</title>
-      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
-&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
-&lt;
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>抓不住你</title>
       <link>http://liguanghe.github.io/2017/03/27/catch/</link>
       <guid>http://liguanghe.github.io/2017/03/27/catch/</guid>
@@ -1885,6 +1903,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/03/27/catch/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>博客优化</title>
+      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1924,20 +1959,22 @@
     </item>
     
     <item>
-      <title>博客优化</title>
-      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
-      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1958,25 +1995,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
     </item>
     
     <item>
