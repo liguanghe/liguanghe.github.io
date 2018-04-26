@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 23 Apr 2018 07:20:23 GMT</pubDate>
+    <pubDate>Thu, 26 Apr 2018 02:22:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>一路向北(9)奥克兰印象</title>
+      <link>http://liguanghe.github.io/2018/04/26/NZAuckland/</link>
+      <guid>http://liguanghe.github.io/2018/04/26/NZAuckland/</guid>
+      <pubDate>Thu, 26 Apr 2018 02:15:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;奥克兰市中心很拥挤, 因为预算有限, 没吃到好吃的馆子. 属于奥克兰大区的周边小镇还不错, 有镇中心. 也有海滩.&lt;/p&gt;
+&lt;p&gt;市中心的青旅没有停车位. 有一家有停车位的BBH, 很简陋, 不舒服 at all.&lt;br&gt;没在这里工作过. 在奥克兰工作的小伙伴蛮多的, 如果
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/04/26/NZAuckland/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>一路向北(8)汉密尔顿</title>
@@ -231,23 +249,6 @@
     
     <item>
       <title>Trip wellington and North Island</title>
-      <link>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</link>
-      <guid>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</guid>
-      <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Trip wellington and North Island</title>
       <link>http://liguanghe.github.io/2018/01/25/CapaTrip/</link>
       <guid>http://liguanghe.github.io/2018/01/25/CapaTrip/</guid>
       <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
@@ -261,6 +262,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2018/01/25/CapaTrip/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Trip wellington and North Island</title>
+      <link>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</link>
+      <guid>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</guid>
+      <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/#disqus_thread</comments>
     </item>
     
     <item>
@@ -488,6 +506,23 @@
     </item>
     
     <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
@@ -521,23 +556,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -898,25 +916,6 @@
     </item>
     
     <item>
-      <title>Speaking to Writing 在英语环境中提升英语</title>
-      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
-      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
-      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;里程碑小故事&lt;ul&gt;
-&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Git 入怼之独立分支</title>
       <link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
       <guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
@@ -934,6 +933,25 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Speaking to Writing 在英语环境中提升英语</title>
+      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
+      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;里程碑小故事&lt;ul&gt;
+&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1180,8 +1198,8 @@
     
     <item>
       <title>四月时间账单报告</title>
-      <link>http://liguanghe.github.io/2017/07/30/TimeReport0730/</link>
-      <guid>http://liguanghe.github.io/2017/07/30/TimeReport0730/</guid>
+      <link>http://liguanghe.github.io/2017/07/29/TimeReport0730/</link>
+      <guid>http://liguanghe.github.io/2017/07/29/TimeReport0730/</guid>
       <pubDate>Sat, 29 Jul 2017 13:35:32 GMT</pubDate>
       <description>
       
@@ -1195,7 +1213,7 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/07/30/TimeReport0730/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/07/29/TimeReport0730/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1760,6 +1778,23 @@
     </item>
     
     <item>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>两周学习时间报告</title>
       <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
       <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
@@ -1774,42 +1809,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>开智十月 持续自由</title>
-      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
-&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
-&lt;
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1833,20 +1832,39 @@
     </item>
     
     <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
+      <title>开智十月 持续自由</title>
+      <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
       <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
+&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
+&lt;
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1870,20 +1888,20 @@
     </item>
     
     <item>
-      <title>博客优化</title>
-      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
+      <title>出走</title>
+      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
       <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1906,39 +1924,20 @@
     </item>
     
     <item>
-      <title>出走</title>
-      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
+      <title>博客优化</title>
+      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
       <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
+          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1959,6 +1958,25 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
     </item>
     
     <item>
