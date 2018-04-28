@@ -8,8 +8,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 27 Apr 2018 12:28:30 GMT</pubDate>
+    <pubDate>Sat, 28 Apr 2018 03:42:27 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>域外生活录回顾</title>
+      <link>http://liguanghe.github.io/2018/04/28/ReviewNZS11/</link>
+      <guid>http://liguanghe.github.io/2018/04/28/ReviewNZS11/</guid>
+      <pubDate>Sat, 28 Apr 2018 03:00:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;以下是根据过去10个月, S11(每个S是4周), 每月发布的记录, 及最终完成情况的一个线性记录. 根据这个线性记录, 要进行进一步的总结和建议. &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;milestone (仿怼圈 milestone 又 寸 心)&lt;/p&gt;
+&lt;p&gt;域外 新西兰 &lt;/p
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/04/28/ReviewNZS11/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>当自怼成为生活方式</title>
@@ -285,23 +305,6 @@
     
     <item>
       <title>Trip wellington and North Island</title>
-      <link>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</link>
-      <guid>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</guid>
-      <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Trip wellington and North Island</title>
       <link>http://liguanghe.github.io/2018/01/25/CapaTrip/</link>
       <guid>http://liguanghe.github.io/2018/01/25/CapaTrip/</guid>
       <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
@@ -315,6 +318,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2018/01/25/CapaTrip/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Trip wellington and North Island</title>
+      <link>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</link>
+      <guid>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</guid>
+      <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/#disqus_thread</comments>
     </item>
     
     <item>
@@ -560,6 +580,23 @@
     </item>
     
     <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
@@ -575,23 +612,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -952,6 +972,25 @@
     </item>
     
     <item>
+      <title>Speaking to Writing 在英语环境中提升英语</title>
+      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
+      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;里程碑小故事&lt;ul&gt;
+&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>Git 入怼之独立分支</title>
       <link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
       <guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
@@ -969,25 +1008,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Speaking to Writing 在英语环境中提升英语</title>
-      <link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
-      <guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
-      <pubDate>Thu, 07 Sep 2017 09:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;里程碑小故事&lt;ul&gt;
-&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1670,24 +1690,6 @@
     </item>
     
     <item>
-      <title>Sublime Text / it’s all text / firefox</title>
-      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
-      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>《哈利波特》让位《玩具屋九讲》</title>
       <link>http://liguanghe.github.io/2017/05/02/book/</link>
       <guid>http://liguanghe.github.io/2017/05/02/book/</guid>
@@ -1726,6 +1728,24 @@
     </item>
     
     <item>
+      <title>Sublime Text / it’s all text / firefox</title>
+      <link>http://liguanghe.github.io/2017/05/02/st1/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/st1/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>第四周</title>
       <link>http://liguanghe.github.io/2017/05/01/theforthweek/</link>
       <guid>http://liguanghe.github.io/2017/05/01/theforthweek/</guid>
@@ -1740,31 +1760,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/01/theforthweek/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/lover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/lover/</guid>
-      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/lover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1797,40 +1792,45 @@
     </item>
     
     <item>
-      <title>Read Github Guide</title>
-      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/lover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/lover/</guid>
+      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/23/lover/#disqus_thread</comments>
     </item>
     
     <item>
-      <title>皆于斗室</title>
-      <link>http://liguanghe.github.io/2017/04/22/lihe/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/lihe/</guid>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
       <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
-&lt;p&gt;李贺&lt;/p&gt;
-&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
-&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/lihe/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1870,20 +1870,40 @@
     </item>
     
     <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <title>Read Github Guide</title>
+      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
       <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>皆于斗室</title>
+      <link>http://liguanghe.github.io/2017/04/22/lihe/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/lihe/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
+&lt;p&gt;李贺&lt;/p&gt;
+&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
+&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/lihe/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1941,23 +1961,6 @@
     </item>
     
     <item>
-      <title>出走</title>
-      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
-      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>写作链</title>
       <link>http://liguanghe.github.io/2017/03/22/blog/</link>
       <guid>http://liguanghe.github.io/2017/03/22/blog/</guid>
@@ -1974,6 +1977,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/03/22/blog/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>出走</title>
+      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
     </item>
     
     <item>
