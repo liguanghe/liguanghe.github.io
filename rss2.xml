@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 28 Apr 2018 03:42:27 GMT</pubDate>
+    <pubDate>Tue, 01 May 2018 13:38:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>法律小常识 - 有子女的离婚协议怎么写</title>
+      <link>http://liguanghe.github.io/2018/05/01/LawDivorce/</link>
+      <guid>http://liguanghe.github.io/2018/05/01/LawDivorce/</guid>
+      <pubDate>Tue, 01 May 2018 13:32:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;曾在法院少年庭工作, 有朋友来咨询离婚协议怎么写, 这里给出注意事项和模板. &lt;/p&gt;
+&lt;p&gt;民政局会给&lt;a href=&quot;http://www.66law.cn/laws/89477.aspx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;离婚协议书模板&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/05/01/LawDivorce/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>域外生活录回顾</title>
@@ -305,23 +323,6 @@
     
     <item>
       <title>Trip wellington and North Island</title>
-      <link>http://liguanghe.github.io/2018/01/25/CapaTrip/</link>
-      <guid>http://liguanghe.github.io/2018/01/25/CapaTrip/</guid>
-      <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2018/01/25/CapaTrip/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Trip wellington and North Island</title>
       <link>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</link>
       <guid>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</guid>
       <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
@@ -335,6 +336,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Trip wellington and North Island</title>
+      <link>http://liguanghe.github.io/2018/01/25/CapaTrip/</link>
+      <guid>http://liguanghe.github.io/2018/01/25/CapaTrip/</guid>
+      <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/01/25/CapaTrip/#disqus_thread</comments>
     </item>
     
     <item>
@@ -562,21 +580,21 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
+      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
+          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
+&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
     </item>
     
     <item>
@@ -597,21 +615,21 @@
     </item>
     
     <item>
-      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
-&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1690,24 +1708,6 @@
     </item>
     
     <item>
-      <title>《哈利波特》让位《玩具屋九讲》</title>
-      <link>http://liguanghe.github.io/2017/05/02/book/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/book/</guid>
-      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
-&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/book/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>font of code</title>
       <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
       <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
@@ -1725,6 +1725,24 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/02/font-tool/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>《哈利波特》让位《玩具屋九讲》</title>
+      <link>http://liguanghe.github.io/2017/05/02/book/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/book/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
+&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/book/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1834,6 +1852,23 @@
     </item>
     
     <item>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>开智十月 持续自由</title>
       <link>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</link>
       <guid>http://liguanghe.github.io/2017/04/22/openmindTenMonth/</guid>
@@ -1850,23 +1885,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/openmindTenMonth/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1944,6 +1962,23 @@
     </item>
     
     <item>
+      <title>出走</title>
+      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
+      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>博客优化</title>
       <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
       <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
@@ -1980,20 +2015,23 @@
     </item>
     
     <item>
-      <title>出走</title>
-      <link>http://liguanghe.github.io/2017/03/22/chinawild/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/chinawild/</guid>
-      <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
+      <title>卡片和星空：将你脑中的所有想法放在眼前</title>
+      <link>http://liguanghe.github.io/2017/02/22/card/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/card/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
+          &lt;blockquote&gt;
+&lt;p&gt;我们的大脑好像星空，无数思绪中有无形的力互相牵引着，我们看得到那星星，却看不到自己脑中的思绪。 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你迷茫、困惑，想做很多事情，又不知从何做起，不知道未来的方向时，甚至不知道具体是什么问题的时候，或许想跟
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/03/22/chinawild/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2013,26 +2051,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>卡片和星空：将你脑中的所有想法放在眼前</title>
-      <link>http://liguanghe.github.io/2017/02/22/card/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/card/</guid>
-      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;我们的大脑好像星空，无数思绪中有无形的力互相牵引着，我们看得到那星星，却看不到自己脑中的思绪。 &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你迷茫、困惑，想做很多事情，又不知从何做起，不知道未来的方向时，甚至不知道具体是什么问题的时候，或许想跟
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
     </item>
     
     <item>
