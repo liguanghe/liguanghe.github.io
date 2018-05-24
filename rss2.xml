@@ -8,8 +8,33 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 06 May 2018 05:13:44 GMT</pubDate>
+    <pubDate>Thu, 24 May 2018 04:57:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>英语不是借口 快速读英文的工具</title>
+      <link>http://liguanghe.github.io/2018/05/24/TLTranslation/</link>
+      <guid>http://liguanghe.github.io/2018/05/24/TLTranslation/</guid>
+      <pubDate>Thu, 24 May 2018 04:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;google 翻译那么厉害, 实在不该以英语为借口, 不开眼看世界. &lt;/p&gt;
+&lt;p&gt;使用英语应该是日常生活才对. &lt;/p&gt;
+&lt;p&gt;常用的英文网站&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;google&lt;ul&gt;
+&lt;li&gt;设置成英文&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;wiki&lt;/li
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/05/24/TLTranslation/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>周会 -- 组织中最最重要的一环</title>
@@ -377,23 +402,6 @@
     
     <item>
       <title>Trip wellington and North Island</title>
-      <link>http://liguanghe.github.io/2018/01/25/CapaTrip/</link>
-      <guid>http://liguanghe.github.io/2018/01/25/CapaTrip/</guid>
-      <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2018/01/25/CapaTrip/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Trip wellington and North Island</title>
       <link>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</link>
       <guid>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</guid>
       <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
@@ -407,6 +415,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Trip wellington and North Island</title>
+      <link>http://liguanghe.github.io/2018/01/25/CapaTrip/</link>
+      <guid>http://liguanghe.github.io/2018/01/25/CapaTrip/</guid>
+      <pubDate>Thu, 25 Jan 2018 08:34:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/01/25/CapaTrip/#disqus_thread</comments>
     </item>
     
     <item>
@@ -634,20 +659,21 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -669,21 +695,20 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt/</guid>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/blogRebuilt2/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/blogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1762,6 +1787,26 @@
     </item>
     
     <item>
+      <title>font of code</title>
+      <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
+      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;推荐字体: &lt;a href=&quot;http://larsenwork.com/monoid/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monoid&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;缘起: 大妈说有一款字体可以区分英文大小写, 以减少代码错误.&lt;ul&gt;
+
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/font-tool/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>Sublime Text / it’s all text / firefox</title>
       <link>http://liguanghe.github.io/2017/05/02/st1/</link>
       <guid>http://liguanghe.github.io/2017/05/02/st1/</guid>
@@ -1798,26 +1843,6 @@
     </item>
     
     <item>
-      <title>font of code</title>
-      <link>http://liguanghe.github.io/2017/05/02/font-tool/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/font-tool/</guid>
-      <pubDate>Tue, 02 May 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;推荐字体: &lt;a href=&quot;http://larsenwork.com/monoid/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monoid&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;缘起: 大妈说有一款字体可以区分英文大小写, 以减少代码错误.&lt;ul&gt;
-
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/font-tool/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>第四周</title>
       <link>http://liguanghe.github.io/2017/05/01/theforthweek/</link>
       <guid>http://liguanghe.github.io/2017/05/01/theforthweek/</guid>
@@ -1832,6 +1857,31 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/01/theforthweek/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/lover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/lover/</guid>
+      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/23/lover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1864,48 +1914,6 @@
     </item>
     
     <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/lover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/lover/</guid>
-      <pubDate>Sun, 23 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/lover/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
-      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>皆于斗室</title>
       <link>http://liguanghe.github.io/2017/04/22/lihe/</link>
       <guid>http://liguanghe.github.io/2017/04/22/lihe/</guid>
@@ -1926,20 +1934,20 @@
     </item>
     
     <item>
-      <title>Read Github Guide</title>
-      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
       <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1962,20 +1970,20 @@
     </item>
     
     <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/RSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/RSS/</guid>
       <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/RSS/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1993,6 +2001,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Read Github Guide</title>
+      <link>http://liguanghe.github.io/2017/04/22/learngit/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/learngit/</guid>
+      <pubDate>Sat, 22 Apr 2017 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/learngit/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2016,20 +2041,22 @@
     </item>
     
     <item>
-      <title>博客优化</title>
-      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
+      <title>写作链</title>
+      <link>http://liguanghe.github.io/2017/03/22/blog/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/blog/</guid>
       <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+          &lt;p&gt;尝试省略写作到发布之间的无数点击。理想的写作链是这样的：&lt;/p&gt;
+&lt;p&gt;打开编辑器 -&gt; 写字 -&gt; 点击发布 -&gt; 博客以及简书、公众号、朋友圈、微信群、知乎等所有的网站上都发布了这篇文章 -&gt; 每篇文章的评论都统一在一个页面上。&lt;/p&gt;
+&lt;p&gt;目前实现：&lt;br&gt;在 ul
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/03/22/blog/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2050,41 +2077,20 @@
     </item>
     
     <item>
-      <title>写作链</title>
-      <link>http://liguanghe.github.io/2017/03/22/blog/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/blog/</guid>
+      <title>博客优化</title>
+      <link>http://liguanghe.github.io/2017/03/22/blogbetter/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/blogbetter/</guid>
       <pubDate>Wed, 22 Mar 2017 05:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;尝试省略写作到发布之间的无数点击。理想的写作链是这样的：&lt;/p&gt;
-&lt;p&gt;打开编辑器 -&gt; 写字 -&gt; 点击发布 -&gt; 博客以及简书、公众号、朋友圈、微信群、知乎等所有的网站上都发布了这篇文章 -&gt; 每篇文章的评论都统一在一个页面上。&lt;/p&gt;
-&lt;p&gt;目前实现：&lt;br&gt;在 ul
+          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/03/22/blog/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/03/22/blogbetter/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2105,6 +2111,25 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/card/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/nosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/nosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 05:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/22/nosie/#disqus_thread</comments>
     </item>
     
     <item>
