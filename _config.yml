@@ -93,8 +93,8 @@ search:
 
 # algolia:
 algolia:
-  applicationID: BVJZS47U33
-  apiKey: f147a00b5d753d127e4d9fef4890054f
-  adminApiKey: 727251b222d66d96ab00970568352012
+  applicationID: A4WI4KUUH9
+  apiKey: 5c72735e780813ef55d1256e2f0bbb69
+  adminApiKey: 5ab0fd061f989937118cf00ae892fa98
   indexName: dev_blog
   chunkSize: 5000
