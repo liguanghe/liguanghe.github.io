@@ -98,3 +98,12 @@ algolia:
   adminApiKey: 5ab0fd061f989937118cf00ae892fa98
   indexName: dev_blog
   chunkSize: 5000
+  fields:
+    - title
+    - tags
+    - categories
+    - excerpt:strip
+    - content:strip:truncate,0,300
+    - slug
+    - permalink
+    - path
