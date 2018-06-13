@@ -21,6 +21,17 @@ I’m a lawyer.  see my paper:
 
 [涉商标犯罪案件商标侵权民事责任的认定——评施某德公司诉高某良等侵害商标权纠纷案 - 中国知网](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDTEMP&filename=FBZX201714007&v=MTU5NTBWdkZpSGhVNzNLSXkvUmRyRzRIOWJOcTQ5Rlk0UjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTDJmWU8=)
 
+> Teaching is best learning 教是最好的学
+
+[python][6]
+
+[github][7]
+
+[WriterEnvironment][8]
+
+[thinking][9]
+
+
 
 [ how to subscribe liguanghe’s blog? 如何订阅李广鹤的博客?如何订阅李广鹤的博客][5]
 
@@ -28,3 +39,7 @@ I’m a lawyer.  see my paper:
 [2]:	https://liguanghe.github.io/categories/GapYear/
 [3]:	https://liguanghe.github.io/categories/Video/
 [5]:	https://liguanghe.github.io/2017/04/22/RSS/
+[6]:    https://liguanghe.github.io/categories/python/
+[7]:    https://liguanghe.github.io/categories/github/
+[8]:    https://liguanghe.github.io/categories/WriterEnvironment/
+[9]:    https://liguanghe.github.io/categories/thinking/

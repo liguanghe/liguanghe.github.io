@@ -92,6 +92,7 @@ search:
   limit: 10000
 
 # algolia:
+algolia:
   applicationID: BVJZS47U33
   apiKey: f147a00b5d753d127e4d9fef4890054f
   adminApiKey: 727251b222d66d96ab00970568352012

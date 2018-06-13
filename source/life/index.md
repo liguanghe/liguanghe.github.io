@@ -16,5 +16,5 @@ Starting this blog at Jul. 2016, the life before can push click next:
 
 [1]:	https://liguanghe.github.io/categories/GapYear/
 [2]:	https://liguanghe.github.io/categories/lifestyle/
-[3]:	https://weixinshu.com/app/preview/945855/inner/share?bookType=wxbook&author=wxid_jzrfu7qnrsri21@69&section=cover
+[3]:	https://weixinshu.com/book-share/OTQ1ODM3Ond4Ym9vazp3eGlkX2p6cmZ1N3FucnNyaTIxQDY5
 [4]:	https://liguanghe.github.io/2017/04/22/RSS/
