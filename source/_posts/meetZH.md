@@ -14,6 +14,7 @@ tags:
 - career
 - thinking
 - learn
+- debuguself
 ---
 小鹤回国, 结伙到珠海探大妈 ZoomQuiet. 海聊.
 到场的13人, 来自:自怼圈/PYthon基础104/开智认知写作课/王佩老师写作课/珠海 GDG珠三角技术沙龙/珠三角Python用户组/PyChina华南/教育大发明/哲思/中国Python 用户组/OM101.py/OM102.py/OM103.py/开智青年群/珠海读书会...其它N+1 个社区. 

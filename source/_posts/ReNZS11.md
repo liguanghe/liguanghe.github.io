@@ -8,6 +8,7 @@ tags:
 - openmind
 - review 
 - record
+- debuguself
 
 ---
 

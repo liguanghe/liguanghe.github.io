@@ -6,7 +6,7 @@ categories:
 tags:
 - record
 - openmind
-- DeBugUSelf
+- debuguself
 - sport
 - social
 ---

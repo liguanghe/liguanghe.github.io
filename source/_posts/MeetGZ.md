@@ -9,6 +9,7 @@ tags:
 - friend
 - share
 - guangzhou
+- debuguself
 ---
 
 ## 背景

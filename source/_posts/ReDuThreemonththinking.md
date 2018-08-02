@@ -3,6 +3,8 @@ title: What I Get in DebugUself for three months
 date: 2017/7/1 11:35:32
 categories: 
 - WriterEnvironment
+tags: 
+- debuguself
 ---
 ## Thinking
 Product and Habit is what you can really get.
