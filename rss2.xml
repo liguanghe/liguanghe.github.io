@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 30 Jul 2018 02:27:47 GMT</pubDate>
+    <pubDate>Thu, 09 Aug 2018 06:51:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>此刻的隐喻</title>
+      <link>http://liguanghe.github.io/2018/08/09/EsCareer/</link>
+      <guid>http://liguanghe.github.io/2018/08/09/EsCareer/</guid>
+      <pubDate>Thu, 09 Aug 2018 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;世界延展开来,&lt;br&gt;挖出一块又一块潮湿的块状物.&lt;br&gt;剥掉略湿的泥土,&lt;br&gt;有时看到的是石块,&lt;br&gt;有时看到的是宝石. &lt;/p&gt;
+&lt;p&gt;大多数时候是石头,&lt;br&gt;宝石只是没被期待的惊喜.&lt;br&gt;满地坑洼中伸直腰杆,&lt;br&gt;吸一口泥土绵软的气息.&lt;br&gt;再埋头挖下去.
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/08/09/EsCareer/#disqus_thread</comments>
+    </item>
     
     <item>
       <title></title>
@@ -146,23 +164,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2018/06/21/LsConductor/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>知识管理/效率提升及 Mac 使用</title>
-      <link>http://liguanghe.github.io/2018/06/13/SHEffectionLawyer/</link>
-      <guid>http://liguanghe.github.io/2018/06/13/SHEffectionLawyer/</guid>
-      <pubDate>Wed, 13 Jun 2018 09:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;为一起参加律师岗前培训的同学们做了一场 &amp;lt;知识管理/效率提升及 Mac 使用&amp;gt; 的分享. 2 个小时将高效的工具/方法/原理/系统向大家进行了展示, 同时说明为什么 Office 是低效的, 印象笔记等成熟的协作软件也只是中效. 这样做是&lt;strong&gt;希望减少
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2018/06/13/SHEffectionLawyer/#disqus_thread</comments>
     </item>
     
     <item>
@@ -585,23 +586,6 @@
     
     <item>
       <title>Trip wellington and North Island</title>
-      <link>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</link>
-      <guid>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</guid>
-      <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Trip wellington and North Island</title>
       <link>http://liguanghe.github.io/2018/01/25/NZCapaTrip/</link>
       <guid>http://liguanghe.github.io/2018/01/25/NZCapaTrip/</guid>
       <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
@@ -615,6 +599,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2018/01/25/NZCapaTrip/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Trip wellington and North Island</title>
+      <link>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</link>
+      <guid>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</guid>
+      <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/#disqus_thread</comments>
     </item>
     
     <item>
@@ -842,20 +843,21 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
+      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
+&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
     </item>
     
     <item>
@@ -877,21 +879,20 @@
     </item>
     
     <item>
-      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
-&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1251,25 +1252,6 @@
     </item>
     
     <item>
-      <title>Speaking to Writing 在英语环境中提升英语</title>
-      <link>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/</link>
-      <guid>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/</guid>
-      <pubDate>Thu, 07 Sep 2017 13:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;里程碑小故事&lt;ul&gt;
-&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Git 入怼之独立分支</title>
       <link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
       <guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
@@ -1287,6 +1269,25 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Speaking to Writing 在英语环境中提升英语</title>
+      <link>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/</guid>
+      <pubDate>Thu, 07 Sep 2017 13:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;里程碑小故事&lt;ul&gt;
+&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1911,26 +1912,6 @@
     </item>
     
     <item>
-      <title>版本仓库文件存放指南</title>
-      <link>http://liguanghe.github.io/2017/05/06/GitRepositoryfile/</link>
-      <guid>http://liguanghe.github.io/2017/05/06/GitRepositoryfile/</guid>
-      <pubDate>Sat, 06 May 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;仓库里应该放哪些文件格式,是做项目和协同重要的部分.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;意义&quot;&gt;&lt;a href=&quot;#意义&quot; 
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/06/GitRepositoryfile/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>提线木偶</title>
       <link>http://liguanghe.github.io/2017/05/04/NvHanddoll/</link>
       <guid>http://liguanghe.github.io/2017/05/04/NvHanddoll/</guid>
@@ -1969,21 +1950,23 @@
     </item>
     
     <item>
-      <title>Sublime Text / it’s all text / firefox</title>
-      <link>http://liguanghe.github.io/2017/05/02/HbSt1/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/HbSt1/</guid>
+      <title>font of code</title>
+      <link>http://liguanghe.github.io/2017/05/02/BlogFont-tool/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/BlogFont-tool/</guid>
       <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;文本编辑器&quot;&gt;&lt;a href=&quot;#文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;文本编辑器&quot;&gt;&lt;/a&gt;文本编辑器&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;从使用文本编辑器 Ulysses  + TextWangler( LPTHW 遗留至今），变成Ulyss
+          &lt;p&gt;推荐字体: &lt;a href=&quot;http://larsenwork.com/monoid/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monoid&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;缘起: 大妈说有一款字体可以区分英文大小写, 以减少代码错误.&lt;ul&gt;
+
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/05/02/HbSt1/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/05/02/BlogFont-tool/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2005,26 +1988,6 @@
     </item>
     
     <item>
-      <title>font of code</title>
-      <link>http://liguanghe.github.io/2017/05/02/BlogFont-tool/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/BlogFont-tool/</guid>
-      <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;推荐字体: &lt;a href=&quot;http://larsenwork.com/monoid/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monoid&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;缘起: 大妈说有一款字体可以区分英文大小写, 以减少代码错误.&lt;ul&gt;
-
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/BlogFont-tool/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>第四周</title>
       <link>http://liguanghe.github.io/2017/05/01/ShTheforthweek/</link>
       <guid>http://liguanghe.github.io/2017/05/01/ShTheforthweek/</guid>
@@ -2039,6 +2002,31 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/01/ShTheforthweek/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
+      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2071,31 +2059,6 @@
     </item>
     
     <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
-      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
       <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
       <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
@@ -2110,6 +2073,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2166,23 +2146,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/EsLiHe/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2254,25 +2217,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/03/22/Blogbetter/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>写作链</title>
-      <link>http://liguanghe.github.io/2017/03/22/BlogBlog/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/BlogBlog/</guid>
-      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;尝试省略写作到发布之间的无数点击。理想的写作链是这样的：&lt;/p&gt;
-&lt;p&gt;打开编辑器 -&amp;gt; 写字 -&amp;gt; 点击发布 -&amp;gt; 博客以及简书、公众号、朋友圈、微信群、知乎等所有的网站上都发布了这篇文章 -&amp;gt; 每篇文章的评论都统一在一个页面上。&lt;/p&gt;
-&lt;p&gt;目
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/03/22/BlogBlog/#disqus_thread</comments>
     </item>
     
     <item>
