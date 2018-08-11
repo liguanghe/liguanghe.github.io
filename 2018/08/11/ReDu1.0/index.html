@@ -1,0 +1,1351 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next muse" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="record,project,debuguself,motivation," />
+
+
+
+
+
+  <link rel="alternate" href="/rss2.xml" title="Li Guanghe's blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="于我, 怼圈既是陪伴成长的开源社群, 也是我参与打磨的产品. 从开源社群的角度讲, 我已将运行的行动列出清单, 新老怼友们可以继续延续使用, 使怼圈持续运转, 这也是新老怼友们要学习的过程. 从产品的角度来讲, 上面的两大能力成果可以预示着怼圈1.0完成, 下一个阶段是2.0.我既是用户,又是出品人. 从用户的角度, 要将这个系统和外界的环境结合和对比, 用起来.  从出品人的角度, 希望用户在这">
+<meta name="keywords" content="record,project,debuguself,motivation">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的怼圈1.0和2.0">
+<meta property="og:url" content="http://liguanghe.github.io/2018/08/11/ReDu1.0/index.html">
+<meta property="og:site_name" content="Li Guanghe&#39;s blog">
+<meta property="og:description" content="于我, 怼圈既是陪伴成长的开源社群, 也是我参与打磨的产品. 从开源社群的角度讲, 我已将运行的行动列出清单, 新老怼友们可以继续延续使用, 使怼圈持续运转, 这也是新老怼友们要学习的过程. 从产品的角度来讲, 上面的两大能力成果可以预示着怼圈1.0完成, 下一个阶段是2.0.我既是用户,又是出品人. 从用户的角度, 要将这个系统和外界的环境结合和对比, 用起来.  从出品人的角度, 希望用户在这">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-08-11T06:39:16.968Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="我的怼圈1.0和2.0">
+<meta name="twitter:description" content="于我, 怼圈既是陪伴成长的开源社群, 也是我参与打磨的产品. 从开源社群的角度讲, 我已将运行的行动列出清单, 新老怼友们可以继续延续使用, 使怼圈持续运转, 这也是新老怼友们要学习的过程. 从产品的角度来讲, 上面的两大能力成果可以预示着怼圈1.0完成, 下一个阶段是2.0.我既是用户,又是出品人. 从用户的角度, 要将这个系统和外界的环境结合和对比, 用起来.  从出品人的角度, 希望用户在这">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: 'A4WI4KUUH9',
+      apiKey: '5c72735e780813ef55d1256e2f0bbb69',
+      indexName: 'dev_blog',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://liguanghe.github.io/2018/08/11/ReDu1.0/"/>
+
+
+
+
+
+  <title>我的怼圈1.0和2.0 | Li Guanghe's blog</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Li Guanghe's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-life">
+          <a href="/life" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-modx"></i> <br />
+            
+            Life
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-knowledge">
+          <a href="/knowledge" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            Knowledge
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-creation">
+          <a href="/creation" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-pencil"></i> <br />
+            
+            Creation
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://liguanghe.github.io/2018/08/11/ReDu1.0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="李广鹤 LiGuanghe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Li Guanghe's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">我的怼圈1.0和2.0</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-11T14:35:32+08:00">
+                2018-08-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/11/ReDu1.0/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/08/11/ReDu1.0/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/08/11/ReDu1.0/" class="leancloud_visitors" data-flag-title="我的怼圈1.0和2.0">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>于我, 怼圈既是陪伴成长的开源社群, 也是我参与打磨的产品. 从开源社群的角度讲, 我已将运行的行动列出清单, 新老怼友们可以继续延续使用, 使怼圈持续运转, 这也是新老怼友们要学习的过程. 从产品的角度来讲, 上面的两大能力成果可以预示着怼圈1.0完成, 下一个阶段是2.0.<br>我既是用户,又是出品人. 从用户的角度, 要将这个系统和外界的环境结合和对比, 用起来.  从出品人的角度, 希望用户在这个产品里孵化作品出来.<br>先小结1.0:</p>
+<h2 id="种花结果"><a href="#种花结果" class="headerlink" title="种花结果"></a>种花结果</h2><p>自2017年4月1日起, 投入时间和行动: </p>
+<ul>
+<li>16 个月</li>
+<li>229 个小时怼圈, 330 个小时 Python, 110 个小时  writer</li>
+<li>69 周怼周会</li>
+<li>144 个 issue</li>
+<li>10 篇 wiki</li>
+<li>133 篇博客</li>
+</ul>
+<p>有两大能力成果:</p>
+<ul>
+<li>一个完整的招新方案及执行</li>
+<li>一个梳理怼圈价值和行为的问卷</li>
+</ul>
+<p>有两大项目成果: </p>
+<ul>
+<li>1 个 Python 的数据可视化展示</li>
+<li>1 本 gitbook<br>有收获</li>
+<li>长期陪伴的怼友</li>
+<li>聚集更多志同道合的人的场</li>
+</ul>
+<h2 id="能力成果1-梳理怼圈"><a href="#能力成果1-梳理怼圈" class="headerlink" title="能力成果1. 梳理怼圈"></a>能力成果1. 梳理怼圈</h2><p>每次招新都是一次迭代, 经历了四次招新. 本次招新是一次系统的梳理. 我从信息流/价值观/最小行动/入怼门槛 四点对怼圈进行了总结, 以问卷的形式: <a href="https://jinshuju.net/f/ohQ12F" target="_blank" rel="external">进自怼圈一起怼么</a></p>
+<p>以2018年8月1日为分界线, <a href="https://jinshuju.net/f/gRvEDj/results" target="_blank" rel="external">之前入圈的活跃的怼友们填写的报告</a>, <a href="https://jinshuju.net/f/ohQ12F/results" target="_blank" rel="external">新怼友及有意向加入怼圈的报告</a>, 下图中, 左边是新怼友的情况, 右边是老怼友的情况. </p>
+<p>在这里可以看出新老怼友的不同, 给新怼友一个行动的方向. 此外, 这个问卷还有招新和阶段性自查的作用. </p>
+<h2 id="能力成果2-招新行动方案"><a href="#能力成果2-招新行动方案" class="headerlink" title="能力成果2. 招新行动方案"></a>能力成果2. 招新行动方案</h2><ul>
+<li>用一个 issue 将整个招新过程拎起来, 组织完成.</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">每次招新都是自怼圈的一次迭代, 是老怼友们思考自怼圈的气质如何, 是动用怼圈全部工具的管理流演习, 下一次的流程可能有很多不同, 但有了下文足够详细的介绍, 很多操作性的内容可以服用, 释放怼友更多的精力和时间在创新上.</div><div class="line"></div><div class="line">## 流程</div><div class="line">招新有以下几块要考虑</div><div class="line">- 流程节点</div><div class="line">    - 费用确定</div><div class="line">    - 招新流程讨论</div><div class="line">            - 文案/报名渠道撰写</div><div class="line">            - 发布</div><div class="line">    - 接引新人入圈</div><div class="line">    - 给出最小任务</div><div class="line">    - 迎新</div><div class="line">- 新人特征和客户画像</div><div class="line">    - 根据以往几次招新, 看到留存的人的特点</div><div class="line">    - 做出问卷, 引流</div><div class="line">- 入怼人员分配</div><div class="line">    - 统计接引的老怼友和工作量预估</div><div class="line">    - 初期跟踪. </div><div class="line"></div><div class="line">### 迎新前准备</div><div class="line"></div><div class="line">- [x] 确定入怼费 </div><div class="line">`</div><div class="line">4月1日 -&gt;8.1-&gt;12.1</div><div class="line">512元-&gt;480元-&gt;360元 2018年梯次</div><div class="line">720.42元-&gt;640.37元-&gt;480.20元 2019年梯次</div><div class="line">下一年4.1日入怼的老怼们有8折, 大妈手动审查和退款</div><div class="line">`</div><div class="line">- [x] 确定招新人数</div><div class="line">`</div><div class="line">4.1 -&gt;8.1-&gt;12.1</div><div class="line">42人-&gt;21人-&gt;16人</div><div class="line">`</div><div class="line"></div><div class="line">下文以 8.1 开圈为例, 4.1/12.1 招新的,下文要改成对应月份. </div><div class="line"></div><div class="line">- [x] 博客门面展示 7.26-7.29</div><div class="line">    - [x] 招新文案 [4d[TASK] 怼圈介绍文案的意见征集 -&gt; 开启自怼圈之旅](https://github.com/DebugUself/du4proto/issues/435)</div><div class="line">    - [x] 免费接触的渠道</div><div class="line">    - [x]  [让别人了解怼圈的博客文章](https://github.com/DebugUself/du4proto/issues/435) @zoejane </div><div class="line">    - [x] 陌生人留存</div><div class="line">- [x] 修改并确定招新问卷 7.16 - 7.29 [42h[TASK]怼圈招新问卷~ 来填写和反馈吧~](https://github.com/DebugUself/du4proto/issues/425)</div><div class="line">    - [x] 问卷内容</div><div class="line">    - [x] 问卷末尾处的报名链接 即入怼信息表  @zoejane  @liguanghe @ZoomQuiet </div><div class="line">    - [x] 问卷末尾处的观望链接(一篇怎么看我们的博客的文) @zhangshiyingcc  @liguanghe </div><div class="line">- 入怼任务 [4d[TASK] 新人入怼任务意见征集](https://github.com/DebugUself/du4proto/issues/437)</div><div class="line">- [x] 怼周会顺流程 [42h[TASK]20180728 怼周会 分享及纪要](https://github.com/DebugUself/du4proto/issues/438) 7.28 </div><div class="line">- [x] 设置报名表(金数据, 找管理员要表单, 复制一份, 然后公开)</div><div class="line">- [x] 设置缴费渠道 8.1  @zoomquiet</div><div class="line">- [x] 招新预热 7.29-8.1  @DebugUself/du4all </div><div class="line">- [x] 开放报名 8.1 20:42</div><div class="line">    - [x] 在Blog 上也发. </div><div class="line">    - [x] 大家在原来的发布通道上再发一次.</div><div class="line">- [x] 收费 8.1 - 8.7 @zoomquiet</div><div class="line">- [x] 招人结束后, 在金数据表单 - setting - 填写那里设置为只 admin 可填. </div><div class="line">### 迎新时</div><div class="line">* [x] 根据报名信息, 认领接引 8.7  [邀约新人入怼流程 @Wiki](https://github.com/DebugUself/du4proto/wiki/HbInviteNewDuer), [[1d][TASK] 邀约新人入怼流程 - 意见征集 #441](https://github.com/DebugUself/du4proto/issues/441)</div><div class="line">    * [x] 发送怼邮件 [4d[TASK] 新人入怼邮件意见征集](https://github.com/DebugUself/du4proto/issues/436)</div><div class="line">    * [x] 建新人微信群  </div><div class="line">    * [x] 邀请进 github repositroy</div><div class="line">    * [x] 邀请进 slack </div><div class="line">    * [x] 预备周 通知怼周会时间  </div><div class="line">- [x] 迎新怼周会准备</div><div class="line">    - [x] 确定迎新怼周会的内容和流程 7.26 - 8.4 [8d[TASK]招新怼周会, 跟新人们说什么 · Issue #434 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/434)</div><div class="line">    - [x] 事先准备 8.3-8.4</div><div class="line">* [x] 迎新怼周会 8.4 @all [42h[TASK]20180804 怼周会 分享及纪要](https://github.com/DebugUself/du4proto/issues/442)</div><div class="line">    * [x] 新人自我介绍</div><div class="line">    * [x] 老怼寄语, 介绍项目</div><div class="line">    * [x] 大妈单口 (因为大妈旅游, 此项取消)</div><div class="line">### 迎新后 </div><div class="line">- [x] 招新回顾, wiki 修改 [1w[TASK]招新流程 wiki 更新 (版号:180801) · Issue #423 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/423)</div><div class="line">- [ ] 跟踪新怼入怼情况, 连续4周的怼周会/slack 发言/issue数量/项目参与情况..</div><div class="line">- [ ] 脑洞: 由新人们组织和进行下一次的招新, 以此验收~ </div><div class="line"></div><div class="line">## 关联</div><div class="line">- [3m[TASK]回顾17年自怼进步 · Issue #332 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/332)</div><div class="line">- 怼圈介绍 [4d[TASK] 怼圈介绍文案的意见征集 -&gt; 开启自怼圈之旅](https://github.com/DebugUself/du4proto/issues/435)</div><div class="line">- 怼圈问卷 [20d[TASK]怼圈招新问卷~ 来填写和反馈吧~](https://github.com/DebugUself/du4proto/issues/425)</div><div class="line">- 新人邮件 [4d[TASK] 新人入怼邮件意见征集](https://github.com/DebugUself/du4proto/issues/436)</div><div class="line">- 新人任务 [4d[TASK] 新人入怼任务意见征集](https://github.com/DebugUself/du4proto/issues/437)</div><div class="line">- 新人周会 [8d[TASK]招新怼周会, 跟新人们说什么](https://github.com/DebugUself/du4proto/issues/434)</div><div class="line">- [9d[DISSCUSS]7位Py104小伙伴报名入圈, 5天内进圈讨论 · Issue #280 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/280)</div></pre></td></tr></table></figure>
+<h2 id="怼友印象-liguanghe"><a href="#怼友印象-liguanghe" class="headerlink" title="怼友印象 @liguanghe"></a>怼友印象 @liguanghe</h2><ul>
+<li><p>珍教, 在株洲银行系统工作的妈妈, 她喜欢音乐/英语/编程, 通过网络和世界上前卫的极客们交流. 她是最早开始整理怼圈issue 规则的人. </p>
+</li>
+<li><p>熊本, 从医学生转到经济的跨界小能手, 省钱专家, 乐观向上, 琢磨发布怼周刊, 并写出了怼周刊发布指南.</p>
+</li>
+<li><p>小鹤, 从法院出来的不喜欢当事人的律师, 梦想家, 喜欢和社群中志同道合的伙伴们聊天, 做项目. 持续时间记录, 每天运动, 写博客. 怼圈里一半的 wiki 是她写的.</p>
+</li>
+<li><p>小明, 在深圳做互联网电商的安静小男生, 每周会参加怼周会, 一起写过时间账单项目的代码.</p>
+</li>
+<li><p>大妈, 多大的开源社区都能建起来的工程师, 无比耐心和话痨的教育者, 持续记录时间, 信息量级大. 及时怼着怼圈所有人. </p>
+</li>
+<li><p>从用, 与身边环境格格不入直到开始编程后如鱼得水的全栈, 一个人就是一个军队, 长得也很帅. </p>
+</li>
+<li><p>沥川, 学习力和专注力都很强的平和的人. 怼圈深度学习项目的组织者.</p>
+</li>
+<li><p>蕙蕙, 安静的有节奏的学习着的老师, 坚持时间记录, 静静地维护着怼圈的节奏, 代出晚出的怼周刊, 发布季度开启 issue.</p>
+</li>
+<li><p>浚宇, 喜欢组织活动和研究输出及知识创造系统的管理者, 居家好男人.</p>
+</li>
+<li><p>雨明, 在广州喜欢健身英语很棒的产品经理, 听阳老师的话谈的恋爱, 在广州会经常见到他. 怼圈 lifton 项目的组织者. </p>
+</li>
+<li><p>蔡俊, 最近在做物联网的工程师, 代码写的溜, 新东西也学的溜. 自在. </p>
+</li>
+</ul>
+<p>这些人是我从去年4月1日到现在, 在怼圈持续接触着, 有一起做项目的, 一起维护怼圈的, 每周怼周会发言的. </p>
+<h2 id="2-0"><a href="#2-0" class="headerlink" title="2.0"></a>2.0</h2><p>借用怼圈的积累和怼友, 进入社会, 开始新的工作. 对比不同的信息流, 将这个信息流引入到新的环境中. 也将外部的信息引入到自怼圈. 打通怼圈内外. 如果有明确的学习目标, 比如沥川, 目标是算法工程师, 和圈里的小伙伴组队打算法比赛, 之后去工作. 这是理想的状态, 跟其他人合作时, 也可以继续延续怼圈的信息流和开放自由的人际关系. </p>
+<p>怼圈的信息流和自由的人际关系是非常适合我的, 但我没有树立起商业目标. 这样, 到真实的商业社会里寻找目标/伙伴和需求之后, 在这里继续的进行下去. </p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/record/" rel="tag"># record</a>
+          
+            <a href="/tags/project/" rel="tag"># project</a>
+          
+            <a href="/tags/debuguself/" rel="tag"># debuguself</a>
+          
+            <a href="/tags/motivation/" rel="tag"># motivation</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/09/EsCareer/" rel="next" title="此刻的隐喻">
+                <i class="fa fa-chevron-left"></i> 此刻的隐喻
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="李广鹤 LiGuanghe" />
+          <p class="site-author-name" itemprop="name">李广鹤 LiGuanghe</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">132</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">232</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/rss2.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/LiGuanghe" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:liguanghe218317@gmail.com" target="_blank" title="Email">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>
+                  
+                  Email
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.lizhi.fm/2040956" target="_blank" title="Lizhi">
+                  
+                    <i class="fa fa-fw fa-headphones"></i>
+                  
+                  Lizhi
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/RaptorLiguanghe" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100011231388906&ref=bookmarks" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#种花结果"><span class="nav-text">种花结果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#能力成果1-梳理怼圈"><span class="nav-text">能力成果1. 梳理怼圈</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#能力成果2-招新行动方案"><span class="nav-text">能力成果2. 招新行动方案</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#怼友印象-liguanghe"><span class="nav-text">怼友印象 @liguanghe</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-0"><span class="nav-text">2.0</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">李广鹤 LiGuanghe</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://ligdhe-com.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://liguanghe.github.io/2018/08/11/ReDu1.0/';
+          this.page.identifier = '2018/08/11/ReDu1.0/';
+          this.page.title = '我的怼圈1.0和2.0';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://ligdhe-com.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (search_path.endsWith("json")) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === '') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("9GEqF7BQvsUPba1qXT9WOrNM-gzGzoHsz", "YYUALuaP85zsGp44c1oCKl5D");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
