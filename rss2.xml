@@ -8,8 +8,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 30 Aug 2018 12:02:55 GMT</pubDate>
+    <pubDate>Sun, 09 Sep 2018 17:16:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>换了工作场景后, 时间记录就乱了? 这样分类就不会</title>
+      <link>http://liguanghe.github.io/2018/09/10/TimeReportinWork/</link>
+      <guid>http://liguanghe.github.io/2018/09/10/TimeReportinWork/</guid>
+      <pubDate>Sun, 09 Sep 2018 17:12:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;时间记录经常会出现的问题, 换了工作场景或者工作内容, 记录的类别是不是就乱了? 不知道怎么记和统计了? &lt;/p&gt;
+&lt;p&gt;用怼圈的分类法, 就不会出现这个问题.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://liguanghe.github.io/2018/0
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/09/10/TimeReportinWork/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>17 months in DeBugUself</title>
@@ -894,24 +914,6 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
@@ -927,6 +929,24 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2039,31 +2059,6 @@
     </item>
     
     <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
-      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>爱人相处手册</title>
       <link>http://liguanghe.github.io/2017/04/23/LsHbFamily/</link>
       <guid>http://liguanghe.github.io/2017/04/23/LsHbFamily/</guid>
@@ -2093,22 +2088,28 @@
     </item>
     
     <item>
-      <title>开智十月 持续自由</title>
-      <link>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
+      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
-&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
-&lt;
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘浆洗着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2129,37 +2130,22 @@
     </item>
     
     <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <title>开智十月 持续自由</title>
+      <link>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</guid>
       <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
+&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
+&lt;
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2197,6 +2183,40 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/GitLearngit/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
