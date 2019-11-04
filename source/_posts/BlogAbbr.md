@@ -36,6 +36,7 @@ categories:
 - Git git
 - Law 法律
 - Du debuguself 自怼圈
+- LT LegalTechnology
 
 ## 分类和缩写
 分类|缩写
