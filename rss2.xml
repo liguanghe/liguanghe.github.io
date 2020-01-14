@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 27 Nov 2019 13:57:56 GMT</pubDate>
+    <pubDate>Tue, 14 Jan 2020 14:49:27 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TimeReport 从内容标签的角度分析</title>
+      <link>http://liguanghe.github.io/2020/01/14/TimeReport20200114/</link>
+      <guid>http://liguanghe.github.io/2020/01/14/TimeReport20200114/</guid>
+      <pubDate>Tue, 14 Jan 2020 14:42:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;从2017年4月1日开始记录时间至今, 2年9个月14天间,共计24339小时.除了按照五大类别的分类外,也尝试用内容标签来做个分析.&lt;/p&gt;
+&lt;p&gt;每个时间都会有类别,但不一定有内容. 有点意义的会标出来. 对我来讲,人和组织很重要,超过了项目, 是会在内容里标记出来的.
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2020/01/14/TimeReport20200114/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>米洛娃</title>
@@ -1201,23 +1219,6 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>hexo 博客的神坑及本质原因</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
@@ -1233,6 +1234,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2417,20 +2435,20 @@
     </item>
     
     <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
       <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2450,23 +2468,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2507,20 +2508,37 @@
     </item>
     
     <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
       <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
