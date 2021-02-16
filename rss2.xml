@@ -8,8 +8,32 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 13 Feb 2021 00:20:45 GMT</pubDate>
+    <pubDate>Tue, 16 Feb 2021 00:07:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title></title>
+      <link>http://liguanghe.github.io/2021/02/16/TimeReport2021/</link>
+      <guid>http://liguanghe.github.io/2021/02/16/TimeReport2021/</guid>
+      <pubDate>Tue, 16 Feb 2021 00:07:38 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;title&gt;Bokeh Plot&lt;/title&gt;
+        
+&lt;link rel=&quot;stylesheet
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2021/02/16/TimeReport2021/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>感知阅读&lt;征服市场的人&gt;</title>
@@ -1472,6 +1496,24 @@
     </item>
     
     <item>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>用 git 及 github 的正确方式来重建博客</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
@@ -1504,24 +1546,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2579,24 +2603,6 @@
     </item>
     
     <item>
-      <title>《哈利波特》让位《玩具屋九讲》</title>
-      <link>http://liguanghe.github.io/2017/05/02/LsBook/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/LsBook/</guid>
-      <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
-&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/LsBook/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>font of code</title>
       <link>http://liguanghe.github.io/2017/05/02/BlogFont-tool/</link>
       <guid>http://liguanghe.github.io/2017/05/02/BlogFont-tool/</guid>
@@ -2617,6 +2623,24 @@
     </item>
     
     <item>
+      <title>《哈利波特》让位《玩具屋九讲》</title>
+      <link>http://liguanghe.github.io/2017/05/02/LsBook/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/LsBook/</guid>
+      <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
+&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/LsBook/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>第四周</title>
       <link>http://liguanghe.github.io/2017/05/01/ShTheforthweek/</link>
       <guid>http://liguanghe.github.io/2017/05/01/ShTheforthweek/</guid>
@@ -2631,6 +2655,31 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/01/ShTheforthweek/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
+      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘汁染着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2660,31 +2709,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/23/LsHbFamily/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
-      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘汁染着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2739,26 +2763,6 @@
     </item>
     
     <item>
-      <title>皆于斗室</title>
-      <link>http://liguanghe.github.io/2017/04/22/EsLiHe/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/EsLiHe/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
-&lt;p&gt;李贺&lt;/p&gt;
-&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
-&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/EsLiHe/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Read Github Guide</title>
       <link>http://liguanghe.github.io/2017/04/22/GitLearngit/</link>
       <guid>http://liguanghe.github.io/2017/04/22/GitLearngit/</guid>
@@ -2792,6 +2796,26 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>皆于斗室</title>
+      <link>http://liguanghe.github.io/2017/04/22/EsLiHe/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/EsLiHe/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
+&lt;p&gt;李贺&lt;/p&gt;
+&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
+&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/EsLiHe/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2849,6 +2873,25 @@
     </item>
     
     <item>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/NvNosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/NvNosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/02/22/NvNosie/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>卡片和星空：将你脑中的所有想法放在眼前</title>
       <link>http://liguanghe.github.io/2017/02/22/LsCard/</link>
       <guid>http://liguanghe.github.io/2017/02/22/LsCard/</guid>
@@ -2866,25 +2909,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/LsCard/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/NvNosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/NvNosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/NvNosie/#disqus_thread</comments>
     </item>
     
     <item>
