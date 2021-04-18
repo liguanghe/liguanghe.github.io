@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 16 Feb 2021 00:07:38 GMT</pubDate>
+    <pubDate>Sun, 18 Apr 2021 00:16:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>关于健康（包括减脂）这件事</title>
+      <link>http://liguanghe.github.io/2021/04/18/LsLosingweight/</link>
+      <guid>http://liguanghe.github.io/2021/04/18/LsLosingweight/</guid>
+      <pubDate>Sat, 17 Apr 2021 23:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;近2个半月减脂10斤，免疫力增加，不生病，入睡容易，起床轻松。&lt;/p&gt;
+&lt;p&gt;健康大于减脂。最先不是从饮食，而是从运动开始的。加入一项运动，成本低可持续有兴趣有同伴。心情舒畅，就不那么需要碳水和饱腹来提供快乐。接着会不自觉的控制饮食。再之后注意睡眠，不在饭后午睡，而是早睡早
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2021/04/18/LsLosingweight/#disqus_thread</comments>
+    </item>
     
     <item>
       <title></title>
@@ -1496,21 +1514,21 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
+      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
+          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
+&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1531,21 +1549,21 @@
     </item>
     
     <item>
-      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
       <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
-&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1905,25 +1923,6 @@
     </item>
     
     <item>
-      <title>Speaking to Writing 在英语环境中提升英语</title>
-      <link>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/</link>
-      <guid>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/</guid>
-      <pubDate>Thu, 07 Sep 2017 13:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;里程碑小故事&lt;ul&gt;
-&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Git 入怼之独立分支</title>
       <link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
       <guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
@@ -1941,6 +1940,25 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Speaking to Writing 在英语环境中提升英语</title>
+      <link>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/</link>
+      <guid>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/</guid>
+      <pubDate>Thu, 07 Sep 2017 13:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;里程碑小故事&lt;ul&gt;
+&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/09/07/ShEnglishSpeakingtoWriting/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2746,23 +2764,6 @@
     </item>
     
     <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Read Github Guide</title>
       <link>http://liguanghe.github.io/2017/04/22/GitLearngit/</link>
       <guid>http://liguanghe.github.io/2017/04/22/GitLearngit/</guid>
@@ -2816,6 +2817,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/EsLiHe/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
