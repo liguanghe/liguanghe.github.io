@@ -24,7 +24,6 @@ tags:
 - 定机票[How to save money on air ticket to NZ 机票省钱秘笈 | Li Guanghe's blog](https://liguanghe.github.io/2017/07/18/NZAirTicket/)
 
 ## 询问同伴需求
-eg: 先生
 - 特色活动
 - 不要累
 - 不要大量爬山和徒步
