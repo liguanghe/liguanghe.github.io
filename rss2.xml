@@ -8,8 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 18 Apr 2021 00:20:22 GMT</pubDate>
+    <pubDate>Sat, 19 Jun 2021 01:13:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>一个好房子的素养</title>
+      <link>http://liguanghe.github.io/2021/06/19/LsApartmentInUse/</link>
+      <guid>http://liguanghe.github.io/2021/06/19/LsApartmentInUse/</guid>
+      <pubDate>Sat, 19 Jun 2021 00:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/008i3skNgy1grnahb5e3uj318a0u04k1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;标题说是一个好房子的素养，或者说是，维护好房子的素养，或者，挑选好房子的素养，或者是健康
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2021/06/19/LsApartmentInUse/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>关于健康（包括减脂）这件事</title>
@@ -1532,23 +1550,6 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>hexo 博客的神坑及本质原因</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
@@ -1564,6 +1565,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2676,31 +2694,6 @@
     </item>
     
     <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
-      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘汁染着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>爱人相处手册</title>
       <link>http://liguanghe.github.io/2017/04/23/LsHbFamily/</link>
       <guid>http://liguanghe.github.io/2017/04/23/LsHbFamily/</guid>
@@ -2730,54 +2723,28 @@
     </item>
     
     <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
+      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘汁染着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Read Github Guide</title>
-      <link>http://liguanghe.github.io/2017/04/22/GitLearngit/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/GitLearngit/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/GitLearngit/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2834,6 +2801,57 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Read Github Guide</title>
+      <link>http://liguanghe.github.io/2017/04/22/GitLearngit/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/GitLearngit/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;After joining OpenMind courses, I touched Git and Github, it’s difficult for a girl who didn’t touch code before. As used it more often, 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/GitLearngit/#disqus_thread</comments>
     </item>
     
     <item>
