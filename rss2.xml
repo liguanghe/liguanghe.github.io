@@ -8,14 +8,31 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 01 Apr 2022 09:28:56 GMT</pubDate>
+    <pubDate>Tue, 12 Apr 2022 06:30:53 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>CML</title>
+      <link>http://liguanghe.github.io/2022/04/12/LawCML/</link>
+      <guid>http://liguanghe.github.io/2022/04/12/LawCML/</guid>
+      <pubDate>Tue, 12 Apr 2022 06:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;CML&lt;br&gt;公司的并购活动涉及公司法、税法、会计法、证券法、反垄断法、劳动法、外汇管理法等法律，且法律关系复杂。如果并购公司对知识产权、合同、会计准则、税收等方面的法律知识&lt;br&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/14237868
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2022/04/12/LawCML/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>投资手札（持续更新）</title>
-      <link>http://liguanghe.github.io/2022/04/01/LsInvestmentMTRecord1/</link>
-      <guid>http://liguanghe.github.io/2022/04/01/LsInvestmentMTRecord1/</guid>
-      <pubDate>Fri, 01 Apr 2022 08:40:32 GMT</pubDate>
+      <link>http://liguanghe.github.io/2022/04/08/LsInvestmentMTRecord1/</link>
+      <guid>http://liguanghe.github.io/2022/04/08/LsInvestmentMTRecord1/</guid>
+      <pubDate>Fri, 08 Apr 2022 03:40:32 GMT</pubDate>
       <description>
       
         
@@ -25,7 +42,7 @@
       
       </description>
       
-      <comments>http://liguanghe.github.io/2022/04/01/LsInvestmentMTRecord1/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2022/04/08/LsInvestmentMTRecord1/#disqus_thread</comments>
     </item>
     
     <item>
@@ -55,7 +72,7 @@
       
         
         
-          &lt;h2 id=&quot;给未来的孩子找爸爸。家庭、家族、子女，重视这三点的男人。稳定性、时间情绪和财富。稳定性排最前面，这个可以从家庭看出来。优选家庭好的。情绪稳定、平和，对我也会很好。财富的话，有财商最好，没有财商，能够看得开，并且努力赚钱也蛮好的。&quot;&gt;&lt;a href=&quot;#给未来的孩子
+          &lt;h2 id=&quot;可能要独自美丽了，把自己感兴趣的事情做好。不对对方有要求。对方喜欢我的，向我要什么，我就给什么。&quot;&gt;&lt;a href=&quot;#可能要独自美丽了，把自己感兴趣的事情做好。不对对方有要求。对方喜欢我的，向我要什么，我就给什么。&quot; class=&quot;headerlink&quot; tit
         
       
       </description>
@@ -90,7 +107,7 @@
         
         
           &lt;p&gt;&lt;a href=&quot;https://liguanghe.github.io/2022/03/03/LsInvestmentMT/&quot;&gt;投资手札（持续更新） | Li Guanghe’s blog&lt;/a&gt;过细，在本文精炼和汇总。&lt;/p&gt;
-&lt;p&gt;不在乎存款和现金的数额，而是表述成有
+&lt;p&gt;下跌且有钱时买入，上涨且需要钱是卖出
         
       
       </description>
@@ -1750,23 +1767,6 @@
     </item>
     
     <item>
-      <title>用 git 及 github 的正确方式来重建博客</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>hexo 博客的神坑及本质原因</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
@@ -1800,6 +1800,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>用 git 及 github 的正确方式来重建博客</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;重建本地仓库-与远程连接&quot;&gt;&lt;a href=&quot;#重建本地仓库-与远程连接&quot; class=&quot;headerlink&quot; title=&quot;重建本地仓库, 与远程连接.&quot;&gt;&lt;/a&gt;重建本地仓库, 与远程连接.&lt;/h2&gt;&lt;p&gt;遇到的问题:&lt;br&gt;&lt;img src=&quot;&quot; alt=
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2912,31 +2929,6 @@
     </item>
     
     <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
-      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘汁染着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>爱人相处手册</title>
       <link>http://liguanghe.github.io/2017/04/23/LsHbFamily/</link>
       <guid>http://liguanghe.github.io/2017/04/23/LsHbFamily/</guid>
@@ -2966,6 +2958,31 @@
     </item>
     
     <item>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
+      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘汁染着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
       <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
       <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
@@ -2983,20 +3000,22 @@
     </item>
     
     <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <title>开智十月 持续自由</title>
+      <link>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</guid>
       <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
+&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
+&lt;
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3034,22 +3053,20 @@
     </item>
     
     <item>
-      <title>开智十月 持续自由</title>
-      <link>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</guid>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
       <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
-&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
-&lt;
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3093,6 +3110,23 @@
     </item>
     
     <item>
+      <title>博客优化</title>
+      <link>http://liguanghe.github.io/2017/03/22/Blogbetter/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/Blogbetter/</guid>
+      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/Blogbetter/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>出走</title>
       <link>http://liguanghe.github.io/2017/03/22/NvChinawild/</link>
       <guid>http://liguanghe.github.io/2017/03/22/NvChinawild/</guid>
@@ -3110,20 +3144,22 @@
     </item>
     
     <item>
-      <title>博客优化</title>
-      <link>http://liguanghe.github.io/2017/03/22/Blogbetter/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/Blogbetter/</guid>
-      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
+      <title>爆破音</title>
+      <link>http://liguanghe.github.io/2017/02/22/NvNosie/</link>
+      <guid>http://liguanghe.github.io/2017/02/22/NvNosie/</guid>
+      <pubDate>Wed, 22 Feb 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
+&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
+&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/03/22/Blogbetter/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/02/22/NvNosie/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3144,25 +3180,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/02/22/LsCard/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>爆破音</title>
-      <link>http://liguanghe.github.io/2017/02/22/NvNosie/</link>
-      <guid>http://liguanghe.github.io/2017/02/22/NvNosie/</guid>
-      <pubDate>Wed, 22 Feb 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;在我统治的星球里，每人脑中被植入了一个芯片，如果在公共场所故意发出超过指定分贝的声音，芯片便会爆炸，脑袋被炸飞，好像电影《王牌特工》里的爆头烟花那样美丽。&lt;/p&gt;
-&lt;p&gt;不，我不是在中国的日本人或欧洲人。&lt;/p&gt;
-&lt;p&gt;是的，我的灵感来自美剧《生活大爆炸》谢耳朵的想法：如果
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/02/22/NvNosie/#disqus_thread</comments>
     </item>
     
     <item>
