@@ -8,8 +8,27 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 08 Jul 2022 02:25:10 GMT</pubDate>
+    <pubDate>Sat, 23 Jul 2022 01:43:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>客厅沙龙</title>
+      <link>http://liguanghe.github.io/2022/07/23/LsApartmentForSocial/</link>
+      <guid>http://liguanghe.github.io/2022/07/23/LsApartmentForSocial/</guid>
+      <pubDate>Sat, 23 Jul 2022 01:21:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/e6c9d24egy1h4gm6d1zpsj20u00k0acy.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;柔和的黄光，罩在白色、浅灰、浅木和淡绿色的家居大小物件上。&lt;/p&gt;
+&lt;p&gt;沙发前的茶台，
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2022/07/23/LsApartmentForSocial/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>房台本位（持续更新）</title>
@@ -22,7 +41,7 @@
         
           &lt;p&gt;&lt;a href=&quot;https://liguanghe.github.io/2022/03/03/LsInvestmentMT/&quot;&gt;投资手札（持续更新） | Li Guanghe’s blog&lt;/a&gt;过细，在本文精炼和汇总。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;画
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;花
         
       
       </description>
@@ -1775,24 +1794,6 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
@@ -1808,6 +1809,24 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2882,6 +2901,24 @@
     </item>
     
     <item>
+      <title>《哈利波特》让位《玩具屋九讲》</title>
+      <link>http://liguanghe.github.io/2017/05/02/LsBook/</link>
+      <guid>http://liguanghe.github.io/2017/05/02/LsBook/</guid>
+      <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
+&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/05/02/LsBook/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>font of code</title>
       <link>http://liguanghe.github.io/2017/05/02/BlogFont-tool/</link>
       <guid>http://liguanghe.github.io/2017/05/02/BlogFont-tool/</guid>
@@ -2899,24 +2936,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/05/02/BlogFont-tool/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>《哈利波特》让位《玩具屋九讲》</title>
-      <link>http://liguanghe.github.io/2017/05/02/LsBook/</link>
-      <guid>http://liguanghe.github.io/2017/05/02/LsBook/</guid>
-      <pubDate>Tue, 02 May 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;整理书架已扔了100本，不包括妥协：已决心扔掉又被先生和婆婆捡回来的两格书，哲学经典、运动和生活金刚经什么的两格书，这是我不请出来他们也不会扔掉的。（早知道这两格也甩出来，说不定捡回的就是这两格，而不是四格）&lt;/p&gt;
-&lt;p&gt;有用的空间也不过三格，每格二十多本。它们活着，包括
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/05/02/LsBook/#disqus_thread</comments>
     </item>
     
     <item>
@@ -2991,59 +3010,6 @@
     </item>
     
     <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>开智十月 持续自由</title>
-      <link>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
-&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
-&lt;
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Read Github Guide</title>
       <link>http://liguanghe.github.io/2017/04/22/GitLearngit/</link>
       <guid>http://liguanghe.github.io/2017/04/22/GitLearngit/</guid>
@@ -3058,23 +3024,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/GitLearngit/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3098,6 +3047,76 @@
     </item>
     
     <item>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>开智十月 持续自由</title>
+      <link>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;大数据原理三句话：人的行为是随机的，自由才能创造，实践证明存在。&lt;/p&gt;
+&lt;p&gt;人的行为是随机的。只要一个行为你认为有难度，那么这个行为就可能完成，也可能完不成。什么时候这个行为不再是随机的呢？当这件事不再花费你的注意力，跟吃饭睡觉一样简单，不用想，就可以完成。&lt;/p&gt;
+&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>抓不住你</title>
       <link>http://liguanghe.github.io/2017/03/27/NvCatch/</link>
       <guid>http://liguanghe.github.io/2017/03/27/NvCatch/</guid>
@@ -3118,23 +3137,6 @@
     </item>
     
     <item>
-      <title>博客优化</title>
-      <link>http://liguanghe.github.io/2017/03/22/Blogbetter/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/Blogbetter/</guid>
-      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/03/22/Blogbetter/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>出走</title>
       <link>http://liguanghe.github.io/2017/03/22/NvChinawild/</link>
       <guid>http://liguanghe.github.io/2017/03/22/NvChinawild/</guid>
@@ -3149,6 +3151,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/03/22/NvChinawild/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>博客优化</title>
+      <link>http://liguanghe.github.io/2017/03/22/Blogbetter/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/Blogbetter/</guid>
+      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/Blogbetter/#disqus_thread</comments>
     </item>
     
     <item>
