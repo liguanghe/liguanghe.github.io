@@ -8,8 +8,25 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 24 Apr 2023 05:40:33 GMT</pubDate>
+    <pubDate>Wed, 31 May 2023 04:46:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>最新的插件介绍--至20230523</title>
+      <link>http://liguanghe.github.io/2023/05/31/plugin/</link>
+      <guid>http://liguanghe.github.io/2023/05/31/plugin/</guid>
+      <pubDate>Wed, 31 May 2023 00:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;Klook: From local escapes to far flung adventures, find the best experiences, tours, hotels and transport options anywhere.&lt;br&gt;Boolio: Th
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2023/05/31/plugin/#disqus_thread</comments>
+    </item>
     
     <item>
       <title></title>
@@ -1595,23 +1612,6 @@
     
     <item>
       <title>Trip wellington and North Island</title>
-      <link>http://liguanghe.github.io/2018/01/25/NZCapaTrip/</link>
-      <guid>http://liguanghe.github.io/2018/01/25/NZCapaTrip/</guid>
-      <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2018/01/25/NZCapaTrip/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Trip wellington and North Island</title>
       <link>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</link>
       <guid>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</guid>
       <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
@@ -1625,6 +1625,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Trip wellington and North Island</title>
+      <link>http://liguanghe.github.io/2018/01/25/NZCapaTrip/</link>
+      <guid>http://liguanghe.github.io/2018/01/25/NZCapaTrip/</guid>
+      <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/01/25/NZCapaTrip/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1869,24 +1886,6 @@
     </item>
     
     <item>
-      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
-&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>hexo 博客的神坑及本质原因</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
@@ -1902,6 +1901,24 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
+&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3014,31 +3031,6 @@
     </item>
     
     <item>
-      <title>致爱人</title>
-      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
-      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
-      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
-&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
-&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
-&lt;p&gt;织不出锦缎。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;姑娘汁染着粗布的衣裳，&lt;/p&gt;
-&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
-&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
-&lt;p&gt;喏，
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>爱人相处手册</title>
       <link>http://liguanghe.github.io/2017/04/23/LsHbFamily/</link>
       <guid>http://liguanghe.github.io/2017/04/23/LsHbFamily/</guid>
@@ -3068,20 +3060,28 @@
     </item>
     
     <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <title>致爱人</title>
+      <link>http://liguanghe.github.io/2017/04/23/EsLover/</link>
+      <guid>http://liguanghe.github.io/2017/04/23/EsLover/</guid>
+      <pubDate>Sun, 23 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+          &lt;p&gt;春天的花儿到夏天就谢啦，&lt;/p&gt;
+&lt;p&gt;秋天的果子和冬天的泥土没什么区别。&lt;/p&gt;
+&lt;p&gt;爱情不过一梭子的动念，&lt;/p&gt;
+&lt;p&gt;织不出锦缎。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姑娘汁染着粗布的衣裳，&lt;/p&gt;
+&lt;p&gt;果实盛满汉子的筐。&lt;/p&gt;
+&lt;p&gt;枪逼着交出爱情，&lt;/p&gt;
+&lt;p&gt;喏，
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/23/EsLover/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3122,6 +3122,23 @@
     </item>
     
     <item>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>四周学习时间报告</title>
       <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
       <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
@@ -3139,20 +3156,56 @@
     </item>
     
     <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
       <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>plugins1. 简介：了解如何建立一个插件，使ChatGPT能够智能地调用你的API。</title>
+      <link>http://liguanghe.github.io/2017/04/22/AINotePlugins1/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/AINotePlugins1/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;##简介&lt;br&gt;OpenAI插件将ChatGPT连接到第三方应用程序。这些插件使ChatGPT能够与开发者定义的API互动，增强ChatGPT的能力，使其能够执行广泛的行动。&lt;/p&gt;
+&lt;p&gt;插件可以让ChatGPT做以下事情：&lt;br&gt;&lt;em&gt;检索&lt;/em&gt;实时信息；例如，体
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/AINotePlugins1/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>plugins2. 开始搭建。</title>
+      <link>http://liguanghe.github.io/2017/04/22/AINotePlugins2/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/AINotePlugins2/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;开始工作&lt;br&gt;创建一个插件需要3个步骤：&lt;/p&gt;
+&lt;p&gt;建立一个API&lt;br&gt;以OpenAPI yaml或JSON格式记录API。&lt;br&gt;创建一个JSON清单文件，为插件定义相关的元数据。&lt;br&gt;本节其余部分的重点是通过定义OpenAPI规范和清单文件来创建一个todo 
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/AINotePlugins2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3195,23 +3248,6 @@
     </item>
     
     <item>
-      <title>出走</title>
-      <link>http://liguanghe.github.io/2017/03/22/NvChinawild/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/NvChinawild/</guid>
-      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/03/22/NvChinawild/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>博客优化</title>
       <link>http://liguanghe.github.io/2017/03/22/Blogbetter/</link>
       <guid>http://liguanghe.github.io/2017/03/22/Blogbetter/</guid>
@@ -3226,6 +3262,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/03/22/Blogbetter/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>出走</title>
+      <link>http://liguanghe.github.io/2017/03/22/NvChinawild/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/NvChinawild/</guid>
+      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;女人光裸，捧着瓷器走独木桥，旁出的树枝不时触到脸颊。狭窄的只一脚宽的桥面，像模特走猫步才可通过。往远处看不会掉落，千万不能看脚下。这样想着，眼睛却不受控制的看下去。黑色地面上，隐隐有白色的形状，仔细看去，是几百只支棱的鹿角，斜斜刺向天空。谁会摆放这么多鹿角呢？不，那不是地面
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/NvChinawild/#disqus_thread</comments>
     </item>
     
     <item>
