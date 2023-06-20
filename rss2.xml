@@ -8,8 +8,25 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 31 May 2023 04:46:54 GMT</pubDate>
+    <pubDate>Wed, 31 May 2023 04:47:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>最新的插件介绍--至20230523</title>
+      <link>http://liguanghe.github.io/2023/05/31/ITplugins/</link>
+      <guid>http://liguanghe.github.io/2023/05/31/ITplugins/</guid>
+      <pubDate>Wed, 31 May 2023 00:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;Klook: From local escapes to far flung adventures, find the best experiences, tours, hotels and transport options anywhere.&lt;br&gt;Boolio: Th
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2023/05/31/ITplugins/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>最新的插件介绍--至20230523</title>
@@ -1612,23 +1629,6 @@
     
     <item>
       <title>Trip wellington and North Island</title>
-      <link>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</link>
-      <guid>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</guid>
-      <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Trip wellington and North Island</title>
       <link>http://liguanghe.github.io/2018/01/25/NZCapaTrip/</link>
       <guid>http://liguanghe.github.io/2018/01/25/NZCapaTrip/</guid>
       <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
@@ -1642,6 +1642,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2018/01/25/NZCapaTrip/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Trip wellington and North Island</title>
+      <link>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</link>
+      <guid>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/</guid>
+      <pubDate>Thu, 25 Jan 2018 13:34:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1fo1wra44d7j31ks1044q
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2018/01/25/NzWellingtonLiuTrip/#disqus_thread</comments>
     </item>
     
     <item>
@@ -1886,24 +1903,6 @@
     </item>
     
     <item>
-      <title>hexo 博客的神坑及本质原因</title>
-      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
-      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
-      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
-
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
       <link>http://liguanghe.github.io/2017/11/06/BlogVedio/</link>
       <guid>http://liguanghe.github.io/2017/11/06/BlogVedio/</guid>
@@ -1919,6 +1918,24 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/11/06/BlogVedio/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>hexo 博客的神坑及本质原因</title>
+      <link>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</link>
+      <guid>http://liguanghe.github.io/2017/11/06/BlogRebuilt/</guid>
+      <pubDate>Mon, 06 Nov 2017 05:55:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;hexo-神坑及本质原因&quot;&gt;&lt;a href=&quot;#hexo-神坑及本质原因&quot; class=&quot;headerlink&quot; title=&quot;hexo 神坑及本质原因&quot;&gt;&lt;/a&gt;hexo 神坑及本质原因&lt;/h2&gt;&lt;p&gt;hexo 博客引擎与 jekyll 最大的不同: &lt;/p&gt;
+
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/11/06/BlogRebuilt/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3085,23 +3102,21 @@
     </item>
     
     <item>
-      <title>皆于斗室</title>
-      <link>http://liguanghe.github.io/2017/04/22/EsLiHe/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/EsLiHe/</guid>
+      <title>plugins1. 简介：了解如何建立一个插件，使ChatGPT能够智能地调用你的API。</title>
+      <link>http://liguanghe.github.io/2017/04/22/AINotePlugins1/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/AINotePlugins1/</guid>
       <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
-&lt;p&gt;李贺&lt;/p&gt;
-&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
-&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
+          &lt;p&gt;##简介&lt;br&gt;OpenAI插件将ChatGPT连接到第三方应用程序。这些插件使ChatGPT能够与开发者定义的API互动，增强ChatGPT的能力，使其能够执行广泛的行动。&lt;/p&gt;
+&lt;p&gt;插件可以让ChatGPT做以下事情：&lt;br&gt;&lt;em&gt;检索&lt;/em&gt;实时信息；例如，体
         
       
       </description>
       
-      <comments>http://liguanghe.github.io/2017/04/22/EsLiHe/#disqus_thread</comments>
+      <comments>http://liguanghe.github.io/2017/04/22/AINotePlugins1/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3119,75 +3134,6 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/GitLearngit/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
-      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>四周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>两周学习时间报告</title>
-      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>plugins1. 简介：了解如何建立一个插件，使ChatGPT能够智能地调用你的API。</title>
-      <link>http://liguanghe.github.io/2017/04/22/AINotePlugins1/</link>
-      <guid>http://liguanghe.github.io/2017/04/22/AINotePlugins1/</guid>
-      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;##简介&lt;br&gt;OpenAI插件将ChatGPT连接到第三方应用程序。这些插件使ChatGPT能够与开发者定义的API互动，增强ChatGPT的能力，使其能够执行广泛的行动。&lt;/p&gt;
-&lt;p&gt;插件可以让ChatGPT做以下事情：&lt;br&gt;&lt;em&gt;检索&lt;/em&gt;实时信息；例如，体
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/04/22/AINotePlugins1/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3209,6 +3155,40 @@
     </item>
     
     <item>
+      <title>博客也有朋友圈和通讯录 —— 新文章通知你</title>
+      <link>http://liguanghe.github.io/2017/04/22/BlogRSS/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/BlogRSS/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;同侪们响应阳志平老师号召，&lt;a href=&quot;http://www.yangzhiping.com/tech/hacker-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;像黑客一样学习与写作 &lt;/a&gt;，纷纷建了独立博客，谁的地盘谁做主
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/BlogRSS/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>两周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0414/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0414/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;类型  | 第一周 | 第二周&lt;br&gt;-— ——— | ————- | ————-&lt;br&gt;记录本周时间  | 157 h | 168 h&lt;br&gt;studygrowing |   31 h (19.7%)      | 37 h (22%)&lt;br&gt; computerthink
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0414/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>开智十月 持续自由</title>
       <link>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</link>
       <guid>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/</guid>
@@ -3225,6 +3205,43 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/04/22/ReOpenmindTenMonth/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>皆于斗室</title>
+      <link>http://liguanghe.github.io/2017/04/22/EsLiHe/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/EsLiHe/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;李贺臆&quot;&gt;&lt;a href=&quot;#李贺臆&quot; class=&quot;headerlink&quot; title=&quot;李贺臆&quot;&gt;&lt;/a&gt;李贺臆&lt;/h2&gt;&lt;p&gt;《长平箭头歌》&lt;/p&gt;
+&lt;p&gt;李贺&lt;/p&gt;
+&lt;p&gt;漆灰骨末丹水砂，凄凄骨血生铜花。&lt;/p&gt;
+&lt;p&gt;白翎金簳雨中尽，直馀三脊残狼牙。&lt;
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/EsLiHe/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>四周学习时间报告</title>
+      <link>http://liguanghe.github.io/2017/04/22/TimeReport0422/</link>
+      <guid>http://liguanghe.github.io/2017/04/22/TimeReport0422/</guid>
+      <pubDate>Sat, 22 Apr 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;是的, 挺过&lt;a href=&quot;https://13416136446.github.io/2017/04/14/theforthweek/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第四周&lt;/a&gt;, 对比&lt;a href=&quot;https://1341613
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/04/22/TimeReport0422/#disqus_thread</comments>
     </item>
     
     <item>
@@ -3248,23 +3265,6 @@
     </item>
     
     <item>
-      <title>博客优化</title>
-      <link>http://liguanghe.github.io/2017/03/22/Blogbetter/</link>
-      <guid>http://liguanghe.github.io/2017/03/22/Blogbetter/</guid>
-      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
-        
-      
-      </description>
-      
-      <comments>http://liguanghe.github.io/2017/03/22/Blogbetter/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>出走</title>
       <link>http://liguanghe.github.io/2017/03/22/NvChinawild/</link>
       <guid>http://liguanghe.github.io/2017/03/22/NvChinawild/</guid>
@@ -3279,6 +3279,23 @@
       </description>
       
       <comments>http://liguanghe.github.io/2017/03/22/NvChinawild/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>博客优化</title>
+      <link>http://liguanghe.github.io/2017/03/22/Blogbetter/</link>
+      <guid>http://liguanghe.github.io/2017/03/22/Blogbetter/</guid>
+      <pubDate>Wed, 22 Mar 2017 10:35:32 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;Add-comments-function&quot;&gt;&lt;a href=&quot;#Add-comments-function&quot; class=&quot;headerlink&quot; title=&quot;Add comments function&quot;&gt;&lt;/a&gt;Add comments function&lt;/
+        
+      
+      </description>
+      
+      <comments>http://liguanghe.github.io/2017/03/22/Blogbetter/#disqus_thread</comments>
     </item>
     
     <item>
