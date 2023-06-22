@@ -29,7 +29,7 @@ tags:
 - 不要大量爬山和徒步
 - 舒适
 eg: 我
-- 让先生体验自驾环岛. 
+- 体验自驾环岛. 
 - 我的车技水平, 尽量不走山路
 - 每天开车1-2个小时
 - 靠近海滩/水边
@@ -80,7 +80,7 @@ eg: 我
    - 打折网
    - 游记
    - 自己的特殊嗜好
-       - 我和先生都漂亮的建筑/旅馆和饭店都很感兴趣. 
+       - 我对漂亮的建筑/旅馆和饭店都很感兴趣. 
 - 网站
    - [Bookme, Hamilton & Raglan - Waikato, one-stop activity and attraction booking site. Epic deals and last minute discounts on holiday adventures.](https://www.bookme.co.nz/things-to-do/waikato-hamilton-raglan/home)
    - 活动官网

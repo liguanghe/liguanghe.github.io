@@ -19,7 +19,6 @@ tags:
 - car 
 - tidy
 - house
-- husband
 - beach
 - flower
 - walk

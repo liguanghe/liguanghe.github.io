@@ -1,6 +1,6 @@
 
 ---
-title: 法律科技思考(1)
+title: 法律科技思考随笔(1)
 date: 2018/12/27 17:16:32
 categories: 
 - LegalTechnology

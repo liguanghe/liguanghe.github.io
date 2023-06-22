@@ -18,7 +18,6 @@ tags:
 - car 
 - tidy
 - house
-- husband
 - city
 - walk
 - Airbnb

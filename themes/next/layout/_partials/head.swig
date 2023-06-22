@@ -1,6 +1,8 @@
 <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+{#去除链接的引用来源，应对微博图床的防盗链#}
+<meta name="referrer" content="no-referrer" />
 
 
 {% if theme.han %}
