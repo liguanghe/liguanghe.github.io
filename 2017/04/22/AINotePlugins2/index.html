@@ -92,18 +92,18 @@
 
 
 
-<meta name="description" content="开始工作创建一个插件需要3个步骤： 建立一个API以OpenAPI yaml或JSON格式记录API。创建一个JSON清单文件，为插件定义相关的元数据。本节其余部分的重点是通过定义OpenAPI规范和清单文件来创建一个todo list插件。 探索示例插件探索涵盖多种用例和认证方法的示例插件。插件清单每个插件都需要ai-plugin.json文件，该文件需要托管在API的域名上。例如，一家名为ex">
+<meta name="description" content="ChatGPT 开源了第一款插件，都来学习一下源码吧！ - 豌豆花下猫 - 博客园 openai/chatgpt-retrieval-plugin: The ChatGPT Retrieval Plugin lets you easily search and find personal or work documents by asking questions in everyday langu">
 <meta name="keywords" content="GPT,plugins">
 <meta property="og:type" content="article">
 <meta property="og:title" content="plugins2. 开始搭建。">
 <meta property="og:url" content="http://liguanghe.github.io/2017/04/22/AINotePlugins2/index.html">
 <meta property="og:site_name" content="Li Guanghe&#39;s blog">
-<meta property="og:description" content="开始工作创建一个插件需要3个步骤： 建立一个API以OpenAPI yaml或JSON格式记录API。创建一个JSON清单文件，为插件定义相关的元数据。本节其余部分的重点是通过定义OpenAPI规范和清单文件来创建一个todo list插件。 探索示例插件探索涵盖多种用例和认证方法的示例插件。插件清单每个插件都需要ai-plugin.json文件，该文件需要托管在API的域名上。例如，一家名为ex">
+<meta property="og:description" content="ChatGPT 开源了第一款插件，都来学习一下源码吧！ - 豌豆花下猫 - 博客园 openai/chatgpt-retrieval-plugin: The ChatGPT Retrieval Plugin lets you easily search and find personal or work documents by asking questions in everyday langu">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2023-05-07T05:26:35.440Z">
+<meta property="og:updated_time" content="2023-06-25T10:12:57.027Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="plugins2. 开始搭建。">
-<meta name="twitter:description" content="开始工作创建一个插件需要3个步骤： 建立一个API以OpenAPI yaml或JSON格式记录API。创建一个JSON清单文件，为插件定义相关的元数据。本节其余部分的重点是通过定义OpenAPI规范和清单文件来创建一个todo list插件。 探索示例插件探索涵盖多种用例和认证方法的示例插件。插件清单每个插件都需要ai-plugin.json文件，该文件需要托管在API的域名上。例如，一家名为ex">
+<meta name="twitter:description" content="ChatGPT 开源了第一款插件，都来学习一下源码吧！ - 豌豆花下猫 - 博客园 openai/chatgpt-retrieval-plugin: The ChatGPT Retrieval Plugin lets you easily search and find personal or work documents by asking questions in everyday langu">
 
 
 
@@ -403,7 +403,9 @@
       
 
       
-        <p>开始工作<br>创建一个插件需要3个步骤：</p>
+        <p><a href="https://www.cnblogs.com/pythonista/p/17270438.html" target="_blank" rel="external">ChatGPT 开源了第一款插件，都来学习一下源码吧！ - 豌豆花下猫 - 博客园</a></p>
+<p><a href="https://github.com/openai/chatgpt-retrieval-plugin" target="_blank" rel="external">openai/chatgpt-retrieval-plugin: The ChatGPT Retrieval Plugin lets you easily search and find personal or work documents by asking questions in everyday language.</a></p>
+<p>开始工作<br>创建一个插件需要3个步骤：</p>
 <p>建立一个API<br>以OpenAPI yaml或JSON格式记录API。<br>创建一个JSON清单文件，为插件定义相关的元数据。<br>本节其余部分的重点是通过定义OpenAPI规范和清单文件来创建一个todo list插件。</p>
 <p>探索示例插件<br>探索涵盖多种用例和认证方法的示例插件。<br>插件清单<br>每个插件都需要ai-plugin.json文件，该文件需要托管在API的域名上。例如，一家名为example.com的公司将使插件的JSON文件可以通过<a href="https://example.com，因为那是他们的API的托管地。当你通过ChatGPT用户界面安装插件时，在后端我们会寻找一个位于/.known/ai-plugin.json的文件。为了让ChatGPT与您的插件连接，/.known文件夹是必需的，而且必须存在于您的域名中。如果没有找到文件，该插件就不能被安装。对于本地开发，你可以使用HTTP，但如果你要指向远程服务器，则需要HTTPS。" target="_blank" rel="external">https://example.com，因为那是他们的API的托管地。当你通过ChatGPT用户界面安装插件时，在后端我们会寻找一个位于/.known/ai-plugin.json的文件。为了让ChatGPT与您的插件连接，/.known文件夹是必需的，而且必须存在于您的域名中。如果没有找到文件，该插件就不能被安装。对于本地开发，你可以使用HTTP，但如果你要指向远程服务器，则需要HTTPS。</a></p>
 <p>OpenAPI定义<br>下一步是建立OpenAPI规范来记录API。除了OpenAPI规范和清单文件中定义的内容外，ChatGPT中的模型对你的API一无所知。这意味着，如果你有一个广泛的API，你不需要向模型暴露所有的功能，可以选择特定的端点。例如，如果你有一个社交媒体 API，你可能想让模型通过 GET 请求访问网站上的内容，但为了减少垃圾邮件的机会，要阻止模型对用户的帖子进行评论。</p>
@@ -485,8 +487,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/04/22/BlogRSS/" rel="next" title="博客也有朋友圈和通讯录 —— 新文章通知你">
-                <i class="fa fa-chevron-left"></i> 博客也有朋友圈和通讯录 —— 新文章通知你
+              <a href="/2017/03/27/NvCatch/" rel="next" title="抓不住你">
+                <i class="fa fa-chevron-left"></i> 抓不住你
               </a>
             
           </div>
@@ -495,8 +497,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/04/22/GitLearngit/" rel="prev" title="Read Github Guide">
-                Read Github Guide <i class="fa fa-chevron-right"></i>
+              <a href="/2017/04/22/ReOpenmindTenMonth/" rel="prev" title="开智十月 持续自由">
+                开智十月 持续自由 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -590,7 +592,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">189</span>
+                <span class="site-state-item-count">191</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
